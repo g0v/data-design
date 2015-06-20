@@ -1,8 +1,5 @@
 {
-    "styles": {
-        "website": "theme/html/html.css",
-        "pdf": "theme/pdf/pdf.css",
-        "mobi": "theme/mobi/mobi.css",
-        "epub": "theme/epub/epub.css"
+    "structure": {
+        "readme": "INTRO.md"
     }
 }
