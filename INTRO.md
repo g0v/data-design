@@ -1,8 +1,12 @@
+<section class="header">
+
 <h2>資訊準備與視覺化之簡介（暫譯）</h2>
 
 這是正在進行中的翻譯計畫，歡迎加入一起填坑！ https://g0v.hackpad.com/l5qLhp0515j
 
 以下介紹取自原作。
+
+</section>
 
 <section id="about" class="content">
 
