@@ -14,3 +14,9 @@
         "epub": "theme/epub/epub.css"
     }
 }
+
+{
+    "structure": {
+        "readme": "INTRO.md"
+    }
+}
