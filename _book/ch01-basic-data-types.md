@@ -1,0 +1,192 @@
+<section class="blue" data-type="chapter">
+<header>
+  <div class="icon"><img src="../images/sections/02/abacus.png" /></div>
+  <p>Chapter 1</p>
+  <h1 id="basic-data-types">Basic Data Types</h1>
+  <p data-type="author">By Michael Castello</p>
+</header>
+
+<section data-type="sect1">
+<p>There are several different basic data types and it&rsquo;s important to know what you can do with each of them so you can collect your data in the most appropriate form for your needs. People describe data types in many ways, but we&rsquo;ll primarily be using the levels of measurement known as nominal, ordinal, interval, and ratio.</p>
+
+<h2>Levels of Measurement</h2>
+
+<p>Let&rsquo;s say you&rsquo;re on a trip to the grocery store. You move between sections of the store, placing items into your basket as you go. You grab some fresh produce, dairy, frozen foods, and canned goods. If you were to make a list that included what section of the store each item came from, this data would fall into the nominal type. The term nominal is related to the Latin word &ldquo;nomen,&rdquo; which means &ldquo;pertaining to names;&rdquo; we call this data nominal data because it consists of named categories into which the data fall. Nominal data is inherently unordered; produce as a general category isn&rsquo;t mathematically greater or less than dairy.</p>
+
+<h3>Nominal</h3>
+
+<p>Nominal data can be counted and used to calculate percents, but you can&rsquo;t take the average of nominal data. It makes sense to talk about how many items in your basket are from the dairy section or what percent is produce, but you can&rsquo;t calculate the average grocery section of your basket.</p>
+
+<p>When there are only two categories available, the data is referred to as dichotomous. The answers to yes/no questions are dichotomous data. If, while shopping, you collected data about whether an item was on sale or not, it would be dichotomous.</p>
+
+<figure><img alt="Percent of basket" src="../images/sections/02/ch02-01-percent-basket.png" /></figure>
+
+<h3>Ordinal</h3>
+
+<p>At last, you get to the checkout and try to decide which line will get you out of the store the quickest. Without actually counting how many people are in each queue, you roughly break them down in your mind into short lines, medium lines, and long lines. Because data like these have a natural ordering to the categories, it&rsquo;s called ordinal data. Survey questions that have answer scales like &ldquo;strongly disagree,&rdquo; &ldquo;disagree,&rdquo; &ldquo;neutral,&rdquo; &ldquo;agree,&rdquo; &ldquo;strongly agree&rdquo; are collecting ordinal data. No category on an ordinal scale has a true mathematical value. Numbers are often assigned to the categories to make data entry or analysis easier (e.g. 1 = strongly disagree, 5 = strongly agree), but these assignments are arbitrary and you could choose any set of ordered numbers to represent the groups. For instance, you could just as easily decide to have 5 represent &ldquo;strongly disagree&rdquo; and 1 represent &ldquo;strongly agree.&rdquo;</p>
+
+<aside data-type="sidebar">
+  <p>The numbers you select to represent ordinal categories do change the way you interpret your end analysis, but you can choose any set you wish as long as you keep the numbers in order.</p>
+
+  <p>It is most common to use either 0 or 1 as the starting point.</p>
+</aside>
+
+
+<figure><img alt="Scales" src="../images/sections/02/number-order.png" /></figure>
+
+<p>Like nominal data, you can count ordinal data and use them to calculate percents, but there is some disagreement about whether you can average ordinal data. On the one hand, you can&rsquo;t average named categories like &ldquo;strongly agree&rdquo; and even if you assign numeric values, they don&rsquo;t have a true mathematical meaning. Each numeric value represents a particular category, rather than a count of something.</p>
+
+<p>On the other hand, if the difference in degree between consecutive categories on the scale is assumed to be approximately equal (e.g. the difference between strongly disagree and disagree is the same as between disagree and neutral, and so on) and consecutive numbers are used to represent the categories, then the average of the responses can also be interpreted with regard to that same scale.</p>
+
+<aside data-type="sidebar">
+Some fields strongly discourage the use of ordinal data to do calculations like this, while others consider it common practice. You should look at other work in your field to see what usual procedures are.
+</aside>
+
+<h3>Interval</h3>
+
+<p>Enough ordinal data for the moment&hellip; back to the store! You&rsquo;ve been waiting in line for what seems like a while now, and you check your watch for the time. You got in line at 11:15am and it&rsquo;s now 11:30. Time of day falls into the class of data called interval data, so named because the interval between each consecutive point of measurement is equal to every other. Because every minute is sixty seconds, the difference between 11:15 and 11:30 has the exact same value as the difference between 12:00 and 12:15.</p>
+
+<p>Interval data is numeric and you can do mathematical operations on it, but it doesn&rsquo;t have a &ldquo;meaningful&rdquo; zero point &ndash; that is, the value of zero doesn&rsquo;t indicate the absence of the thing you&rsquo;re measuring. 0:00 am isn&rsquo;t the absence of time, it just means it&rsquo;s the start of a new day. Other interval data that you encounter in everyday life are calendar years and temperature. A value of zero for years doesn&rsquo;t mean that time didn&rsquo;t exist before that, and a temperature of zero (when measured in C or F) doesn&rsquo;t mean there&rsquo;s no heat.</p>
+
+<h3>Ratio</h3>
+
+<p>Seeing that the time is 11:30, you think to yourself, &ldquo;I&rsquo;ve been in line for fifteen minutes already&hellip;???&rdquo; When you start thinking about the time this way, it&rsquo;s considered ratio data. Ratio data is numeric and a lot like interval data, except it <em>does</em> have a meaningful zero point. In ratio data, a value of zero indicates an absence of whatever you&rsquo;re measuring&mdash;zero minutes, zero people in line, zero dairy products in your basket. In all these cases, zero actually means you don&rsquo;t have any of that thing, which differs from the data we discussed in the interval section. Some other frequently encountered variables that are often recorded as ratio data are height, weight, age, and money.</p>
+
+<p>Interval and ratio data can be either discrete or continuous. Discrete means that you can only have specific amounts of the thing you are measuring (typically integers) and no values in between those amounts. There have to be a whole number of people in line; there can&rsquo;t be a third of a person. You can have an <em>average</em> of, say, 4.25 people per line, but the actual count of people has to be a whole number. Continuous means that the data can be any value along the scale. You can buy 1.25 lbs of cheese or be in line for 7.75 minutes. This doesn&rsquo;t mean that the data have to be able to take all possible numerical values &ndash; only all the values within the bounds of the scale. You can&rsquo;t be in line for a negative amount of time and you can&rsquo;t buy negative lbs of cheese, but these are still continuous.</p>
+
+<aside data-type="sidebar">
+For simplicity in presentation, we often round continuous data to a certain number of digits. These data are still continuous, not discrete.
+</aside>
+
+<p>To review, let&rsquo;s take a look at a receipt from the store. Can you identify which pieces of information are measured at each level (nominal, ordinal, interval, and ratio)?</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th colspan="5">Date: 06/01/2014 Time: 11:32am</th>
+		</tr>
+		<tr>
+			<th>Item</th>
+			<th>Section</th>
+			<th>Aisle</th>
+			<th>Quantity</th>
+			<th>Cost (US$)</th>
+		</tr>
+		<tr>
+			<td>Oranges&mdash;Lbs</td>
+			<td>Produce</td>
+			<td>4</td>
+			<td>2</td>
+			<td>2.58</td>
+		</tr>
+		<tr>
+			<td>Apples&mdash;Lbs</td>
+			<td>Produce</td>
+			<td>4</td>
+			<td>1</td>
+			<td>1.29</td>
+		</tr>
+		<tr>
+			<td>Mozzarella&mdash;Lbs</td>
+			<td>Dairy</td>
+			<td>7</td>
+			<td>1</td>
+			<td>3.49</td>
+		</tr>
+		<tr>
+			<td>Milk&mdash;Skim&mdash;Gallon</td>
+			<td>Dairy</td>
+			<td>8</td>
+			<td>1</td>
+			<td>4.29</td>
+		</tr>
+		<tr>
+			<td>Peas&mdash;Bag</td>
+			<td>Frozen</td>
+			<td>15</td>
+			<td>1</td>
+			<td>0.99</td>
+		</tr>
+		<tr>
+			<td>Green Beans&mdash;Bag</td>
+			<td>Frozen</td>
+			<td>15</td>
+			<td>3</td>
+			<td>1.77</td>
+		</tr>
+		<tr>
+			<td>Tomatoes</td>
+			<td>Canned</td>
+			<td>2</td>
+			<td>4</td>
+			<td>3.92</td>
+		</tr>
+		<tr>
+			<td>Potatoes</td>
+			<td>Canned</td>
+			<td>3</td>
+			<td>2</td>
+			<td>2.38</td>
+		</tr>
+		<tr>
+			<td>Mushrooms</td>
+			<td>Canned</td>
+			<td>2</td>
+			<td>5</td>
+			<td>2.95</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Variable Type Vs. Data Type</h2>
+
+<p>If you look around the internet or in textbooks for info about data, you&rsquo;ll often find variables described as being one of the data types listed above. Be aware that many variables aren&rsquo;t exclusively one data type or another. What often determines the data type is how the data are collected.</p>
+
+<p>Consider the variable age. Age is frequently collected as ratio data, but can also be collected as ordinal data. This happens on surveys when they ask, &ldquo;What age group do you fall in?&rdquo; There, you wouldn&rsquo;t have data on your respondent&rsquo;s individual ages &ndash; you&rsquo;d only know how many were between 18-24, 25-34, etc. You might collect actual cholesterol measurements from participants for a health study, or you may simply ask if their cholesterol is high. Again, this is a single variable with two different data collection methods and two different data types.</p>
+
+<p>The general rule is that you can go down in level of measurement but not up. If it&rsquo;s possible to collect the variable as interval or ratio data, you can also collect it as nominal or ordinal data, but if the variable is inherently only nominal in nature, like grocery store section, you can&rsquo;t capture it as ordinal, interval or ratio data. Variables that are naturally ordinal can&rsquo;t be captured as interval or ratio data, but can be captured as nominal. However, many variables that get captured as ordinal have a similar variable that can be captured as interval or ratio data, if you so choose.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>Ordinal Level Type</th>
+			<th>Corresponding Interval/Ratio Level Measure</th>
+			<th>Example</th>
+		</tr>
+		<tr>
+			<td>Ranking</td>
+			<td>Measurement that ranking is based on</td>
+			<td>Record runners&rsquo; marathon times instead of what place they finish</td>
+		</tr>
+		<tr>
+			<td>Grouped scale</td>
+			<td>Measurement itself</td>
+			<td>Record exact age instead of age category</td>
+		</tr>
+		<tr>
+			<td>Substitute scale</td>
+			<td>Original measurement the scale was created from</td>
+			<td>Record exact test score instead of letter grade</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>It&rsquo;s important to remember that the general rule of &ldquo;you can go down, but not up&rdquo; also applies during analysis and visualization of your data. If you collect a variable as ratio data, you can always decide later to group the data for display if that makes sense for your work. If you collect it as a lower level of measurement, you can&rsquo;t go back up later on without collecting more data. For example, if you do decide to collect age as ordinal data, you can&rsquo;t calculate the average age later on and your visualization will be limited to displaying age by groups; you won&rsquo;t have the option to display it as continuous data.</p>
+
+<p>When it doesn&rsquo;t increase the burden of data collection, you should collect the data at the highest level of measurement that you think you might want available later on. There&rsquo;s little as disappointing in data work as going to do a graph or calculation only to realize you didn&rsquo;t collect the data in a way that allows you to generate what you need!</p>
+
+<h2>Other Important Terms</h2>
+
+<p>There are some other terms that are frequently used to talk about types of data. We are choosing not to use them here because there is some disagreement about their meanings, but you should be aware of them and what their possible definitions are in case you encounter them in other resources.</p>
+
+<h3>Categorical Data</h3>
+
+<p>We talked about both nominal and ordinal data above as splitting data into categories. Some texts consider both to be types of categorical data, with nominal being unordered categorical data and ordinal being ordered categorical data. Others only call nominal data categorical, and use the terms &ldquo;nominal data&rdquo; and &ldquo;categorical data&rdquo; interchangeably. These texts just call ordinal data &ldquo;ordinal data&rdquo; and consider it to be a separate group altogether.</p>
+
+<h3>Qualitative and Quantitative Data</h3>
+
+<p>Qualitative data, roughly speaking, refers to non-numeric data, while quantitative data is typically data that is numeric and hence quantifiable. There is some consensus with regard to these terms. Certain data are always considered qualitative, as they require pre-processing or different methods than quantitative data to analyze. Examples are recordings of direct observation or transcripts of interviews. In a similar way, interval and ratio data are always considered to be quantitative, as they are only ever numeric. The disagreement comes in with the nominal and ordinal data types. Some consider them to be qualitative, since their categories are descriptive and not truly numeric. However, since these data can be counted and used to calculate percentages, some consider them to be quantitative, since they are in that way quantifiable.</p>
+
+<p>To avoid confusion, we&rsquo;ll be sticking with the level of measurement terms above throughout the rest of this book, except in our discussion of long-form qualitative data in the survey design chapter. If you come across terms &ldquo;categorical,&rdquo; &ldquo;qualitative data,&rdquo; or &ldquo;quantitative data&rdquo; in other resources or in your work, make sure you know which definition is being used and don&rsquo;t just assume!</p>
+</section>
+</section>

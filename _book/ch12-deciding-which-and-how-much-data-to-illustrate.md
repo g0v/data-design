@@ -1,0 +1,297 @@
+<section class="green" data-type="chapter">
+<header>
+<div class="icon"><img src="../images/sections/05/illustrate.png" /></div>
+
+<p>Chapter 12</p>
+
+<h1>Deciding Which and How Much Data to Illustrate</h1>
+
+<p data-type="author">By Margie Henry</p>
+</header>
+
+<section data-type="sect1">
+<p>Let&rsquo;s lay some groundwork for successful data presentation. If done thoughtfully, it will go a long way in helping you determine which aspects of your data to visualize and how. We&rsquo;ll begin with a little brainstorming. You can do this in just a few thoughtful moments alone or working as a team. Your work here is two-fold: define your message and define your intended audience. You can flip this sequence around, but we&rsquo;ll begin with defining your message.</p>
+
+<h2>Determine Your Message</h2>
+
+<p>Before tackling which data to present, take a few minutes to decide what you want to say. Close down your latest social media craze, step back from your computer, and consider the exact message you want to communicate. Ask yourself, &ldquo;What do I know, what does it mean, and why do I believe it&rsquo;s important?&rdquo;</p>
+
+<p>Consider a dataset containing observations on different types of caffeinated beverages and the effects of their consumption. Don&rsquo;t stop at &ldquo;caffeine affects the body.&rdquo; You never want to present information that solicits a &ldquo;well, duh&rdquo; response. Dig deeper. Be more specific. What do your data say about how caffeine affects the body? Are the effects all good, all bad, or maybe an interesting combination of both? Do the effects change with a person&rsquo;s age and/or sex? Are some caffeinated beverages better or worse for overall health? Your answer should be concise: short, sweet, and to the point. A statement such as &ldquo;Coffee has an ability to reduce the risk of certain diseases and ailments when consumed in moderation because it contains key antioxidants.&rdquo; goes a lot further than our original example. Even better, it establishes a pretty clear focus for our visuals and some common language to use with our audience.</p>
+
+<p>Right about now you should be having a flashback to English 101. That&rsquo;s because determining your key message is just like writing a good thesis statement. If you can&rsquo;t summarize your key message in a few concise sentences then you probably need a better grasp of the topic. Sound harsh? Maybe, but not as harsh as presenting information to a crowd of your yawning disinterested peers. Fight the urge to skip this step! If you&rsquo;re the paper-and-pencil type, go ahead and write your message down! You can use it as a reference throughout your <a class="glossterm" href="glossary01.html#visualization-data" target="_blank">data visualization process</a>.</p>
+
+<p>Simply put, your chances of creating a compelling, well-organized visual argument are immeasurably greater if you begin with a clear and focused message.</p>
+
+<h2>Understand Your Audience</h2>
+
+<p>You&rsquo;ve determined your message. Let&rsquo;s now consider the importance of understanding your audience. This knowledge will go just as far in helping you determine which and how much of your data to illustrate.</p>
+
+<p>Take another couple of minutes and ask yourself &ldquo;what information is most valuable to my audience,&rdquo; &ldquo;what role will my visuals play in this dialogue,&rdquo; and &ldquo;what action(s) do I want to incite?&rdquo; Would you spend time explaining algebra to a group of engineers? (The correct answer is no.) What would be the point? The better you know your audience, the better your chances of creating a successful visual presentation.</p>
+
+<p>Let&rsquo;s imagine presenting data on &ldquo;Environmental Conservation in the New Millennium&rdquo; in the following scenarios: (1) on a small-scale blog visited mostly by lay environmentalists; (2) in a classroom of high school students; and (3) at a fundraising event for an environmental conservation organization. Would you create and explain your data the same way to each audience? Hopefully not. You should be able to make a few assumptions about what&rsquo;s most relevant to present even if you&rsquo;ve never met a single audience member.</p>
+
+<p>In our first scenario, we can assume visitors are already interested in conservation. They may have spent time doing actual research. A portion are return visitors who may rely on your specific perspective; they might see you as a content area expert. Your site is, most likely, not the only blog on which they rely, but one day it could be their favorite! At minimum, we can assume they&rsquo;ve stumbled upon your blog intentionally, and not because of issues with autocomplete. In this instance, breadth and depth are key. You can take more time to explore, deconstruct and restructure the data. If the intention of your site is to incite further exploration, you can presents visuals that pose questions or make viewers question their own beliefs.</p>
+
+<p>Our high school student scenario is a bit different. You can assume that your audience possesses very little familiarity with the topic. (Though, as always, some members will know more than others.) Attendance may be mandatory, not voluntary: keeping their interest will be key. You&rsquo;ll want to present fascinating, high-level, attention-grabbing visuals, that address immediate and pressing issues. Approach your vocabulary carefully: explain less-common terminology, and include more visual indicators of good/bad, positive/negative. Your visual display is intended to clearly present the importance of conservation, leaving little room for doubt.</p>
+
+<p>At last, we have our fundraiser attendees. This audience needs to feel that environmental conservation is a cause worthy of their monetary support. It will likely be a mixed crowd: interested donors, their disinterested partners (who just came for free food and drinks), field experts, employees, and interns. You can assume they&rsquo;ll expect a balance of sentiment, the need for urgency, and solid fact. We&rsquo;ve assumed the crowd is mixed, so you&rsquo;ll want to use language that is both familiar and easily understood while not appearing condescending. This audience expects to have their interest in the importance of conservation confirmed and your visuals should accommodate this. As with your student group, leave no obvious question unanswered.</p>
+
+<div data-type="warning">
+<p>Presenting emotion-driven content doesn&rsquo;t mean leaving out key facts if they don&rsquo;t fit into your ideal storyline. Be extra careful when sharing cause-driven content, and do your best to ensure that your values don&rsquo;t interfere with an accurate presentation of the data!</p>
+</div>
+
+<p>Now that we&rsquo;ve discussed the importance of determining a key message and understanding its audience, let&rsquo;s delve into deciding which data to illustrate.</p>
+
+<h2>Deciding Which Data to Illustrate</h2>
+
+<p>You can begin the process by expanding your key message into a narrative or story. Our goal is to present a sequence or set of facts which gradually leads your audience to the key message. The data you choose to illustrate should set the context, establish the main points of interest, and explain how these are interconnected. Be intentional in what you present, but do not censor data to further your argument. Your visual story should be based on what the data&mdash;and not only what you want to&mdash;say.</p>
+
+<p>Take, for example, the following table presenting the I.Q. scores of children who were adopted at a young age and the socioeconomic status (based on income and occupation) of both their adoptive and birth parents. These data are taken from C. Capron and M. Duyme&rsquo;s 1989 study, &ldquo;Children&rsquo;s IQs and SES of Biological and Adoptive Parents in a Balanced Cross-Fostering Study,&rdquo; published in the <em>European Bulletin of Cognitive Psychology</em>.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>I.Q.</th>
+			<th>Adoptive Parent SES</th>
+			<th>Birth Parent SES</th>
+		</tr>
+		<tr>
+			<td>136</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>99</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>121</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>133</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>125</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>131</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>103</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>115</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>116</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>117</td>
+			<td>High</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>94</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>103</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>99</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>125</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>111</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>93</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>101</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>94</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>125</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>91</td>
+			<td>High</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>98</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>99</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>91</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>124</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>100</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>116</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>113</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>119</td>
+			<td>Low</td>
+			<td>High</td>
+		</tr>
+		<tr>
+			<td>92</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>91</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>98</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>83</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>99</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>68</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>76</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>115</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>86</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+		<tr>
+			<td>116</td>
+			<td>Low</td>
+			<td>Low</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Let&rsquo;s discuss two possible narratives that you could create from this dataset: &ldquo;Children&rsquo;s Intelligence Limited by Adoptive Parents&rsquo; SES,&rdquo; and &ldquo;Adopted Children&rsquo;s Intelligence Influenced by Both Biological And Adoptive Parents&rsquo; SES&rdquo;.</p>
+
+<h3>Children&rsquo;s Intelligence Limited by Adoptive Parents&rsquo; SES</h3>
+
+<p>We can create a story supporting the first message by solely looking at the adoptive parents&rsquo; socioeconomic status: children of those adoptive families with a high SES had a mean I.Q. of nearly 112 whereas those adopted by a low SES family had a mean I.Q. of 99. But, this narrative would only include half of the relevant information: it leaves out entirely the SES of the child&rsquo;s biological parents. Understandably, this could play just as big a role as the family&rsquo;s socioeconomic status would likely impact the level and quality of prenatal care, and, in turn, the in utero development of the child.</p>
+
+<figure><img alt="IQ by adoptive parent SES" src="../images/sections/05/childIQ.png" /></figure>
+
+<h3>Adopted Children&rsquo;s Intelligence Influenced by Both Biological And Adoptive Parents&rsquo; SES</h3>
+
+<p>A little more boring of a title, but far more accurate. When we include both the adoptive and biological parents&rsquo; SES we get a much better picture of the impact that each has on the child&rsquo;s I.Q. Specifically, we see:</p>
+
+<figure><img alt="High and low IQ scores" src="../images/sections/05/adoptive-table.png" /></figure>
+
+<p>So, more correctly, a child&rsquo;s I.Q. is a function of both his or her biological and adoptive parents&rsquo; socioeconomic status. If both have a high SES, the child&rsquo;s I.Q. will tend to be the highest. If one has a high SES and the other a low SES (it doesn&rsquo;t matter which set of parents has which), the child will typically have an average I.Q. And finally, if both have a low SES, the child will tend to have a below-average I.Q.</p>
+
+<p>Our first example is a clear illustration of what happens when you create a story based on what you want to say, and not what the data say. Unfortunately, applications of data such as this are neither uncommon nor farfetched. We see this done on the news and during casual conversation. The omission of key facts and related variables creates a visual that is full of misinformation. It lacks credibility and presents obvious biases. The second instance presents far less outright bias, is a plausible story based on the data available, presents context, introduces all variables, and explains how the variables are connected. Although it will usually result in a less-sensationalized title, a full presentation of all relevant data is the only way to maintain a credible and airtight argument.</p>
+
+<h2>Deciding How Much Data to Illustrate</h2>
+
+<p>In previous sections we&rsquo;ve gone over how to determine a key message, the importance of identifying the audience, and a process for isolating facts to illustrate. We can work on determining how much of our data we need to visualize.</p>
+
+<p>If illustrating data is supposed to make information more digestible, then care should be taken not to present more than the audience expects, or more than they need to be able to understand your message. As you decide how much data to illustrate, keep in mind the idea that more is not always synonymous with better unless it&rsquo;s meaningful and presented in support of your key message. In most instances, your visuals will be taken as part of a narrative, contents in a storehouse, or maybe a combination of both.</p>
+
+<p>As previously discussed, a narrative is a simply a story presenting a sequence of facts which gradually lead your audience to the key message. When you think of the narrative, think of written reports, PowerPoint presentations, and individual articles in newspapers and magazines or online. You want to illustrate just enough data for your audience to easily identify and understand your perspective without becoming exhausted. Each illustration should have a specific purpose. Avoid including visuals simply because they impress. As a test, try removing one or more illustrations or rearranging the presentation order. Does your narrative still make sense? Each illustration should stand alone, without too much verbal or written explanation, but if it doesn&rsquo;t add to the audience&rsquo;s understanding, it&rsquo;s probably not needed.</p>
+
+<p>For the audience members wanting more, you can always provide links or references to additional takes on your data along with detailed commentary to contextualize and further explain the information. If you&rsquo;d like to impress a technically savvy audience, a graphical appendix could be even be shared as a <a href="https://github.com/" target="_blank">GitHub</a> repository or a gallery of code gists hosted on <a href="http://bl.ocks.org/" target="_blank">bl.ocks.org</a>.</p>
+
+<p>A storehouse, on the other hand, can be thought of as an information repository. Usually consisting of multiple narratives and stand-alone content, this is an example of when more can be better. Unlike those of a narrative, storehouse visitors are less susceptible to data fatigue. They respond well to large quantities of data because they expect to spend time building or enhancing their understanding of a topic. The storehouse doesn&rsquo;t need to focus on presenting a single message. Its audience seeks new treatments of data, a diversity of perspectives, and various dissections of a topic or content area. In the storehouse scenario, the main criterion for deciding how much data to illustrate should be whether something will create redundancy. If your illustration fails to add something new to the mix or to expand on a topic, it can likely be omitted.</p>
+
+<p>To exemplify, let&rsquo;s imagine a cinephile and store manager. Both are browsing a blog filled with upcoming movie release dates, reviews, and critiques of directors. The cinephile spends hours on the site, soaking up each and every visual and reading through its content. The manager simply wants to know what popular movies he should order for the next holiday season. The manager probably wouldn&rsquo;t want to spend hours trying to find his answer. For our cinephile, more is better; for the manager, less is more.</p>
+
+<h2>Editing and Revising</h2>
+
+<p>Here&rsquo;s a frequent and frustrating occurrence: you did your brainstorming, made a bunch of visualizations, and edited down to the best subset to include in your project. You were careful not to overwhelm your audience and you made sure that your illustrations covered the most important key points without being redundant.</p>
+
+<p>How maddening, then, to field questions in a presentation, or see comments in a story or blog post, calling for the very visualizations that you left on the cutting room floor! You second-guess your calls, resist the urge to argue with the person asking the question, grit your teeth and grumble.</p>
+
+<p>It&rsquo;s okay. If you do a good job and engage your audience, they will naturally be curious and want more information. They might want to see the same data presented in a different way, to dig down, or to zoom out. If these questions mirror the decisions you were making in your selection process, that&rsquo;s good news! It means you are on the same wavelength as your audience, and that they are involved and interested in the story your data tell.</p>
+
+<p>There are several ways to keep (but de-emphasize) the visualizations that did not make the cut in your main collection. For slideshows, it is common practice to have a collection of extra slides after the &ldquo;thank you&rdquo; or conclusion slide that contain information that might be interesting but that won&rsquo;t fit within the time limit. &ldquo;Yes, I do have that broken down by [industry sector/year/country/gender],&rdquo; you say confidently as you flip to the prepared slide. Voila!</p>
+
+<p>Another way to do this would be to publish interactive versions of your visualizations that allow the viewers to dive in and explore the information themselves. If you&rsquo;re able to share the raw datasets, that&rsquo;s even better! That way, those who wish to dig deeper and understand the data in new ways will have the option to do so. We&rsquo;ll talk more about static and interactive graphics later in the Print vs. Web chapter.</p>
+
+<p>If you&rsquo;re looking for early feedback and you&rsquo;re not exactly sure where to turn, you can check out <a href="http://helpmeviz.com/" target="_blank">HelpMeViz</a>, a community site where you can post your works-in-progress and receive friendly suggestions on how to improve. Getting feedback from your audience and revising your visuals to better fit their needs is all a part of the process!</p>
+</section>
+</section>

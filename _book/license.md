@@ -1,0 +1,12 @@
+<section data-type="copyright-page">
+	<h1>{{ title }}</h1>
+  <h2>A simple introduction to preparing and visualizing information</h2>
+	<p><em>By Trina Chiasson, Dyanna Gregory, and <a href="acknowledgments01.html" target="_blank">all of these people</a>, with support from <a href="https://infoactive.co/" target="_blank">Infoactive</a> and the <a href="http://www.rjionline.org/" target="_blank">Donald W. Reynolds Journalism Institute</a></em></p>
+
+  <p>This book is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons, BY-NC-SA</a>. We would love for you to build upon, remix, and improve upon this work for non-commercial projects.</p>
+
+  <p>Over 50 people worked hard over the course of many months to create this book, which we're delighted to offer as a free resource. If you do use or build upon this work, make sure to give credit to the contributors who made it happen by including a link to <a href="https://infoactive.co/data-design" target="_blank">infoactive.co/data-design</a>.</p>
+
+  <p>The source code can be found and forked on <a href="https://github.com/infoactive/data-design/" target="_blank">Github</a>.</p>
+
+  </section>

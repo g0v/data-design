@@ -1,0 +1,87 @@
+<section data-type="appendix">
+<h1>Resources</h1>
+
+<section data-type="sect1">
+<h1>Chapter 3: Intro to Survey Design</h1>
+
+<h2>Online survey sites</h2>
+
+<p>Kwik Surveys, <a href="http://www.kwiksurveys.com">http://www.kwiksurveys.com</a></p>
+
+<p>Free Online Surveys, <a href="http://www.freeonlinesurveys.com">http://www.freeonlinesurveys.com</a></p>
+
+<p>Google Forms, <a href="http://www.google.com/google-d-s/createforms.html">http://www.google.com/google-d-s/createforms.html</a></p>
+
+<p>Survey Gizmo, <a href="http://www.surveygizmo.com">http://www.surveygizmo.com</a></p>
+
+<p>Survey Monkey, <a href="https://www.surveymonkey.com">https://www.surveymonkey.com</a></p>
+
+<p>Survey Planet, <a href="https://www.surveyplanet.com">https://www.surveyplanet.com</a></p>
+
+<h1>Chapter 4: Types of Survey Questions</h1>
+
+<h2>Conducting Surveys</h2>
+
+<p>Dierckx, Didier. &quot;The Case of 'Likert Scales v. Slider Scales,'&nbsp;<em>Market Research&nbsp;</em>(blog) Checkmarket.com, <a href="http://http://stattrek.com/regression/linear-transformation.aspx#">https://www.checkmarket.com/2012/08/likert_v_sliderscales/</a></p>
+
+<p>Fink, Arlene. <em>How to Conduct Surveys: A Step-by-Step Guide, </em>3rd ed., Thousand Oaks, California: SAGE&nbsp;Publications, Inc., 2006.</p>
+
+<p>Fowler, Floyd&nbsp;J. <em>Survey Research Methods</em>, 5th ed., Thousand Oaks, California: SAGE Publications, Inc., 2014.</p>
+
+<p>Gray, George&nbsp;and Neil Guppy. <em>Successful Surveys: Research Methods and Practice, </em>3rd ed., Scarborough, Ontario: Thomson Nelson,&nbsp;2003.</p>
+
+<p>&quot;Scaled Questions,&quot; Instructional Assessment Resources, The University of Texas at Austin, <a href="http://http://www.utexas.edu/academic/ctl/assessment/iar/teaching/plan/method/survey/responseScale.pdf">http://www.utexas.edu/academic/ctl/assessment/iar/teaching/plan/method/survey/responseScale.pdf</a></p>
+
+<h1>Chapter 7: Getting Data Ready for Cleaning</h1>
+
+<h2>Splitting delimited text into columns in Excel</h2>
+
+<p>&quot;Split text into different cells,&quot; Microsoft Office Support, <a href="http://office.microsoft.com/en-us/excel-help/split-text-into-different-cells-HA102809804.aspx">http://office.microsoft.com/en-us/excel-help/split-text-into-different-cells-HA102809804.aspx</a></p>
+
+<h2>Splitting strings</h2>
+
+<h3>JavaScript</h3>
+
+<p>&quot;JavaScript String split() Method,&quot; W3Schools, <a href="http://www.w3schools.com/jsref/jsref_split.asp">http://www.w3schools.com/jsref/jsref_split.asp</a></p>
+
+<h3>Visual Basic</h3>
+
+<p>&quot;Split Function (Visual Basic),&quot; Microsoft Developer Network, <a href="http://msdn.microsoft.com/en-us/library/6x627e5f(v=vs.90).aspx">http://msdn.microsoft.com/en-us/library/6x627e5f(v=vs.90).aspx</a></p>
+
+<h2>String Operations in Python</h2>
+
+<p>&quot;Common string operations,&quot; The Python Standard Library, Python Software Foundation, <a href="https://docs.python.org/2/library/string.html">https://docs.python.org/2/library/string.html</a></p>
+
+<h2>Missing Data</h2>
+
+<p>Osborne, Jason W., &quot;Dealing with Missing or Incomplete Data: Debunking the Myth of Emptiness,&quot; Ch 6, Best Practices in Data Cleaning, Los Angeles, CA: SAGE Publications, Inc, 2013:</p>
+
+<h1>Chapter 8: Data Cleaning</h1>
+
+<h2>Spreadsheet software</h2>
+
+<p>&quot;List of spreadsheet software,&quot; Wikipedia, <a href="http://en.wikipedia.org/wiki/List_of_spreadsheet_software">http://en.wikipedia.org/wiki/List_of_spreadsheet_software</a></p>
+
+<h2>Regular Expressions</h2>
+
+<h3>Guides and Testers</h3>
+
+<p>&quot;Regular Expressions - User Guide,&quot; Zytrax, <a href="http://www.zytrax.com/tech/web/regex.htm">http://www.zytrax.com/tech/web/regex.htm</a></p>
+
+<p>RegExr v2.0, <a href="http://www.regexr.com">http://www.regexr.com</a></p>
+
+<h3>JavaScript</h3>
+
+<p>&quot;JavaScript RegExp Reference,&quot; W3Schools, <a href="http://www.w3schools.com/jsref/jsref_obj_regexp.asp">http://www.w3schools.com/jsref/jsref_obj_regexp.asp</a></p>
+
+<h3>Python</h3>
+
+<p>&quot;Regular expression operations,&quot; The Python Standard Library, Python Software Foundation, <a href="https://docs.python.org/2/library/re.html">https://docs.python.org/2/library/re.html</a></p>
+
+<h1>Chapter 10: What Data Cleaning Can and Can't Catch</h1>
+
+<h2>Data Transformations</h2>
+
+<p>&quot;Transformations to Achieve Linearity,&quot; Stat Trek, <a href="http://stattrek.com/regression/linear-transformation.aspx#">http://stattrek.com/regression/linear-transformation.aspx#</a></p>
+</section>
+</section>
