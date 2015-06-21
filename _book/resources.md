@@ -1,7 +1,9 @@
-<section data-type="appendix">
+<!--
+Sections hidden for Gitbook publishing
+	<section data-type="appendix">-->
 <h1>Resources</h1>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <h1>Chapter 3: Intro to Survey Design</h1>
 
 <h2>Online survey sites</h2>
@@ -83,5 +85,5 @@
 <h2>Data Transformations</h2>
 
 <p>&quot;Transformations to Achieve Linearity,&quot; Stat Trek, <a href="http://stattrek.com/regression/linear-transformation.aspx#">http://stattrek.com/regression/linear-transformation.aspx#</a></p>
-</section>
-</section>
+<!--</section>
+</section>-->

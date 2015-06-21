@@ -1,4 +1,6 @@
-<section class="violet" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="violet" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/02/coffee.png" /></div>
   <p>Chapter 2</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Alistair Croll</p>
 </header>
 
-<section class="id" data-type="sect1">
+<!--<section class="id" data-type="sect1">-->
 <p>When trying to turn data into information, the data you start with matter a lot. Data can be simple factoids&mdash;of which someone else has done all of the analysis&mdash;or raw transactions, where the exploration is left entirely to the user.</p>
 
 <figure><img alt="Raw vs. Aggregated Data" src="../images/sections/02/raw-vs-aggregated.png" /></figure>
@@ -875,5 +877,5 @@
   <p><em>Can we address the inherent biases that result from choosing how we aggregate data before presenting it?</em></p>
 <p> The big data movement is going to address some of this. Once, it was too computationally intensive to store all the raw transactions. We had to decide how to aggregate things at the moment of collection, and throw out the raw information. But advances in storage efficiency, parallel processing, and cloud computing are making on-the-fly aggregation of massive datasets a reality, which should overcome some amount of <a class="glossterm" href="glossary01.html#bias-aggregation" target="_blank">aggregation bias</a>.</p>
 </div>
-</section>
-</section>
+<!--</section>
+</section>-->

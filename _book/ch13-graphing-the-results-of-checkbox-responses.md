@@ -1,4 +1,6 @@
-<section class="red" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="red" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/05/checkbox.png" /></div>
   <p>Chapter 13</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Ellen Cooper</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <p>This chapter focuses on checkbox responses or multiple response questions, where a question can be answered with more than one answer, if applicable.</p>
 
 <h2>Checkboxes Vs. Radio Buttons</h2>
@@ -431,5 +433,5 @@
 <p>So far, we&rsquo;ve been looking at the use of checkbox questions to gather data on basic counts (e.g. electronic devices used). Checkbox responses can also be used to assess agreement with <a class="glossterm" href="glossary01.html#statement-attitudinal" target="_blank">attitudinal statements</a>. The graph below shows attitudes of homeowners towards owning their home. In this case, since the statistic of interest is what percentage of homeowners agree with each statement, it is probably best to keep the graph as is, with the total exceeding 100%.</p>
 
 <figure><img alt="Home ownership bar graph" src="../images/sections/05/home-ownership.png" /></figure>
-</section>
-</section>
+<!--</section>
+</section>-->

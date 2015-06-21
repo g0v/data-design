@@ -1,4 +1,6 @@
-<section class="yellow" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="yellow" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/03/external.png" /></div>
   <p>Chapter 6</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Jane Foo</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <p>Running your own study to collect data is not the only or best way to start your data analysis. Using someone else&rsquo;s dataset and sharing your data is on the rise and has helped advance much recent research. Using <a class="glossterm" target="_blank" href="glossary01.html#data-external">external data</a> offers several benefits:</p>
 
 <table>
@@ -229,5 +231,5 @@ Do you need several external datasets to complete your analysis?</td>
 
 
 <p>This chapter gives you a brief look into external data: the important takeaway is that we are only at the start of a significant growth in data thanks to the technologies that now make massive data storage and processing an affordable reality. Open datasets in particular have the potential to become a de facto standard for anyone looking for data to analyze.</p>
-</section>
-</section>
+<!--</section>
+</section>-->

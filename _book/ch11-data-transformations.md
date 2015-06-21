@@ -1,4 +1,6 @@
-<section class="yellow" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="yellow" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/04/camera.png" /></div>
   <p>Chapter 11</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Kiran PV</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <div data-type="warning">
   <p>This chapter covers more advanced statistical concepts than some of the others but we wanted to include a brief introduction to data transformations in case you encounter them. If you need to do your own transformation, check out the resources in our <a href="app01.html">Appendix</a> for additional tips.</p>
 </div>
@@ -134,5 +136,5 @@
 </div>
 
 <p>You may not see transforms every day, but when you do, it&rsquo;s helpful to know why they were used and how they affect your data. It&rsquo;s important to be able to see different parts of the picture when working with data, and transformations give you another tool to help you do just that!</p>
-</section>
-</section>
+<!--</section>
+</section>-->

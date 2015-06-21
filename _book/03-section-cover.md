@@ -3,7 +3,9 @@
   <h1><img src="../images/sections/03/collecting-data.png" />Collecting Data</h1>
  </header>
 
- <section class="content">
+ <!--
+Sections hidden for Gitbook publishing
+	<section class="content">-->
 <p>Gathering data is similar to gathering ingredients for a recipe.  If you want to create an excellent dish, you'll want to start with the right ingredients, which means you'll have to make a bunch of decisions beforehand.</p>
 
 <p>For example, if you need honey, do you want a generic honey or a specific variety like orange blossom?  Does the brand of honey matter?  Does it need to be raw or organic?  Do you prefer to get the honey from your local farmer or a supermarket?  And who's going to get all these ingredients?  If you don't have time, are you willing to pay someone to get them for you, even if it means you might not get exactly what you want?</p> 
@@ -12,5 +14,5 @@
 
 <p>In this section, we’ll talk about data collection methods to help you figure out where and how to best obtain the information you’re looking for, and how to sort out what information you really need. Let’s go shopping!</p>  
 
- </section>
+ <!--</section>-->
 </div>

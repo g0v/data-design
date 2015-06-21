@@ -1,5 +1,9 @@
-<section data-type="copyright-page">
-	<h1>{{ title }}</h1>
+<!--
+Sections hidden for Gitbook publishing
+	<section data-type="copyright-page">
+Also, parameter replaced with text
+	<h1>{{ title }}</h1>-->
+<h1>DATA + DESIGN</h1>
   <h2>A simple introduction to preparing and visualizing information</h2>
 	<p><em>By Trina Chiasson, Dyanna Gregory, and <a href="acknowledgments01.html" target="_blank">all of these people</a>, with support from <a href="https://infoactive.co/" target="_blank">Infoactive</a> and the <a href="http://www.rjionline.org/" target="_blank">Donald W. Reynolds Journalism Institute</a></em></p>
 
@@ -9,4 +13,4 @@
 
   <p>The source code can be found and forked on <a href="https://github.com/infoactive/data-design/" target="_blank">Github</a>.</p>
 
-  </section>
+  <!--</section>-->

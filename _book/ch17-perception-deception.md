@@ -1,4 +1,6 @@
-<section class="red" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="red" data-type="chapter">-->
 <header>
 <div class="icon"><img src="../images/sections/06/illusion.png" /></div>
 
@@ -9,7 +11,7 @@
 <p data-type="author">By Mizel Djukic</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <blockquote>With great power comes great responsibility.</blockquote>
 
 <p>So far you&rsquo;ve picked up a bunch of tools you can use to build compelling stories through visualizations. If the story you tell is powerful enough, it can change people&rsquo;s minds and move them to action. But before you rush out there to change the world with your newfound powers, let&rsquo;s go over some of the accidents your visuals might cause because of the quirky way our brains perceive things.</p>
@@ -265,5 +267,5 @@
 <p>If you want to show your neighbors how the number of superhero sightings has changed over time, then presenting data that runs the course of a year instead of a few months provides more context. And instead of showing trendlines for dozens of cities around the world, your graph will be less cluttered and more relevant to your audience if you just show the trendline for your neighborhood. Finally, it&rsquo;s a good idea to include some point of reference&mdash;like a trendline for the global average&mdash;so that your neighbors get a sense of how typical or atypical their neighborhood is.</p>
 
 <p>The next and last chapter of this book goes into further detail about the importance of context and points out other ways graphics can mislead an audience. Just remember: being consistent and transparent goes a long way in your visualizations.</p>
-</section>
-</section>
+<!--</section>
+</section>-->

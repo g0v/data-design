@@ -1,11 +1,13 @@
-<section data-type="chapter" class="yellow">
+<!--
+Sections hidden for Gitbook publishing
+  <section data-type="chapter" class="yellow">-->
 <header>
   <div class="icon"><img src="../images/sections/05/map-marker.png" /></div>
   <p>Chapter 14</p>
   <h1>Anatomy of a Graphic</h1>
   <p data-type="author">By Amanda Makulec</p>
 </header>
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 
 <p>Once you&rsquo;ve built a draft of your chart, the next step in creating an impactful visualization is making sure all of its elements are labeled appropriately. The text components of a graph give your reader visual clues that help your data tell a story and should allow your graph to stand alone, outside of any supporting narrative.</p>
 
@@ -160,5 +162,5 @@
 <p>The contributors for this book have also set up a group to give you feedback on your visualizations. If you&rsquo;re looking for honest feedback from an impartial party, <a href="http://helpmeviz.com/">HelpMeViz</a> is a community feedback site that can help.</p>
 
 <p>This final check is a great way to make sure you&rsquo;ve provided enough detail in your axis labels, axis titles, chart title, and legend. If some thoughtful changes are suggested, go back to the file and make a few edits: it will be time well spent, and at the end of the day your visualization will be better for it!</p>
-</section>
-</section>
+<!--</section>
+</section>-->

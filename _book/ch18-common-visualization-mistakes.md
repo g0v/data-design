@@ -1,4 +1,6 @@
-<section class="violet" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+  <section class="violet" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/06/mistakes.png" /></div>
   <p>Chapter 18</p>
@@ -243,4 +245,4 @@
 <p>The designers also present the data in multiple ways. They use color to add another layer of detail: the development status of various countries. In addition, if you&rsquo;re curious about the statistics for a specific country, you can mouse over that country&rsquo;s dot to get those numbers.</p>
 
 <p>Finally, by adding useful annotations and showing the data in multiple ways, the designers present the data within a context that doesn&rsquo;t leave out important variables or oversimplify. By following through on some good data visualization practices, the designers created a clear, balanced, and engaging infographic.</p>
-</section>
+<!--</section>-->

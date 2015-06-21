@@ -1,4 +1,6 @@
-<section class="blue" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="blue" data-type="chapter">-->
 <header>
 <div class="icon"><img src="../images/sections/03/survey.png" /></div>
 
@@ -9,7 +11,7 @@
 <p data-type="author">By Ginette Law</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <p>After you&rsquo;ve decided what type of survey you&rsquo;re going to use, you need to figure out what kinds of questions to include. The type of question determines what level of data can be collected, which in turn affects what you can do with the data later on. For example, if you ask about age and you record it as a number (e.g., 21, 34, 42), you&rsquo;ll have numeric data that you can perform mathematical operations on. If you instead ask for a person&rsquo;s age group (e.g., 18-24, 25-34, 35-44), you&rsquo;ll have ordered categorical data: you&rsquo;ll be able to count how many people were in each group, but you won&rsquo;t be able to find the mean age of your respondents. Before you create your survey, it&rsquo;s important to consider how you want to analyze your final results so you can pick question types that will give you the right kind of data for those analyses.</p>
 
 <h2>Open vs. Closed Questions</h2>
@@ -328,5 +330,5 @@
 <p>As you have noticed, there are a number of factors you will need to consider when you&rsquo;re designing your survey and deciding what types of question to use. Survey creation can seem daunting at first, but remember this is the foundation of your data analysis. Getting this step right will make the rest of your work much easier later on.</p>
 
 <p>For further reading, please see our <a href="app01.html" target="_blank">resources section</a>.</p>
-</section>
-</section>
+<!--</section>
+</section>-->

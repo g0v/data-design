@@ -1,4 +1,6 @@
-<section class="green" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="green" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/05/print-web.png" /></div>
   <p>Chapter 16</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Sarah Rigdon</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <p>Whether you&rsquo;re designing graphics for static environments or for interactive ones, it&rsquo;s important to address a few key things up front. First of all, what do we mean by static and interactive?</p>
 
 <h2>Defining Print Vs. Web; Static Vs. Interactive</h2>
@@ -105,5 +107,5 @@
 <p>In static graphics, you can&rsquo;t rely on visual effects like movement or color changes to make your point. On the other hand, while interactive graphics can incorporate visual effects to show trends across time, they do introduce room for technical difficulties. Be mindful of compatibility across computer systems and browsers. Some of the more complex interactive visualizations require a lot of computational power and can be slow on less-powerful machines such as smart phones. Visualizations made using Flash won&rsquo;t render on iPhones or iPads, and those made using SVGs won&rsquo;t work in Internet Explorer 8 or below. Interactive visualizations built for a computer with a mouse may be difficult or impossible to use on touchscreen devices if the creator forgets to test and optimize the graphics for touch-based interactions.</p>
 
 <p>Any medium for sharing a visualization &mdash; whether static or interactive &mdash; will have its strengths and its limitations. Think about your story, your audience, and how readers are likely to view your visualizations. Ask for feedback and continue to iterate on your process. And if you&rsquo;re looking for some friendly feedback and suggestions, you can post your works-in-progress on <a href="http://helpmeviz.com/">HelpMeViz</a>.</p>
-</section>
-</section>
+<!--</section>
+</section>-->

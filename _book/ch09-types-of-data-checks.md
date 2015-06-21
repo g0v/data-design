@@ -1,4 +1,6 @@
-<section class="red" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="red" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/04/inspect.png" /></div>
   <p>Chapter 9</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Ian Tebbutt</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <p>In the last chapter, we looked at data cleaning and the checking processes that are necessary to make that happen. Here,  we&rsquo;ll take a more in-depth look at data checking and talk about other validation processes, both before and after cleaning occurs.</p>
 
 <p>Data checking is crucial if you and your audience are going to have confidence in its insights. The basic approach is quite straightforward: you have fields of data and each of those fields will have expected values. For instance, an age should be between 0 and 120 years (and in many cases will be less than 80 years). Transaction dates should be in the recent past, often within the last year or two, especially if you&rsquo;re dealing with an internet-only data source, such as a Twitter stream.</p>
@@ -209,5 +211,5 @@
 <p>One of the most important checking issues is that the meaning of fields and the values in them may change over time. In a perfect world, every change would be well-documented so you would know exactly what the data means. The reality is that these changes are rarely fully documented. The next best way of knowing what the data in a field really represents is to talk the administrators and users of the system.</p>
 
 <p>These are just some of the steps that you can take to make sure you understand your data and that you&rsquo;re aware of potential errors. In the next chapter, we&rsquo;ll talk about some of the other sneaky errors that may be lurking in your data, and how to make sense of those potential errors.</p> 
-</section>
-</section>
+<!--</section>
+</section>-->

@@ -1,4 +1,6 @@
-<section class="blue" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="blue" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/05/ampersand.png" /></div>
   <p>Chapter 15</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Howard Coale</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <h2>Form (Frequently) Tyrannizes Function</h2>
 
 <p>Listening to someone with a good voice sing a few bars of &ldquo;I Want to Hold Your Hand&rdquo; pretty much beats out the experience of hearing someone mutter &ldquo;E=MC<sup>2</sup>&rdquo; any day, but that preference isn&rsquo;t a reflection on the value of the information in those two phrases. Rather, it describes how the experience of information can change the perception of its value. In other words, as information designers, we aspire to be singers, not mumblers. No, that doesn&rsquo;t mean &ldquo;change everything to make it pretty&rdquo;: it means you must first and foremost acknowledge that you are not presenting information, you are designing an experience of information.</p>
@@ -120,5 +122,5 @@
 <p>The best way to avoid this is take time during the initial conceptual work on any given data visualization to assess what the extreme requirements might be in future iterations. Ask yourself what options or views might be added in the future? Or, in the circumstance of complex interactive data views, what possible functionality might be introduced that would change the nature of the overall visualization?</p>
 
 <p>These are just a few of the core guidelines for using icons in infographics or complex data visualizations.</p>
-</section>
-</section>
+<!--</section>
+</section>-->

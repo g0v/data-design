@@ -1,4 +1,6 @@
-<section class="red" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="red" data-type="chapter">-->
 <header>
 <div class="icon"><img src="../images/sections/03/scale.png" /></div>
 
@@ -8,7 +10,7 @@
   <p data-type="author">By Dyanna Gregory</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <p>Not all types of information are easily gathered using surveys. Surveys are self-report tools that take place at a single point in time, so exact measurements, external impressions of reactions, and data about things that happen over time can be difficult to capture. Nevertheless, these are important pieces of information that you may need, so let&rsquo;s discuss a few of the other data collection tools you can use to better collect these types of data.</p>
 
 <table>
@@ -117,5 +119,5 @@
 
 <p>Just as you can benefit from a combination of survey types, you can also benefit from incorporating multiple types of data collection if the data you need would most appropriately be gathered in different ways. Consider what approaches make the most sense for the data you need, and then select the best choices that are practical within your budgetary and time constraints.</p>
 
-</section>
-</section>
+<!--</section>
+</section>-->

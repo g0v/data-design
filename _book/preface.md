@@ -1,4 +1,5 @@
-<section data-type="preface">
+<!--
+Sections hidden for Gitbook publishing<section data-type="preface">-->
 <h1>Preface</h1>
 
 <p>I hadn&rsquo;t written a book before, let alone an international, open-source book with more than 50 contributors from 14 different countries.</p>
@@ -36,4 +37,4 @@
 <p data-type="author">Trina Chiasson<br />
   <em>Co-founder &amp; CEO, Infoactive<br />
   2013-2014 Reynolds Fellow</em></p>
-</section>
+<!--</section>-->

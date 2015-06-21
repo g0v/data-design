@@ -1,4 +1,6 @@
-<section data-type="glossary">
+<!--
+Sections hidden for Gitbook publishing
+	<section data-type="glossary">-->
 <h1>Glossary</h1>
 
 <dl data-type="glossary">
@@ -470,4 +472,4 @@
 	<dt data-type="glossterm" id="variance"><dfn>Variance</dfn></dt>
 	<dd data-type="glossdef">Variance, or statistical variance, is a measure of how spread out the numeric values in a dataset are, or how much the values vary, from the arithmetic mean.</dd>
 </dl>
-</section>
+<!--</section>-->

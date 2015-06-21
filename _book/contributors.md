@@ -1,7 +1,9 @@
-<section data-type="acknowledgments">
+<!--
+Sections hidden for Gitbook publishing
+  <section data-type="acknowledgments">-->
 <h1>Contributors</h1>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <div class="contributor">
 <div class="header"><img alt="Mihai Badescu" class="profile" src="../images/contributors/mihai-badescu.png" />
 <h3>Mihai Badescu</h3>
@@ -1007,5 +1009,5 @@
 <div class="links"><a class="twitter" href="https://twitter.com/drgbz" target="_blank">@drgbz</a> <a class="website" href="http://www.drgbz.com/" target="_blank">website</a></div>
 </div>
 </div>
-</section>
-</section>
+<!--</section>
+</section>-->

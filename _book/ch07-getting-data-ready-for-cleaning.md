@@ -1,4 +1,6 @@
-<section class="green" data-type="chapter">
+<!--
+Sections hidden for Gitbook publishing
+	<section class="green" data-type="chapter">-->
 <header>
   <div class="icon"><img src="../images/sections/04/spreadsheet.png" /></div>
   <p>Chapter 7</p>
@@ -6,7 +8,7 @@
   <p data-type="author">By Oz du Soleil</p>
 </header>
 
-<section data-type="sect1">
+<!--<section data-type="sect1">-->
 <p>One aspect of data that is difficult both to learn and to teach is how to get your data in shape so that it&rsquo;s useful. There are a few common preparation tasks that you might encounter when working with data, especially if you&rsquo;re handling data someone else collected. While we can use computers to perform many of the actions required for <a class="glossterm" target="_blank" href="glossary01.html#preparation-data">data preparation</a>, there is a certain amount of manual involvement in figuring out exactly which tasks need to be done. For this reason, many people admittedly hate this part of working with data, but someone has to clean this stuff up!</p>
 
 <p>Whether you&rsquo;re a highly-paid data analyst with billions of records or a 1-person business with a 90-person contact list, you&rsquo;ll be faced with messy data at some point. Unfortunately, data preparation isn&rsquo;t a straightforward task and there&rsquo;s no one right way to go about doing it. Each dataset is unique and some techniques may be used just once in a lifetime, as you&rsquo;ll see in the examples below.</p>
@@ -334,5 +336,5 @@
 
 <p>Once your data are separated into the fields you want, converted into the units and types you intend to work with, and terminology is controlled, you&rsquo;re ready to proceed to the data cleaning phase where you&rsquo;ll check for actual errors in the data. In the next three chapters, we&rsquo;ll talk about the basic process of data cleaning, different processes for performing checks on your data to find problems, and what you can and can&rsquo;t do with data cleaning.</p>
 
-</section>
-</section>
+<!--</section>
+</section>-->
