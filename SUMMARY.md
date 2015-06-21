@@ -1,6 +1,7 @@
 # Summary
 
 * [introduction](README.md)
+* test
 * [Introduction](_book/titlepage.md)
    * [License](_book/license.md)
    * [Preface](_book/preface.md)
@@ -33,5 +34,4 @@
    * [Resources](_book/resources.md)
    * [Glossary](_book/glossary.md)
    * [Contributors](_book/contributors.md)
-* test
 
