@@ -1,14 +1,8 @@
-<section class="header">
-
-<h2>資訊準備與視覺化之簡介（暫譯）</h2>
+# 資訊準備與視覺化之簡介（暫譯）
 
 這是正在進行中的翻譯計畫，歡迎加入一起填坑！ https://g0v.hackpad.com/l5qLhp0515j
 
 以下介紹取自原作。
-
-</section>
-
-<section id="about" class="content">
 
 # About
 
@@ -32,10 +26,6 @@ We plan to bring the simple and painless spirit of Infoactive into this project 
 
 [The Reynolds Journalism Institute (RJI)](http://www.rjionline.org/) has a goal of helping journalists. RJI is supporting this e-book project because data visualization is an excellent tool for journalists to tell stories.
 
-</section>
-
-<section id="contribute" class="content">
-
 # Get Involved
 
 This is an **open source, collaborative** project and we'd love to have you involved! The source code is available on [GitHub](https://github.com/infoactive/data-design/), along with basic instructions on licensing and contributing to this project.
@@ -46,19 +36,11 @@ Want to write a new chapter? Volunteer as an editor? Launch the second edition? 
 
 This project was made possible by a collection of more than 50 volunteers from 14 different countries around the globe. We think that's pretty amazing, and we want to thank all of our past and future contributors for making it happen!
 
-</section>
-
-<section id="press">
-
 # Press
 
 For those who want to write a story about this book, please check out our [press packet](https://drive.google.com/folderview?id=0BzgbdNYyW3F-NUpyejB5NWFkd1U&usp=sharing) and contact [[email protected]](/cdn-cgi/l/email-protection) <script cf-hash="f9e31" type="text/javascript">/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script> for more info, or to schedule an interview.
 
 *   [Chicago Write-A-Thon Helps Storytellers Make Sense of Data](http://www.rjionline.org/blog/chicago-write-thon-helps-storytellers-make-sense-data)
-
-</section>
-
-<section class="content" id="connect">
 
 # Connect
 
@@ -67,11 +49,5 @@ _Data + Design_ isn't just a book. It's a global movement working to make data e
 *   [@DataDesignBook](https://twitter.com/datadesignbook)
 *   [Email](/cdn-cgi/l/email-protection#593c3b3636321930373f36383a2d302f3c773a36)
 
-</section>
-
-<section id="sponsors">
-
 *   [![Infoactive](https://dqzzm1bt1bnva.cloudfront.net/assets/static_pages/ebook/infoactive-logo-80aa90fc145d2b1b20d1fc65b800d4cc88d231fa25f34963ebb4243663ed4a1b.png)](https://infoactive.co)
 *   [![Reynolds Journalism Institute](https://dqzzm1bt1bnva.cloudfront.net/assets/static_pages/ebook/rji-logo-white-80028470969a6246ae3f8217d575aaae1212e75baac05829a1443decdb5a7f07.png)](http://www.rjionline.org/)
-
-</section>
