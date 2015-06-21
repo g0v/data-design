@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="blue" data-type="chapter">-->
+<div class="blue" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/04/close-inspection.png" /></div>
   <p>Chapter 10</p>
@@ -36,5 +37,6 @@ Sections hidden for Gitbook publishing
 <p>Similar to that, you may be receiving information from an online survey form and the person filling it out may have selected the button for &ldquo;Strongly Agree&rdquo; when they actually meant to select &ldquo;Strongly Disagree.&rdquo; Again, unless this answer is somehow cross-checked with another variable or source, you will have no easy way to detect this error. Sometimes this type of error is more critical than others. If a person selects &ldquo;Strongly Agree&rdquo; instead of &ldquo;Agree&rdquo; on an opinion survey, that is unlikely to have the same impact on the results as if someone accidentally marks the wrong gender on a form for a research study where you are using gender as a grouping category for treatment assignments.</p>
 
 <p>Data cleaning also can&rsquo;t tell if a missing value is truly missing (i.e. the question was accidentally skipped or the data were not collected for some reason) or the question was purposely skipped (i.e. the participant declined to answer) unless &ldquo;Prefer not to answer&rdquo; was an answer choice. This may be relevant in some cases (particularly in demographics), though in others, you may decide to just treat both as missing data. This is why, as mentioned before, you need to include a &ldquo;Prefer not to answer&rdquo; choice for any question of a personal nature where you want to know if the data are truly missing, since some people may actively choose to not answer questions about race/ethnicity, income, political affiliation, sexual orientation, etc.</p>
+</div>
 <!--</section>
 </section>-->

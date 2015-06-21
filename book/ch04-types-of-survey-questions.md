@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="blue" data-type="chapter">-->
+<div class="blue" data-type="chapter">
 <header>
 <div class="icon"><img src="../images/sections/03/survey.png" /></div>
 
@@ -330,5 +331,6 @@ Sections hidden for Gitbook publishing
 <p>As you have noticed, there are a number of factors you will need to consider when you&rsquo;re designing your survey and deciding what types of question to use. Survey creation can seem daunting at first, but remember this is the foundation of your data analysis. Getting this step right will make the rest of your work much easier later on.</p>
 
 <p>For further reading, please see our <a href="app01.html" target="_blank">resources section</a>.</p>
+</div>
 <!--</section>
 </section>-->

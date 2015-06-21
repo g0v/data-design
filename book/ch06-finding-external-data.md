@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="yellow" data-type="chapter">-->
+<div class="yellow" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/03/external.png" /></div>
   <p>Chapter 6</p>
@@ -231,5 +232,6 @@ Do you need several external datasets to complete your analysis?</td>
 
 
 <p>This chapter gives you a brief look into external data: the important takeaway is that we are only at the start of a significant growth in data thanks to the technologies that now make massive data storage and processing an affordable reality. Open datasets in particular have the potential to become a de facto standard for anyone looking for data to analyze.</p>
+</div>
 <!--</section>
 </section>-->

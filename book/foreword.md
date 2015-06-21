@@ -1,3 +1,6 @@
+<!--
+Sections hidden for Gitbook publishing
+  <section data-type="foreword">-->
 <h1>Foreword</h1>
   <p>Data are all around us and always have been. Everything throughout history has always had the potential to be quantified: theoretically, one could count every human who has ever lived, every heartbeat that has ever beaten, every step that was ever taken, every star that has ever shone, every word that has ever been uttered or written. Each of these collective things can be represented by a number. But only recently have we had the technology to efficiently surface these hidden numbers, leading to greater insight into our human condition.</p>
 
@@ -34,3 +37,4 @@
 
   <p data-type="author">Callie Neylan<br /> 
   <em>Senior Designer, Microsoft</em></p>
+<!--</section>-->

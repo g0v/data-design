@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="red" data-type="chapter">-->
+<div class="red" data-type="chapter">
 <header>
 <div class="icon"><img src="../images/sections/06/illusion.png" /></div>
 
@@ -267,5 +268,6 @@ Sections hidden for Gitbook publishing
 <p>If you want to show your neighbors how the number of superhero sightings has changed over time, then presenting data that runs the course of a year instead of a few months provides more context. And instead of showing trendlines for dozens of cities around the world, your graph will be less cluttered and more relevant to your audience if you just show the trendline for your neighborhood. Finally, it&rsquo;s a good idea to include some point of reference&mdash;like a trendline for the global average&mdash;so that your neighbors get a sense of how typical or atypical their neighborhood is.</p>
 
 <p>The next and last chapter of this book goes into further detail about the importance of context and points out other ways graphics can mislead an audience. Just remember: being consistent and transparent goes a long way in your visualizations.</p>
+</div>
 <!--</section>
 </section>-->

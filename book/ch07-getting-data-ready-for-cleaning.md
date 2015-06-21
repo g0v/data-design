@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="green" data-type="chapter">-->
+<div class="green" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/04/spreadsheet.png" /></div>
   <p>Chapter 7</p>
@@ -335,6 +336,6 @@ Sections hidden for Gitbook publishing
 <h3>Post-Data Preparation</h3>
 
 <p>Once your data are separated into the fields you want, converted into the units and types you intend to work with, and terminology is controlled, you&rsquo;re ready to proceed to the data cleaning phase where you&rsquo;ll check for actual errors in the data. In the next three chapters, we&rsquo;ll talk about the basic process of data cleaning, different processes for performing checks on your data to find problems, and what you can and can&rsquo;t do with data cleaning.</p>
-
+</div>
 <!--</section>
 </section>-->

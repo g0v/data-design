@@ -4,8 +4,9 @@
   </header>
 
  <!--
-Sections hidden for Gitbook publishing
+Sections tag replaced with div for Gitbook publishing
 	 <section class="content">-->
+  <div class="content">
   <p>You finally have everything collected, prepped, and cleaned. Now it’s time to cook! When you’re combining ingredients, some will stand out in your dish, some will play a supporting role, and some will seemingly fade away. Despite these differences, you still need to make sure each ingredient is incorporated properly in order for the dish to succeed as a whole.</p>
   
   <p>You also need to think about how to present the dish in terms of emphasis, functionality, and appropriateness.  For example, if you want to highlight the veggies in a vegetable soup, you may want to chop them instead of puree them.  And you have to find bowls because you're not going to serve this delicious soup on a flat plate, right?</p>
@@ -14,4 +15,5 @@ Sections hidden for Gitbook publishing
   
   <p>In this section, we’ll talk about crafting visualizations that help you best tell the story of your data.  We'll cover tips on choosing what to visualize, deciding which graph types make sense, and giving the right finishing touches to a beautiful and accurate presentation that your audience will be excited to consume.</p>
   <!--</section>-->
+  </div>
 </div>

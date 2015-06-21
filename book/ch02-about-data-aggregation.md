@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="violet" data-type="chapter">-->
+<div class="violet" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/02/coffee.png" /></div>
   <p>Chapter 2</p>
@@ -876,6 +877,7 @@ Sections hidden for Gitbook publishing
 <div data-type="example">
   <p><em>Can we address the inherent biases that result from choosing how we aggregate data before presenting it?</em></p>
 <p> The big data movement is going to address some of this. Once, it was too computationally intensive to store all the raw transactions. We had to decide how to aggregate things at the moment of collection, and throw out the raw information. But advances in storage efficiency, parallel processing, and cloud computing are making on-the-fly aggregation of massive datasets a reality, which should overcome some amount of <a class="glossterm" href="glossary01.html#bias-aggregation" target="_blank">aggregation bias</a>.</p>
+</div>
 </div>
 <!--</section>
 </section>-->

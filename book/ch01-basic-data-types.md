@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="blue" data-type="chapter">-->
+<div class="blue" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/02/abacus.png" /></div>
   <p>Chapter 1</p>
@@ -190,5 +191,6 @@ For simplicity in presentation, we often round continuous data to a certain numb
 <p>Qualitative data, roughly speaking, refers to non-numeric data, while quantitative data is typically data that is numeric and hence quantifiable. There is some consensus with regard to these terms. Certain data are always considered qualitative, as they require pre-processing or different methods than quantitative data to analyze. Examples are recordings of direct observation or transcripts of interviews. In a similar way, interval and ratio data are always considered to be quantitative, as they are only ever numeric. The disagreement comes in with the nominal and ordinal data types. Some consider them to be qualitative, since their categories are descriptive and not truly numeric. However, since these data can be counted and used to calculate percentages, some consider them to be quantitative, since they are in that way quantifiable.</p>
 
 <p>To avoid confusion, we&rsquo;ll be sticking with the level of measurement terms above throughout the rest of this book, except in our discussion of long-form qualitative data in the survey design chapter. If you come across terms &ldquo;categorical,&rdquo; &ldquo;qualitative data,&rdquo; or &ldquo;quantitative data&rdquo; in other resources or in your work, make sure you know which definition is being used and don&rsquo;t just assume!</p>
+</div>
 <!--</section>
 </section>-->

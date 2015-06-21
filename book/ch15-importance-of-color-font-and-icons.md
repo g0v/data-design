@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="blue" data-type="chapter">-->
+<div class="blue" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/05/ampersand.png" /></div>
   <p>Chapter 15</p>
@@ -122,5 +123,6 @@ Sections hidden for Gitbook publishing
 <p>The best way to avoid this is take time during the initial conceptual work on any given data visualization to assess what the extreme requirements might be in future iterations. Ask yourself what options or views might be added in the future? Or, in the circumstance of complex interactive data views, what possible functionality might be introduced that would change the nature of the overall visualization?</p>
 
 <p>These are just a few of the core guidelines for using icons in infographics or complex data visualizations.</p>
+</div>
 <!--</section>
 </section>-->

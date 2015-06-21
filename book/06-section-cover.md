@@ -2,7 +2,10 @@
   <header>
     <h1><img src="../images/sections/06/what-not-to-do.png" />What Not To Do</h1>
   </header>
-  <section class="content">
+<!--
+Section tag replaced with div Gitbook publishing
+   <section class="content">-->
+  <div class="content">
     <p>Some cooking don&rsquo;ts:</p>
     <p>
       <ul>
@@ -12,5 +15,6 @@
       </ul>
     </p>
     <p>There are also data visualization don&rsquo;ts. This section is about those.</p>
-  </section>
+  <!--</section>-->
+  </div>
 </div>

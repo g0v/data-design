@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
   <section data-type="chapter" class="yellow">-->
+<div data-type="chapter" class="yellow">
 <header>
   <div class="icon"><img src="../images/sections/05/map-marker.png" /></div>
   <p>Chapter 14</p>
@@ -162,5 +163,6 @@ Sections hidden for Gitbook publishing
 <p>The contributors for this book have also set up a group to give you feedback on your visualizations. If you&rsquo;re looking for honest feedback from an impartial party, <a href="http://helpmeviz.com/">HelpMeViz</a> is a community feedback site that can help.</p>
 
 <p>This final check is a great way to make sure you&rsquo;ve provided enough detail in your axis labels, axis titles, chart title, and legend. If some thoughtful changes are suggested, go back to the file and make a few edits: it will be time well spent, and at the end of the day your visualization will be better for it!</p>
+</div>
 <!--</section>
 </section>-->

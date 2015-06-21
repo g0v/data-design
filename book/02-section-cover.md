@@ -4,7 +4,7 @@
 </header>
 
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="content">-->
 <div class="content">
 <p>When you cook, you go through certain steps in a consistent order. You figure out which ingredients you need, you gather them, you prep them, and finally you cook them and present your finished dish.</p>

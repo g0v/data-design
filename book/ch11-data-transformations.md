@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="yellow" data-type="chapter">-->
+<div class="yellow" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/04/camera.png" /></div>
   <p>Chapter 11</p>
@@ -136,5 +137,6 @@ Sections hidden for Gitbook publishing
 </div>
 
 <p>You may not see transforms every day, but when you do, it&rsquo;s helpful to know why they were used and how they affect your data. It&rsquo;s important to be able to see different parts of the picture when working with data, and transformations give you another tool to help you do just that!</p>
+</div>
 <!--</section>
 </section>-->

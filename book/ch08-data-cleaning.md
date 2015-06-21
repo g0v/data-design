@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="violet" data-type="chapter">-->
+<div class="violet" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/04/cleaning.png" /></div>
   <p>Chapter 8</p>
@@ -127,5 +128,6 @@ Sections hidden for Gitbook publishing
 <p>You should be careful to write a set of instructions as you go, documenting exactly what was done in each step to identify bad data and which data points were removed. It&rsquo;s crucial to write this while you&rsquo;re actually cleaning your data: it&rsquo;s always easier to document as you go than it is to try and remember every step that you took after all is said and done. If you&rsquo;re using point-and-click software to manage your data (like Excel), you should take special care to record exactly what steps were taken in cleaning the data since everything is done by hand, rather than by computer code that can be easily re-run later on. A good rule of thumb is that if you aren&rsquo;t able to easily follow the instructions you wrote and end up with the same results a second time, you shouldn&rsquo;t expect anyone else to be able to.</p>
 
 <p>Regardless of how you choose to do it, good documentation of your cleaning procedures ensures that you can always justify why certain data points were removed and others weren&rsquo;t and that others are able to verify that the data were cleaned competently and correctly. Additionally, if you think you might want to share the data with a statistician later on for further analysis, being able to see both the raw data and what operations were done on those data will make the statistician&rsquo;s job much easier and quicker.</p>
+</div>
 <!--</section>
 </section>-->

@@ -13,4 +13,4 @@ Also, parameter replaced with text
 
   <p>The source code can be found and forked on <a href="https://github.com/infoactive/data-design/" target="_blank">Github</a>.</p>
 
-  <!--</section>-->
+<!--</section>-->

@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="red" data-type="chapter">-->
+<div class="red" data-type="chapter">
 <header>
 <div class="icon"><img src="../images/sections/03/scale.png" /></div>
 
@@ -118,6 +119,6 @@ Sections hidden for Gitbook publishing
 <p>When you&rsquo;re considering a project as a whole, it is possible that not all the research questions you&rsquo;re trying to address can be answered using data collected from just one of the methods discussed so far. You may find that your survey will need to be supplemented with some direct measurements, or you may need to have your focus group participants complete diary forms.</p>
 
 <p>Just as you can benefit from a combination of survey types, you can also benefit from incorporating multiple types of data collection if the data you need would most appropriately be gathered in different ways. Consider what approaches make the most sense for the data you need, and then select the best choices that are practical within your budgetary and time constraints.</p>
-
+</div>
 <!--</section>
 </section>-->

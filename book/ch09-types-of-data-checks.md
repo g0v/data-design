@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="red" data-type="chapter">-->
+<div class="red" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/04/inspect.png" /></div>
   <p>Chapter 9</p>
@@ -211,5 +212,6 @@ Sections hidden for Gitbook publishing
 <p>One of the most important checking issues is that the meaning of fields and the values in them may change over time. In a perfect world, every change would be well-documented so you would know exactly what the data means. The reality is that these changes are rarely fully documented. The next best way of knowing what the data in a field really represents is to talk the administrators and users of the system.</p>
 
 <p>These are just some of the steps that you can take to make sure you understand your data and that you&rsquo;re aware of potential errors. In the next chapter, we&rsquo;ll talk about some of the other sneaky errors that may be lurking in your data, and how to make sense of those potential errors.</p> 
+</div>
 <!--</section>
 </section>-->

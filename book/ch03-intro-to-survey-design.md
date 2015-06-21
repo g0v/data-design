@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="green" data-type="chapter">-->
+<div class="green" data-type="chapter">		
 <header>
 <div class="icon"><img src="../images/sections/03/survey.png" /></div>
 
@@ -408,5 +409,6 @@ Sections hidden for Gitbook publishing
 <p>If you have the time and resources to do so, you can also consider using more than one type of survey. For example, you may want to do an online and phone version of the same survey to increase response rates and improve your sample in both size and diversity. Or you may start by doing an online survey and then conduct a face-to-face survey afterwards to gain more insight from your initial results.</p>
 
 <p>We hope these scenarios show you that choosing a survey type isn&rsquo;t a one-size-fits-all process. There isn&rsquo;t a nice and tidy formula that you can use to pick the perfect survey. Instead, it&rsquo;s up to your good judgment to balance the resources you have with the goals you&rsquo;re trying to achieve.</p>
+</div>
 <!--</section>
 </section>-->

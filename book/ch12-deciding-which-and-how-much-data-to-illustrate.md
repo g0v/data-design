@@ -1,6 +1,7 @@
 <!--
-Sections hidden for Gitbook publishing
+Section tag replaced with div for Gitbook publishing
 	<section class="green" data-type="chapter">-->
+<div class="green" data-type="chapter">
 <header>
 <div class="icon"><img src="../images/sections/05/illustrate.png" /></div>
 
@@ -295,5 +296,6 @@ Sections hidden for Gitbook publishing
 <p>Another way to do this would be to publish interactive versions of your visualizations that allow the viewers to dive in and explore the information themselves. If you&rsquo;re able to share the raw datasets, that&rsquo;s even better! That way, those who wish to dig deeper and understand the data in new ways will have the option to do so. We&rsquo;ll talk more about static and interactive graphics later in the Print vs. Web chapter.</p>
 
 <p>If you&rsquo;re looking for early feedback and you&rsquo;re not exactly sure where to turn, you can check out <a href="http://helpmeviz.com/" target="_blank">HelpMeViz</a>, a community site where you can post your works-in-progress and receive friendly suggestions on how to improve. Getting feedback from your audience and revising your visuals to better fit their needs is all a part of the process!</p>
+</div>
 <!--</section>
 </section>-->
