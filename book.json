@@ -1,5 +1,5 @@
 {
-    "gitbook": ">=2.1.0",
+    "gitbook": ">=2.0.0",
     "title": "Data + Design 正體中文版",
     "description": "資訊準備與視覺化的簡單入門 *這是正在進行中的翻譯計畫，歡迎加入一起填坑！ http://bit.ly/data-design-zh",
     "language": "zh",
