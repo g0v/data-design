@@ -1,6 +1,5 @@
 # Summary
 
-* [introduction](README.md)
 * [Introduction](_book/titlepage.md)
    * [License](_book/license.md)
    * [Preface](_book/preface.md)
