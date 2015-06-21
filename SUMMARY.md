@@ -1,10 +1,6 @@
 # Summary
 
 * [測試](ce_shi.md)
-
-
-# Summary
-
 * [Introduction](_book/titlepage.md)
    * [License](_book/license.md)
    * [Preface](_book/preface.md)
