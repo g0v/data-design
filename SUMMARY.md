@@ -1,7 +1,5 @@
 # Summary
 
-This is the summary of Data + Design traditional Chinese edition.
-
 * [Introduction](_book/titlepage.md)
 	* [License](_book/license.md)
 	* [Preface](_book/preface.md)
