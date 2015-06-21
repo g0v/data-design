@@ -4,7 +4,7 @@ This forked repo is for collaborative translation of the book "Data + Design" in
 
 Gitbook 相關檔案存放於 /book 目錄下。Gitbook files are in the directory /book
 
-[更多說明 / More info](https://g0v.hackpad.com/l5qLhp0515j)
+[更多說明 / More info](http://bit.ly/data-design-zh)
 
 本書採用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW">創用CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款</a>釋出。<br />此作品衍生自 <a xmlns:dct="http://purl.org/dc/terms/" href="https://infoactive.co/data-design" rel="dct:source">Data + Design</a>。
 
