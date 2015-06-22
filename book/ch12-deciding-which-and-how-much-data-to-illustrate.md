@@ -6,9 +6,10 @@ Section tag replaced with div for Gitbook publishing
 <div class="icon"><img src="../images/sections/05/illustrate.png" /></div>
 
 <p>Chapter 12</p>
+<p>第十二章</p>
 
 <h1>Deciding Which and How Much Data to Illustrate</h1>
-
+<h1>決定哪些資料需要呈現</h1>
 <p data-type="author">By Margie Henry</p>
 </header>
 
