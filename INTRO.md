@@ -43,8 +43,7 @@
 
  <div id="press">
  <h1>新聞聯繫</h1>
- <p>想寫篇關於本書的報導，請查閱我們的<a href="https://drive.google.com/folderview?id=0BzgbdNYyW3F-NUpyejB5NWFkd1U&amp;usp=sharing" target="_blank">新聞資料袋</a>並聯繫［<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f590979a9a9eb59c9b939a9496819c8390db969a">受保護電子郵件</a><script cf-hash="f9e31" type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script>］尋求更多資訊，或是安排採訪。</p>
+ <p>想寫篇關於本書的報導，請查閱我們的<a href="https://drive.google.com/folderview?id=0BzgbdNYyW3F-NUpyejB5NWFkd1U&amp;usp=sharing" target="_blank">新聞資料袋</a>並聯繫<a href="mailto:ebook@infoactive.co" target="_blank">電子郵件</a>尋求更多資訊，或是安排採訪。</p>
   <ul>
     <li>
       <a href="http://www.rjionline.org/blog/chicago-write-thon-helps-storytellers-make-sense-data" target="_blank">Chicago Write-A-Thon Helps Storytellers Make Sense of Data</a></li>
