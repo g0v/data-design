@@ -47,7 +47,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Take another couple of minutes and ask yourself &ldquo;what information is most valuable to my audience,&rdquo; &ldquo;what role will my visuals play in this dialogue,&rdquo; and &ldquo;what action(s) do I want to incite?&rdquo; Would you spend time explaining algebra to a group of engineers? (The correct answer is no.) What would be the point? The better you know your audience, the better your chances of creating a successful visual presentation.</p>
 
-<p>再花幾分鐘問自己 &ldquo;甚麼樣的資訊是你的觀眾(覺得)最有價值的,&rdquo; &ldquo;what role will my visuals play in this dialogue,&rdquo; and &ldquo;what action(s) do I want to incite?&rdquo; Would you spend time explaining algebra to a group of engineers? (The correct answer is no.) What would be the point? The better you know your audience, the better your chances of creating a successful visual presentation.</p>
+<p>再花幾分鐘問自己 &ldquo;甚麼樣的資訊是你的觀眾(覺得)最有價值的,&rdquo; &ldquo;在這次的對話中，您的圖示扮演甚麼樣的腳色,&rdquo; 以及 &ldquo;您所想煽動的行為?&rdquo; 您會花時間和一群工程師解釋線性代數嗎? (標準答案是'否')那甚麼將會是重點呢?您越了解您的觀眾，您越能創造一個成功的視覺簡報(visual presentation)。</p>
 
 <p>Let&rsquo;s imagine presenting data on &ldquo;Environmental Conservation in the New Millennium&rdquo; in the following scenarios: (1) on a small-scale blog visited mostly by lay environmentalists; (2) in a classroom of high school students; and (3) at a fundraising event for an environmental conservation organization. Would you create and explain your data the same way to each audience? Hopefully not. You should be able to make a few assumptions about what&rsquo;s most relevant to present even if you&rsquo;ve never met a single audience member.</p>
 
