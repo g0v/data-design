@@ -33,6 +33,8 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Right about now you should be having a flashback to English 101. That&rsquo;s because determining your key message is just like writing a good thesis statement. If you can&rsquo;t summarize your key message in a few concise sentences then you probably need a better grasp of the topic. Sound harsh? Maybe, but not as harsh as presenting information to a crowd of your yawning disinterested peers. Fight the urge to skip this step! If you&rsquo;re the paper-and-pencil type, go ahead and write your message down! You can use it as a reference throughout your <a class="glossterm" href="glossary01.html#visualization-data" target="_blank">data visualization process</a>.</p>
 
+<p>現在您或許有種回到英文入門的感受。這是因為. That&rsquo;s because determining your key message is just like writing a good thesis statement. If you can&rsquo;t summarize your key message in a few concise sentences then you probably need a better grasp of the topic. Sound harsh? Maybe, but not as harsh as presenting information to a crowd of your yawning disinterested peers. Fight the urge to skip this step! If you&rsquo;re the paper-and-pencil type, go ahead and write your message down! You can use it as a reference throughout your <a class="glossterm" href="glossary01.html#visualization-data" target="_blank">data visualization process</a>.</p>
+
 <p>Simply put, your chances of creating a compelling, well-organized visual argument are immeasurably greater if you begin with a clear and focused message.</p>
 <p>簡而言之，您創造了引人注意的機會，若您一開始就有明確且聚焦的訊息，則組織良好的視覺化參數將無可限量。</p>
 
