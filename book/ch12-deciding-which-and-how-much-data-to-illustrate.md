@@ -39,8 +39,11 @@ Section tag replaced with div for Gitbook publishing
 <p>簡而言之，您創造了引人注意的機會，若您一開始就有明確且聚焦的訊息，則組織良好的視覺化參數將無可限量。</p>
 
 <h2>Understand Your Audience</h2>
+<h2>了解你的觀眾</h2>
 
 <p>You&rsquo;ve determined your message. Let&rsquo;s now consider the importance of understanding your audience. This knowledge will go just as far in helping you determine which and how much of your data to illustrate.</p>
+<p>您(已經)決定了你的(期望)訊息。現在，讓我們來仔細思考了解您的觀眾是多麼重要。 到目前為止的這些知識將協助您確認您的資料中哪些是(需要被)圖示說明的。</p>
+
 
 <p>Take another couple of minutes and ask yourself &ldquo;what information is most valuable to my audience,&rdquo; &ldquo;what role will my visuals play in this dialogue,&rdquo; and &ldquo;what action(s) do I want to incite?&rdquo; Would you spend time explaining algebra to a group of engineers? (The correct answer is no.) What would be the point? The better you know your audience, the better your chances of creating a successful visual presentation.</p>
 
