@@ -1,7 +1,7 @@
 <!--
 Section tag replaced with div for Gitbook publishing
 	<section class="green" data-type="chapter">-->
-	<!---
+<!---
 <div class="green" data-type="chapter">
 <header>
 <div class="icon"><img src="../images/sections/05/illustrate.png" /></div>
