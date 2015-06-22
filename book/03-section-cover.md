@@ -1,19 +1,19 @@
 <div data-type="part" class="yellow">
  <header>
-  <h1><img src="../images/sections/03/collecting-data.png" />Collecting Data</h1>
+  <h1><img src="../images/sections/03/collecting-data.png" />資料蒐集</h1>
  </header>
 
 <!--
 Section tag replaced with div Gitbook publishing
    <section class="content">-->
 <div class="content">
-<p>Gathering data is similar to gathering ingredients for a recipe.  If you want to create an excellent dish, you'll want to start with the right ingredients, which means you'll have to make a bunch of decisions beforehand.</p>
+<p>蒐集資料就如同為食譜備齊材料一般。若想要料理出一道令人驚豔的菜餚，首先要從原材料著手。所以，這就表示在料理之前，你將會面臨一大堆繁瑣的抉擇。</p>
 
-<p>For example, if you need honey, do you want a generic honey or a specific variety like orange blossom?  Does the brand of honey matter?  Does it need to be raw or organic?  Do you prefer to get the honey from your local farmer or a supermarket?  And who's going to get all these ingredients?  If you don't have time, are you willing to pay someone to get them for you, even if it means you might not get exactly what you want?</p> 
+<p>例如，如果你需要使用蜂蜜，你會選用一般的蜂蜜？還是會指定特定品種，如桂花、龍眼等的蜂蜜？還有品牌的偏好？這蜂蜜是生蜜還是熟成蜜，要有機的嗎？要跟在地小農購買呢，還是到超市買呢？還有還有，怎樣去買？沒空要找人幫忙跑腿？會不會買了不是要用的蜂蜜啊？如果這樣要不乾脆網購算了？還有還有……</p> 
 
-<p>You have to make similar decisions before gathering data.  You could get all of your data by asking open-ended questions on paper surveys that you pass out to people in a random place, but that probably won't make the most sense. Different types of data are best collected in different sorts of ways from different places, and sometimes you might not have enough time or money to collect the data you need by yourself.</p>  
+<p>同樣的，在蒐集資料之前，你也會需要作出林林總總的決定。要用紙本問卷隨機讓路人填寫開放式問題嗎？欸，好像看起來沒什麼用處啊！？不同種類的資料能在不同場地以不同方法取得的話自然是極好的，可萬一你沒錢沒空呢？我難過…</p>  
 
-<p>In this section, we’ll talk about data collection methods to help you figure out where and how to best obtain the information you’re looking for, and how to sort out what information you really need. Let’s go shopping!</p>  
+<p>在本章節内，我們會談到資料的搜集方法能夠幫助你在最佳位置找出最需要的資訊，以及如何篩選出真正需要並使用到的資訊。地方的媽媽們，給開司一罐啤酒…</p>  
 
 <!--</section>-->
 </div>
