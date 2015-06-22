@@ -1,12 +1,14 @@
 <!--
 Section tag replaced with div for Gitbook publishing
 	<section class="green" data-type="chapter">-->
+	<!---
 <div class="green" data-type="chapter">
 <header>
 <div class="icon"><img src="../images/sections/05/illustrate.png" /></div>
+-->
 
-<p>Chapter 12</p>
-<p>第十二章</p>
+#第十二章
+
 
 <h1>Deciding Which and How Much Data to Illustrate</h1>
 <h1>決定哪些資料需要呈現</h1>
