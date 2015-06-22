@@ -1,17 +1,19 @@
 <div data-type="part" class="green">
  <header>
- <h1><img src="../images/sections/04/preparing-data.png" />Preparing data</h1>
+ <h1><img src="../images/sections/04/preparing-data.png" />準備資料</h1>
  </header>
 <!--
 Section tag replaced with div Gitbook publishing
 	 <section class="content">-->
 <div class="content">
-<p>After you’ve collected the ingredients you want for your recipe, you have to prepare them before you start cooking. This is the prep step, in which you wash, chop, and otherwise get your ingredients ready. Many of us dislike this step because it isn't much fun, but if you’ve ever had a dish with dirty vegetables, you know firsthand how much the end result can suffer if this step is done poorly or skipped altogether!</p>
- 
-<p>As in cooking, many also dislike the prep step when working with data, but it is necessary. You can’t just grab the data, throw it into a visualization, and expect it to come out right. If you want to create the best graphics you can, you need to make sure your data is prepared correctly. Some of your data may need to be separated into different groups, some may need converting, and some may need to be cleaned, like the vegetables.</p> 
- 
 
-<p>In this section, we’ll talk about some of the common preparation and cleaning tasks encountered when working with data, and about ways that you can potentially decrease the amount of time you’ll need to spend doing them. No matter how you slice it, if you get your data set up the right way, it will make everything a go a lot smoother when you get to the visualization stage.</p>
+<p>當你收集了食譜的材料，在烹飪之前，你需要先處理一下這些材料。
+在準備的步驟中，你可能會洗、切、或任何方式，使你的食材準備好。
+因為這個步驟不太有趣，大多數的人並不喜歡這個步驟，但如果你曾經吃過一盤骯髒的青菜，你就知道如果你草率、或甚至整個跳過處理步驟，會受到多大的影響。</p>
+ 
+<p>就像在烹飪一樣，許多人在處理資料的時候，也不喜歡準備步驟，但這是必須的。你不可能只撈到一些資料，丟進視覺化的城市，就預期它會產生正確的結果。如果你想要盡你所能的做出最好的圖像，你需要確認你的資料已經準備好。有些資料需要切分成不同的群組，有些可能需要轉換，還有一些需要清理，就像蔬菜一樣。</p> 
+ 
+<p>在這個段落，我們會說明一些處理資料的時候，常見的準備、清理工作，也會介紹一些可以減少花費處理時間的方法。不管你如何分割數據，如果你正確的處理你的數據，當你在處理可視化階段的時候會順利許多。</p>
  <!--</section>-->
 </div>
 </div>
