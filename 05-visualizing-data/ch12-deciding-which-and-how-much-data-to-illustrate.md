@@ -1,6 +1,7 @@
-<section class="green" data-type="chapter">
+<!--<section class="green" data-type="chapter">
 <header>
 <div class="icon"><img src="../images/sections/05/illustrate.png" /></div>
+--->
 
 <p>Chapter 12</p>
 <p>第十二章</p>
