@@ -315,7 +315,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>If you&rsquo;re looking for early feedback and you&rsquo;re not exactly sure where to turn, you can check out <a href="http://helpmeviz.com/" target="_blank">HelpMeViz</a>, a community site where you can post your works-in-progress and receive friendly suggestions on how to improve. Getting feedback from your audience and revising your visuals to better fit their needs is all a part of the process!</p>
 
-<p>如果您正在搜尋較早的回饋且您無從下手時，您可以查閱<a href="http://helpmeviz.com/" target="_blank">HelpMeViz</a>, 這個社群網站可以發表您的工作進度，並且可以獲得友善的改進建議。 Getting feedback from your audience and revising your visuals to better fit their needs is all a part of the process!</p>
+<p>如果您正在搜尋較早的回饋且您無從下手時，您可以查閱<a href="http://helpmeviz.com/" target="_blank">HelpMeViz</a>, 這個社群網站可以發表您的工作進度，並且可以獲得友善的改進建議。 收集您的觀眾的回饋並依據他們的需求改進，這將會是這個過程的所有環節。</p>
 </div>
 <!--</section>
 </section>-->
