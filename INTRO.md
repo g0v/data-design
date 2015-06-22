@@ -60,7 +60,7 @@
      <li class="email"><a href="mailto:ebook@infoactive.co" target="_blank">電子郵件</a></li>
    </ul>
   </div>
-  <div id="sponsors">
+  <div id="sponsors" style="background-color:#373737">
    <ul class="sponsors">
      <li><a href="https://infoactive.co" target="_blank"><img alt="Infoactive" src="https://dqzzm1bt1bnva.cloudfront.net/assets/static_pages/ebook/infoactive-logo-80aa90fc145d2b1b20d1fc65b800d4cc88d231fa25f34963ebb4243663ed4a1b.png"></a></li>
      <li><a href="http://www.rjionline.org/" target="_blank"><img alt="Reynolds Journalism Institute" src="https://dqzzm1bt1bnva.cloudfront.net/assets/static_pages/ebook/rji-logo-white-80028470969a6246ae3f8217d575aaae1212e75baac05829a1443decdb5a7f07.png"></a></li>
