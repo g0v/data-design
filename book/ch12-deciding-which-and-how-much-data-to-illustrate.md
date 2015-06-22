@@ -69,6 +69,8 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Now that we&rsquo;ve discussed the importance of determining a key message and understanding its audience, let&rsquo;s delve into deciding which data to illustrate.</p>
 
+<p>現在我們已經討論了決定關鍵訊息以及了解相對應的觀眾的重要性，讓我們更深入探討哪些資料該被呈現。</p>
+
 <h2>Deciding Which Data to Illustrate</h2>
 
 <p>You can begin the process by expanding your key message into a narrative or story. Our goal is to present a sequence or set of facts which gradually leads your audience to the key message. The data you choose to illustrate should set the context, establish the main points of interest, and explain how these are interconnected. Be intentional in what you present, but do not censor data to further your argument. Your visual story should be based on what the data&mdash;and not only what you want to&mdash;say.</p>
