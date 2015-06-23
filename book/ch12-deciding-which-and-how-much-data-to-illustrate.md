@@ -6,11 +6,12 @@ Section tag replaced with div for Gitbook publishing
 <header>
 <div class="icon"><img src="../images/sections/05/illustrate.png" /></div>
 -->
+![](../images/sections/05/illustrate.png)
 <p>Chapter 12</p>
 <p>第十二章</p>
 
-<h1>Deciding Which and How Much Data to Illustrate</h1>
-<h1>決定哪些資料需要呈現</h1>
+#Deciding Which and How Much Data to Illustrate
+#決定哪些資料需要呈現
 <p data-type="author">By Margie Henry</p>
 </header>
 
@@ -19,8 +20,8 @@ Section tag replaced with div for Gitbook publishing
 
 <p>讓我們為了有效的數據奠定一些基礎。如果(想要)精準完成(這件事情)，將會(花費)很長一段時間以幫助您確定哪個方面的資料(需要被)可視化及如何(可視化)。 (讓)我們從一個簡單的腦力激盪開始吧。經過些許思辯(thoughtful moments)，您可以獨自或在團隊中完成它。您的任務有兩個(方面)：定義您的(期望)訊息以及定義您的預期觀眾。您可以認為決定其順序，但這裡我們將先從定義您的(期望)訊息開始。</p>
 
-<h2>Determine Your Message</h2>
-<h2>決定您的(期望)訊息</h2>
+##Determine Your Message
+##決定您的(期望)訊息
 
 <p>Before tackling which data to present, take a few minutes to decide what you want to say. Close down your latest social media craze, step back from your computer, and consider the exact message you want to communicate. Ask yourself, &ldquo;What do I know, what does it mean, and why do I believe it&rsquo;s important?&rdquo;</p>
 <p>在暫定(tackling)您所想要呈現的資料之前，花幾分鐘決定您想表達(甚麼)。關掉(那些)社群軟體(譯者案:如Facebook,LINE等)，暫時離開(step back)您的電腦，然後考慮您所想溝通的確切訊息。捫心自問&ldquo;我所知悉的是甚麼，(分別)代表甚麼含義，以及為何(會被)我認為這是重要的?&rdquo;</p>
@@ -33,13 +34,13 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Right about now you should be having a flashback to English 101. That&rsquo;s because determining your key message is just like writing a good thesis statement. If you can&rsquo;t summarize your key message in a few concise sentences then you probably need a better grasp of the topic. Sound harsh? Maybe, but not as harsh as presenting information to a crowd of your yawning disinterested peers. Fight the urge to skip this step! If you&rsquo;re the paper-and-pencil type, go ahead and write your message down! You can use it as a reference throughout your <a class="glossterm" href="glossary01.html#visualization-data" target="_blank">data visualization process</a>.</p>
 
-<p>現在您或許有種回到英文入門的感受。這是因為決定您的關鍵訊息就像是在些一篇好的論文一樣。如果您無法用幾句簡潔扼要的句子概述您的觀點時，(建議)您(還是)好好理解(所選的)主題。聽起來很殘忍吧?或許，但是總比您在報告時，一大群(公正的)同伴正在打哈欠還不殘忍吧。儘全力完成這個步驟吧！如果您是(習慣)用紙筆的話，(那請)繼續寫下您的想法(message)!您可以將其作為整個資料可視化<a class="glossterm" href="glossary01.html#visualization-data" target="_blank">(data visualization)</a>處理的過程 process </p>
+現在您或許有種回到英文入門的感受。這是因為決定您的關鍵訊息就像是在些一篇好的論文一樣。如果您無法用幾句簡潔扼要的句子概述您的觀點時，(建議)您(還是)好好理解(所選的)主題。聽起來很殘忍吧?或許，但是總比您在報告時，一大群(公正的)同伴正在打哈欠還不殘忍吧。儘全力完成這個步驟吧！如果您是(習慣)用紙筆的話，(那請)繼續寫下您的想法(message)!您可以將其作為整個[資料可視化(data visualization)](glossary01.html#visualization-data)處理的過程
 
 <p>Simply put, your chances of creating a compelling, well-organized visual argument are immeasurably greater if you begin with a clear and focused message.</p>
 <p>簡而言之，您創造了引人注意的機會，若您一開始就有明確且聚焦的訊息，則組織良好的視覺化參數將無可限量。</p>
 
-<h2>Understand Your Audience</h2>
-<h2>了解你的觀眾</h2>
+##Understand Your Audience
+##了解你的觀眾
 
 <p>You&rsquo;ve determined your message. Let&rsquo;s now consider the importance of understanding your audience. This knowledge will go just as far in helping you determine which and how much of your data to illustrate.</p>
 <p>您(已經)決定了你的(期望)訊息。現在，讓我們來仔細思考了解您的觀眾是多麼重要。 到目前為止的這些知識將協助您確認您的資料中哪些是(需要被)圖示說明的。</p>
@@ -65,10 +66,12 @@ Section tag replaced with div for Gitbook publishing
 
 <p>At last, we have our fundraiser attendees. This audience needs to feel that environmental conservation is a cause worthy of their monetary support. It will likely be a mixed crowd: interested donors, their disinterested partners (who just came for free food and drinks), field experts, employees, and interns. You can assume they&rsquo;ll expect a balance of sentiment, the need for urgency, and solid fact. We&rsquo;ve assumed the crowd is mixed, so you&rsquo;ll want to use language that is both familiar and easily understood while not appearing condescending. This audience expects to have their interest in the importance of conservation confirmed and your visuals should accommodate this. As with your student group, leave no obvious question unanswered.</p>
 
-<p>最後，我們還有募款活動的與會者。At last, we have our fundraiser attendees. This audience needs to feel that environmental conservation is a cause worthy of their monetary support. It will likely be a mixed crowd: interested donors, their disinterested partners (who just came for free food and drinks), field experts, employees, and interns. You can assume they&rsquo;ll expect a balance of sentiment, the need for urgency, and solid fact. We&rsquo;ve assumed the crowd is mixed, so you&rsquo;ll want to use language that is both familiar and easily understood while not appearing condescending. This audience expects to have their interest in the importance of conservation confirmed and your visuals should accommodate this. As with your student group, leave no obvious question unanswered.</p>
+<p>最後，我們還有募款活動的與會者。這些觀眾需要一個讓他們覺得環保是值得他們資助的原因。這可能是一個混合的群體：感興趣的投資者，(與其同行)無利益關係的合作夥伴(僅為了免費的食物和飲料與會)，(某)領域專家，員工和實習生。您可以假設他們將期待(達到某種)情感平衡，(是)需要急迫且確實的事實。我們假設這個族群是混合型的，所以你需要使用熟悉且淺顯易懂的語言，同時勿表現居高臨下(的感覺)(譯者案:指自命清高地用生澀的語言),這些觀眾希望他們所認為的環保重要性(課題)是被認同(or確認)的，您的視覺效果應該要確保這一點。作為您的學生族群，是無庸置疑的。 </p>
 
 <div data-type="warning">
 <p>Presenting emotion-driven content doesn&rsquo;t mean leaving out key facts if they don&rsquo;t fit into your ideal storyline. Be extra careful when sharing cause-driven content, and do your best to ensure that your values don&rsquo;t interfere with an accurate presentation of the data!</p> 
+
+<p>呈現感情導向(emotion-driven)的內容並非表示脫離了關鍵的事實，(即使)(這些設定)不適合你所屬意的故事情節。當您分享成因導向(cause-driven)的內容時，請務必小心，請確保當您使用精準的資料呈現時，您的價值觀(values)不受干擾。</p> 
 </div>
 
 <p>Now that we&rsquo;ve discussed the importance of determining a key message and understanding its audience, let&rsquo;s delve into deciding which data to illustrate.</p>
@@ -76,230 +79,243 @@ Section tag replaced with div for Gitbook publishing
 <p>現在我們已經討論了決定關鍵訊息以及了解相對應的觀眾的重要性，讓我們更深入探討哪些資料該被呈現。</p>
 
 <h2>Deciding Which Data to Illustrate</h2>
+<h2>決定哪些資料(是需要被)製圖</h2>
 
 <p>You can begin the process by expanding your key message into a narrative or story. Our goal is to present a sequence or set of facts which gradually leads your audience to the key message. The data you choose to illustrate should set the context, establish the main points of interest, and explain how these are interconnected. Be intentional in what you present, but do not censor data to further your argument. Your visual story should be based on what the data&mdash;and not only what you want to&mdash;say.</p>
 
 <p>Take, for example, the following table presenting the I.Q. scores of children who were adopted at a young age and the socioeconomic status (based on income and occupation) of both their adoptive and birth parents. These data are taken from C. Capron and M. Duyme&rsquo;s 1989 study, &ldquo;Children&rsquo;s IQs and SES of Biological and Adoptive Parents in a Balanced Cross-Fostering Study,&rdquo; published in the <em>European Bulletin of Cognitive Psychology</em>.</p>
 
+<ref link:https://zh.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E7%BB%8F%E6%B5%8E%E5%9C%B0%E4%BD%8D>
+<ref link: https://en.wikipedia.org/wiki/Socioeconomic_status>
+
+舉例來說，下表描述了兒童時期被收養的孩童智商(I.Q)與養父母、生父母[社會經濟地位(socioeconomic status)](https://zh.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E7%BB%8F%E6%B5%8E%E5%9C%B0%E4%BD%8D)(譯者案:簡稱社經地位，英文縮寫SES)(指基於收入和職業的評量)(的關係)。這些參考自 C. Capron 和 M. Duyme&rsquo;s 在1989的研究, &ldquo;Children&rsquo;s IQs and SES of Biological and Adoptive Parents in a Balanced Cross-Fostering Study,&rdquo; 發表於 *European Bulletin of Cognitive Psychology*。
+
 <table>
 	<tbody>
 		<tr>
 			<th>I.Q.</th>
-			<th>Adoptive Parent SES</th>
-			<th>Birth Parent SES</th>
+			<th>養父母社會經濟地位(SES)</th>
+			<th>生父母社會經濟地位(SES)</th>
 		</tr>
 		<tr>
 			<td>136</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>99</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>121</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>133</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>125</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>131</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>103</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>115</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>116</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>117</td>
-			<td>High</td>
-			<td>High</td>
+			<td>高</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>94</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>103</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>99</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>125</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>111</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>93</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>101</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>94</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>125</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>91</td>
-			<td>High</td>
-			<td>Low</td>
+			<td>高</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>98</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>99</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>91</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>124</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>100</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>116</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>113</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>119</td>
-			<td>Low</td>
-			<td>High</td>
+			<td>低</td>
+			<td>高</td>
 		</tr>
 		<tr>
 			<td>92</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>91</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>98</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>83</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>99</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>68</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>76</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>115</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>86</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 		<tr>
 			<td>116</td>
-			<td>Low</td>
-			<td>Low</td>
+			<td>低</td>
+			<td>低</td>
 		</tr>
 	</tbody>
 </table>
 
 <p>Let&rsquo;s discuss two possible narratives that you could create from this dataset: &ldquo;Children&rsquo;s Intelligence Limited by Adoptive Parents&rsquo; SES,&rdquo; and &ldquo;Adopted Children&rsquo;s Intelligence Influenced by Both Biological And Adoptive Parents&rsquo; SES&rdquo;.</p>
 
+<p>我們來討論(藉由)這些資料集可以得到的兩個可能的敘述:&ldquo;兒童的智力受限於養父母的社會經濟地位(SES)&rdquo;和&ldquo;受領養兒童的智力受生父母與養父母的社會經濟地位(SES)影響&rdquo;。</p>
+
 <h3>Children&rsquo;s Intelligence Limited by Adoptive Parents&rsquo; SES</h3>
+###兒童的智力受限於養父母的社會經濟地位(SES)
 
 <p>We can create a story supporting the first message by solely looking at the adoptive parents&rsquo; socioeconomic status: children of those adoptive families with a high SES had a mean I.Q. of nearly 112 whereas those adopted by a low SES family had a mean I.Q. of 99. But, this narrative would only include half of the relevant information: it leaves out entirely the SES of the child&rsquo;s biological parents. Understandably, this could play just as big a role as the family&rsquo;s socioeconomic status would likely impact the level and quality of prenatal care, and, in turn, the in utero development of the child.</p>
 
-<figure><img alt="IQ by adoptive parent SES" src="../images/sections/05/childIQ.png" /></figure>
 
-<h3>Adopted Children&rsquo;s Intelligence Influenced by Both Biological And Adoptive Parents&rsquo; SES</h3>
+<figure><img alt="IQ by adoptive parent SES" src="../images/sections/05/childIQ.png" /></figure>
+![以養父母社經地位區識](../images/sections/05/childIQ.png)
+
+###Adopted Children&rsquo;s Intelligence Influenced by Both Biological And Adoptive Parents&rsquo; SES
+###受領養兒童的智力受生父母與養父母的社會經濟地位(SES)影響
 
 <p>A little more boring of a title, but far more accurate. When we include both the adoptive and biological parents&rsquo; SES we get a much better picture of the impact that each has on the child&rsquo;s I.Q. Specifically, we see:</p>
 
 <figure><img alt="High and low IQ scores" src="../images/sections/05/adoptive-table.png" /></figure>
+![IQ高低分配](../images/sections/05/adoptive-table.png)
 
 <p>So, more correctly, a child&rsquo;s I.Q. is a function of both his or her biological and adoptive parents&rsquo; socioeconomic status. If both have a high SES, the child&rsquo;s I.Q. will tend to be the highest. If one has a high SES and the other a low SES (it doesn&rsquo;t matter which set of parents has which), the child will typically have an average I.Q. And finally, if both have a low SES, the child will tend to have a below-average I.Q.</p>
 
 <p>Our first example is a clear illustration of what happens when you create a story based on what you want to say, and not what the data say. Unfortunately, applications of data such as this are neither uncommon nor farfetched. We see this done on the news and during casual conversation. The omission of key facts and related variables creates a visual that is full of misinformation. It lacks credibility and presents obvious biases. The second instance presents far less outright bias, is a plausible story based on the data available, presents context, introduces all variables, and explains how the variables are connected. Although it will usually result in a less-sensationalized title, a full presentation of all relevant data is the only way to maintain a credible and airtight argument.</p>
 
-<h2>Deciding How Much Data to Illustrate</h2>
+##Deciding How Much Data to Illustrate
 
 <p>In previous sections we&rsquo;ve gone over how to determine a key message, the importance of identifying the audience, and a process for isolating facts to illustrate. We can work on determining how much of our data we need to visualize.</p>
 
@@ -313,7 +329,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>To exemplify, let&rsquo;s imagine a cinephile and store manager. Both are browsing a blog filled with upcoming movie release dates, reviews, and critiques of directors. The cinephile spends hours on the site, soaking up each and every visual and reading through its content. The manager simply wants to know what popular movies he should order for the next holiday season. The manager probably wouldn&rsquo;t want to spend hours trying to find his answer. For our cinephile, more is better; for the manager, less is more.</p>
 
-<h2>Editing and Revising</h2>
+##Editing and Revising
 
 <p>Here&rsquo;s a frequent and frustrating occurrence: you did your brainstorming, made a bunch of visualizations, and edited down to the best subset to include in your project. You were careful not to overwhelm your audience and you made sure that your illustrations covered the most important key points without being redundant.</p>
 
@@ -327,7 +343,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>If you&rsquo;re looking for early feedback and you&rsquo;re not exactly sure where to turn, you can check out <a href="http://helpmeviz.com/" target="_blank">HelpMeViz</a>, a community site where you can post your works-in-progress and receive friendly suggestions on how to improve. Getting feedback from your audience and revising your visuals to better fit their needs is all a part of the process!</p>
 
-<p>如果您正在搜尋較早的回饋且您無從下手時，您可以查閱<a href="http://helpmeviz.com/" target="_blank">HelpMeViz</a>, 這個社群網站可以發表您的工作進度，並且可以獲得友善的改進建議。 收集您的觀眾的回饋並依據他們的需求改進，這將會是這個過程的所有環節。</p>
+如果您正在搜尋較早的回饋且您無從下手時，您可以查閱[HelpMeViz](http://helpmeviz.com/), 這個社群網站可以發表您的工作進度，並且可以獲得友善的改進建議。 收集您的觀眾的回饋並依據他們的需求改進，這將會是這個過程的所有環節。
 </div>
 <!--</section>
 </section>-->
