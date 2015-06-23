@@ -67,7 +67,7 @@ Attendance may be mandatory, not voluntary: keeping their interest will be key. 
 <p>At last, we have our fundraiser attendees. This audience needs to feel that environmental conservation is a cause worthy of their monetary support. It will likely be a mixed crowd: interested donors, their disinterested partners (who just came for free food and drinks), field experts, employees, and interns. You can assume they&rsquo;ll expect a balance of sentiment, the need for urgency, and solid fact. We&rsquo;ve assumed the crowd is mixed, so you&rsquo;ll want to use language that is both familiar and easily understood while not appearing condescending. This audience expects to have their interest in the importance of conservation confirmed and your visuals should accommodate this. As with your student group, leave no obvious question unanswered.</p>
 
 <div data-type="warning">
-<p>Presenting emotion-driven content doesn&rsquo;t mean leaving out key facts if they don&rsquo;t fit into your ideal storyline. Be extra careful when sharing cause-driven content, and do your best to ensure that your values don&rsquo;t interfere with an accurate presentation of the data!</p>
+<p>Presenting emotion-driven content doesn&rsquo;t mean leaving out key facts if they don&rsquo;t fit into your ideal storyline. Be extra careful when sharing cause-driven content, and do your best to ensure that your values don&rsquo;t interfere with an accurate presentation of the data!</p> 
 </div>
 
 <p>Now that we&rsquo;ve discussed the importance of determining a key message and understanding its audience, let&rsquo;s delve into deciding which data to illustrate.</p>
