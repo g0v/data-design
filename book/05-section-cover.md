@@ -1,19 +1,19 @@
 <div data-type="part" class="blue">
   <header>
-    <h1><img src="../images/sections/05/visualizing-data.png" />Visualizing Data</h1>
+    <h1><img src="../images/sections/05/visualizing-data.png" />資料可視化</h1>
   </header>
 
  <!--
 Sections tag replaced with div for Gitbook publishing
 	 <section class="content">-->
   <div class="content">
-  <p>You finally have everything collected, prepped, and cleaned. Now it’s time to cook! When you’re combining ingredients, some will stand out in your dish, some will play a supporting role, and some will seemingly fade away. Despite these differences, you still need to make sure each ingredient is incorporated properly in order for the dish to succeed as a whole.</p>
+  <p>你終於備妥、洗淨且處理好所有食材了。小當家，料理的時間到了！當你正在進行一個媒合的動作的時候，有些食材會在你的料理内擔當「挑樑大角」，有些則是成為「背後的那個人」，而有些則無影無蹤。儘管屬性不同，你還是要確保每樣食材融合成為一道完整的料理。</p>
   
-  <p>You also need to think about how to present the dish in terms of emphasis, functionality, and appropriateness.  For example, if you want to highlight the veggies in a vegetable soup, you may want to chop them instead of puree them.  And you have to find bowls because you're not going to serve this delicious soup on a flat plate, right?</p>
+  <p>你還需要去思考如何裝盤以強調重點、機能性和適當性。例如，如果你想著墨於蔬菜濃湯裡的蔬菜，你可能會選擇將其切片烹煮而不是徹底煮爛成泥。然後你還要去找湯碗去盛湯呢，因為總不能用盤子喝湯吧？<s>（至少不是露西亞傳統喝茶）</s></p>
   
-  <p>Similarly, deciding which graph types and presentations to use depends on the data behind your visualization and the narrative it supports. Some variables will stand out in your visualization, while others disappear into the calculations for the end result. And then there are other elements to consider - like fonts, colors, and icons.</p>
+  <p>>同樣的，選定適合的圖像表格和呈現手法是基於數據本身和其相關敘述。某些參數可能會在你的視覺化結果中鶴立雞群，某些則可能是在演算過程中消弭殆盡。除此之外，尚有其他元素亦須斟酌 ── 字體、色彩、符號等。</p>
   
-  <p>In this section, we’ll talk about crafting visualizations that help you best tell the story of your data.  We'll cover tips on choosing what to visualize, deciding which graph types make sense, and giving the right finishing touches to a beautiful and accurate presentation that your audience will be excited to consume.</p>
+  <p>在本章節内，我們會談到可視化設計如何為你的資料背書説故事。我們還會提及一些視覺化設計上的巧思，像是選擇怎樣的資料作可視化、採用適當的配圖，以及作出最後點綴，呈現一個準確且精美的資料演示，讓你的觀衆為之驚艷。</p>
   <!--</section>-->
   </div>
 </div>
