@@ -2,9 +2,9 @@
 Sections hidden for Gitbook publishing
   <section data-type="foreword">-->
 <h1>Foreword</h1>
-  <p>Data are all around us and always have been. Everything throughout history has always had the potential to be quantified: theoretically, one could count every human who has ever lived, every heartbeat that has ever beaten, every step that was ever taken, every star that has ever shone, every word that has ever been uttered or written. Each of these collective things can be represented by a number. But only recently have we had the technology to efficiently surface these hidden numbers, leading to greater insight into our human condition.</p>
+  <p>D資料遍佈生活周遭，從古迄今皆是如此。歷史載明的一切都有量化的可能：理論上，可以算數曾活在世上的人們，心跳數，曾經踩過的步伐，曾經閃耀過的星星，曾經口語表達或書寫紀錄的字詞。每一個被歷史撿取記載的事物都能以數字呈現。直到不久前，吾輩才擁有技術將這些隱藏的數字予以有效果地呈現，導引我們至人類處境的深刻洞見。</p>
 
-  <p>But what does this mean, exactly? What are the cultural effects of having easy access to data? It means, for one thing, that we all need to be more data literate. It also means we have to be more design literate. As the old adage goes, statistics lie. Well, data visualizations lie, too. How can we learn how to first, effectively read data visualizations; and second, author them in such a way that is ethical and clearly communicates the data&rsquo;s inherent story?</p>
+  <p>這到底意謂著什麼？容易接受資料的文化影響為何？這表達了一件事，我們需要更進一步資料識讀的能力。這也意謂我們必須更多設計識讀的能力。俗諺曾謂，統計會說謊。嗯，資料視覺化也同樣會說謊。首先，如何學會有效判讀視覺化的資料？其次，如何以合乎倫理且清楚的方式傳達資料所包涵承繼的內容？</p>
   
   <blockquote>
     At the intersection of art and algorithm, data visualization schematically abstracts information to bring about a deeper understanding of the data, wrapping it in an element of awe.
