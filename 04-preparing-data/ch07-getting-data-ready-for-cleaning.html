@@ -70,18 +70,18 @@
 	</tbody>
 </table>
 
-<p>You want the mall name, address, city, and state to be stored in separate fields. The dataset has hundreds of malls in it so splitting the entries apart by hand would take a lot of time.  The mall names are bold, which makes it easy to visually distinguish where the mall name stops and the address starts, but not all the addresses begin with numbers, so no standard tool exists for separating the data into different fields. Code can be written that will recognize the bold and plain font weights and peel them apart, but since this is a rare situation, it is likely that you won&rsquo;t have it right at hand. This is a case where you might write code (or have someone write it for you) that you&rsquo;ll never use for this purpose again.</p>
+<p>你需要商場的名字、地址、所在的州和城市，並將其分到不同的欄位中。這個資料集上百個商場，如果以手工操作的方式進行會需要大量時間。 商場的名字被加粗了，這樣從視覺上容易區分商場名字的結束點與地址的起始點，但不是所有的地址都以數字開始，所以沒有標准的方法將它分離到不同欄位。 盡管可以編寫程式，通過區分加粗字體和普通字體的權重將它們分離，但這畢竟是一種罕見的情形，而且你也不太可能手邊就有這樣的程式可以使用。 在這種狀況下，也許你編寫的程式（或者其他人為你編寫程式）永遠不會再次用於這種目的。</p>
 
-<p>We can&rsquo;t teach you everything about how to split data in this chapter since every situation is unique. However, there are some strategies that are useful in many cases. We&rsquo;ll go through a few of these, as well as some common challenges and their sources, to help get you started.</p>
+<p>每種情形都有其獨特之處，因此在本章節我們沒辦法教你關於如何拆解所有資料資訊。 然而，仍然有些處理策略是在大多情形下是有效的。 我們將通過講解其中的一些策略和一些資料准備工作經常會面臨的挑戰及其成因，來幫助你開始學習數據准備。</p>
 
-<h2>Let&rsquo;s Begin</h2>
+<h2>讓我們開始吧</h2>
 
-<p>A straightforward example that many people encounter is separating first names from last names. You may receive a dataset where full names are contained in a single field and you need the first and last names to be separate, or there may already be separate fields for first and last names, but some of the entries have the full name in one of the fields.</p>
+<p>一個簡單的例子就是很多人遇到過的將姓氏與名字區分開來。你也許會得到一個資料集，其中全名在同個欄位下，你需要將姓氏和名字區分開，或者這個數據集包含單獨的姓氏欄位和名字欄位，但一些紀錄中全名出現在其中一個欄位裡。</p>
 
 <table>
 	<tbody>
 		<tr>
-			<td>All in one field:
+			<td>全名在同個欄位下:
 			<table>
 				<tbody>
 					<tr>
@@ -108,7 +108,7 @@
 				</tbody>
 			</table>
 			</td>
-			<td>Two fields, but not all info is in the correct place:
+			<td>兩個欄位, 但並非所有資料在正確欄位:
 			<table>
 				<tbody>
 					<tr>
@@ -146,9 +146,9 @@
 	</tbody>
 </table>
 
-<p>When datasets come to us this way, the challenge is seemingly easy to resolve. There are common ways of pulling apart the first names and last names for Keith, Fumi, and Warren.  The easiest way is to look for the space, break the name apart at the space, and voila!</p>
+<p當我們遇到這類的數據時，問題似乎很好解決。有一些通用的方法將姓氏與名字區分開來（凱斯、福米和沃倫）。最簡單的方法是尋找空格，通過姓名間的空格將其劃分到不同的欄位，瞧！</p>
 
-<p>This is simple enough, but when we add in reality, things get complicated quickly. What if, for instance, your dataset has thousands of records? You&rsquo;ll be spending a lot of time manually separating names, and there are far more potential name combinations than just first and last name.</p>
+<p>這個例子非常簡單，但在實際工作中，我們面對的是更為復雜的情形。例如，你的資料集包含成千上萬的姓名。 手工分離姓名會花費你的大量時間，而且姓名並不僅僅是姓氏和名字那麼簡單，它有更為復雜的組合。</p>
 
 <table>
 	<tbody>
@@ -215,7 +215,7 @@
 	</tbody>
 </table>
 
-<h2>Now what? Let&rsquo;s Make Some Decisions</h2>
+<h2>現在呢? 讓我們來做些決策</h2>
 
 <p>Let&rsquo;s say we&rsquo;re faced with separating the names so that you can sort by last name and that our list has 500 names (too large to consider reformatting by hand).</p>
 
