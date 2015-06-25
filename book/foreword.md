@@ -8,10 +8,12 @@ Sections hidden for Gitbook publishing
   
   <blockquote>
     At the intersection of art and algorithm, data visualization schematically abstracts information to bring about a deeper understanding of the data, wrapping it in an element of awe.
-    <p data-type="attribution"><a href="http://www.businessweek.com/innovate/content/aug2009/id20090811_137179.htm" target="_blank">Maria Popova, Stories for the Information Age, Businessweek</a></p>
+    「計算與藝術的交融互涉，將資料視覺化是將資訊約略抽象帶著敬畏的態度將其包裝整飾，讓人能夠更深入的理解這些資料。」Maria Popova，。
+<p data-type="attribution"><a href="http://www.businessweek.com/innovate/content/aug2009/id20090811_137179.htm" target="_blank">Maria Popova, Stories for the Information Age, Businessweek</a></p>
   </blockquote>
 
-  <p>My favorite description of data visualization comes from the prolific blogger, Maria Popova, who said that data visualization is &ldquo;at the intersection of art and algorithm.&rdquo; To learn about the history of data visualization is to become an armchair cartographer, explorer, and statistician.</p> 
+  <p>My favorite description of data visualization comes from the prolific blogger, Maria Popova, who said that data visualization is &ldquo;at the intersection of art and algorithm.&rdquo; To learn about the history of data visualization is to become an armchair cartographer, explorer, and statistician.
+  對於資料視覺化的描述，我偏好善寫的部落客Maria Popova所說的「計算與藝術的交融互涉」。要瞭解資料視覺化的歷史，需要成為扶手椅上的製圖師、發掘者和統計學家。</p> 
   
   <p>Early visual explorations of data focused mostly on small snippets of data gleaned to expand humanity&rsquo;s understanding of the geographical world, mainly through maps. Starting with the first recognized world maps of the 13th century, scientists, mathematicians, philosophers, and sailors used math to visualize the invisible. Stars and suns were plotted, coastlines and shipping routes charted. Data visualization, in its native essence, drew the lines, points, and coordinates that gave form to the physical world and our place in it. It answered questions like &ldquo;Where am I?&rdquo;, &ldquo;How do I get there?&rdquo;, and &ldquo;How far is it?&rdquo;</p>
 
