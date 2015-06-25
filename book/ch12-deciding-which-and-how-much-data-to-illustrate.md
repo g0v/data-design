@@ -292,7 +292,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Let&rsquo;s discuss two possible narratives that you could create from this dataset: &ldquo;Children&rsquo;s Intelligence Limited by Adoptive Parents&rsquo; SES,&rdquo; and &ldquo;Adopted Children&rsquo;s Intelligence Influenced by Both Biological And Adoptive Parents&rsquo; SES&rdquo;.</p>
 
-<p>我們來討論(藉由)這些資料集可以得到的兩個可能的敘述:&ldquo;兒童的智力受限於養父母的社會經濟地位(SES)&rdquo;和&ldquo;受領養兒童的智力受生父母與養父母的社會經濟地位(SES)影響&rdquo;。</p>
+我們來討論(藉由)這些資料集可以得到的兩個可能的敘述:&ldquo;兒童的智力受限於養父母的社會經濟地位(SES)&rdquo;和&ldquo;受領養兒童的智力受生父母與養父母的社會經濟地位(SES)影響&rdquo;。
 
 <h3>Children&rsquo;s Intelligence Limited by Adoptive Parents&rsquo; SES</h3>
 ###兒童的智力受限於養父母的社會經濟地位(SES)
@@ -307,15 +307,19 @@ Section tag replaced with div for Gitbook publishing
 ###受領養兒童的智力受生父母與養父母的社會經濟地位(SES)影響
 
 <p>A little more boring of a title, but far more accurate. When we include both the adoptive and biological parents&rsquo; SES we get a much better picture of the impact that each has on the child&rsquo;s I.Q. Specifically, we see:</p>
+(這)一個無聊的標題，但是非常精準。當我們(同時考慮)養父母與生父母的社經地位(SES)時，我們取得更淺顯易懂針對每種兒童(的資訊)，(讓)我們看看(這張圖):
 
 <figure><img alt="High and low IQ scores" src="../images/sections/05/adoptive-table.png" /></figure>
 ![IQ高低分配](../images/sections/05/adoptive-table.png)
 
 <p>So, more correctly, a child&rsquo;s I.Q. is a function of both his or her biological and adoptive parents&rsquo; socioeconomic status. If both have a high SES, the child&rsquo;s I.Q. will tend to be the highest. If one has a high SES and the other a low SES (it doesn&rsquo;t matter which set of parents has which), the child will typically have an average I.Q. And finally, if both have a low SES, the child will tend to have a below-average I.Q.</p>
 
+所以，更確切地說，孩子的智商(IQ)是他們的生父母與養父母社經地位(SES)的函數。如果兩者(都具)較高的社經地位，則孩子的智商將高於平均值。如果其中一方較高而另外一方較低(無論那邊的父母(都一樣))，孩子通常是一個平均智商。最後，如果兩者都是較低的社經地位(SES)，則孩子(的智商)將將低於平均值。
+
 <p>Our first example is a clear illustration of what happens when you create a story based on what you want to say, and not what the data say. Unfortunately, applications of data such as this are neither uncommon nor farfetched. We see this done on the news and during casual conversation. The omission of key facts and related variables creates a visual that is full of misinformation. It lacks credibility and presents obvious biases. The second instance presents far less outright bias, is a plausible story based on the data available, presents context, introduces all variables, and explains how the variables are connected. Although it will usually result in a less-sensationalized title, a full presentation of all relevant data is the only way to maintain a credible and airtight argument.</p>
 
 ##Deciding How Much Data to Illustrate
+##決定哪些資料(被)呈現
 
 <p>In previous sections we&rsquo;ve gone over how to determine a key message, the importance of identifying the audience, and a process for isolating facts to illustrate. We can work on determining how much of our data we need to visualize.</p>
 
