@@ -2,12 +2,13 @@
 Sections hidden for Gitbook publishing
   <section data-type="foreword">-->
 <h1>Foreword</h1>
-  <p>D資料遍佈生活周遭，從古迄今皆是如此。歷史載明的一切都有量化的可能：理論上，可以算數曾活在世上的人們，心跳數，曾經踩過的步伐，曾經閃耀過的星星，曾經口語表達或書寫紀錄的字詞。每一個被歷史撿取記載的事物都能以數字呈現。直到不久前，吾輩才擁有技術將這些隱藏的數字予以有效果地呈現，導引我們至人類處境的深刻洞見。</p>
+  <p>資料遍佈生活周遭，從古迄今皆是如此。歷史載明的一切都有量化的可能：理論上，可以算數曾活在世上的人們，心跳數，曾經踩過的步伐，曾經閃耀過的星星，曾經口語表達或書寫紀錄的字詞。每一個被歷史撿取記載的事物都能以數字呈現。直到不久前，吾輩才擁有技術將這些隱藏的數字予以有效果地呈現，導引我們至人類處境的深刻洞見。</p>
 
   <p>這到底意謂著什麼？容易接受資料的文化影響為何？這表達了一件事，我們需要更進一步資料識讀的能力。這也意謂我們必須更多設計識讀的能力。俗諺曾謂，統計會說謊。嗯，資料視覺化也同樣會說謊。首先，如何學會有效判讀視覺化的資料？其次，如何以合乎倫理且清楚的方式傳達資料所包涵承繼的內容？</p>
   
   <blockquote>
     At the intersection of art and algorithm, data visualization schematically abstracts information to bring about a deeper understanding of the data, wrapping it in an element of awe.
+    
     「計算與藝術的交融互涉，將資料視覺化是將資訊約略抽象帶著敬畏的態度將其包裝整飾，讓人能夠更深入的理解這些資料。」Maria Popova，。
 <p data-type="attribution"><a href="http://www.businessweek.com/innovate/content/aug2009/id20090811_137179.htm" target="_blank">Maria Popova, Stories for the Information Age, Businessweek</a></p>
   </blockquote>
