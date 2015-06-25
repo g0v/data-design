@@ -1,28 +1,28 @@
 <section class="green" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/04/spreadsheet.png" /></div>
-  <p>Chapter 7</p>
-  <h1>Getting Data Ready for Cleaning</h1>
-  <p data-type="author">By Oz du Soleil</p>
+  <p>第七章</p>
+  <h1>準備好你的資料讓它可被使用</h1>
+  <p data-type="author">By Oz du Soleil (roliroli 譯)</p>
 </header>
 
 <section data-type="sect1">
-<p>One aspect of data that is difficult both to learn and to teach is how to get your data in shape so that it&rsquo;s useful. There are a few common preparation tasks that you might encounter when working with data, especially if you&rsquo;re handling data someone else collected. While we can use computers to perform many of the actions required for <a class="glossterm" target="_blank" href="glossary01.html#preparation-data">data preparation</a>, there is a certain amount of manual involvement in figuring out exactly which tasks need to be done. For this reason, many people admittedly hate this part of working with data, but someone has to clean this stuff up!</p>
+<p>從一個觀點上來看資料，該如何整理你的資料，好讓它成為可使用的資料，這件事情是難以學習和教導的。 當在處理資料時，你可能很常會遭遇到需要特別手法處理的資料。尤其是你正在處理別人所蒐集的資料，只有少部分的工作是共通的。 雖然許多 <a class="glossterm" target="_blank" href="glossary01.html#preparation-data">資料準備</a></a>的動作可以藉由電腦來代勞，但仍然有可觀數量的處理工作是需要經由人工判斷來決定哪些工作需要被執行。 因為這個原因，許多人都相當痛恨這個部份的工作，不過還是需要有個人來完成這項工作!</p>
 
-<p>Whether you&rsquo;re a highly-paid data analyst with billions of records or a 1-person business with a 90-person contact list, you&rsquo;ll be faced with messy data at some point. Unfortunately, data preparation isn&rsquo;t a straightforward task and there&rsquo;s no one right way to go about doing it. Each dataset is unique and some techniques may be used just once in a lifetime, as you&rsquo;ll see in the examples below.</p>
+<p>無論你是一個應對數十億筆資料的高收入數據分析師，還是一個只有90個聯系人名單的個人工作者，你都會在某個時候遇到凌亂的數據。 不幸的是，數據準備不是一個直覺性的任務，而且沒有一個絕對準確的方式進行。 每一個數據集都有其獨特之處，也許有些處理技巧在你的一生中，只會用到一次，正如下面你將會看到的例子。</p>
 
 
-<h2>Separating Data</h2>
+<h2>資料分離</h2>
 
-<p>The first part of data preparation is separating data into the fields that will be most useful to you.</p>
+<p>在資料準備的第一步最有用的方法就是將資料拆成各個不同的屬性欄位。</p>
 
-<p>Have you ever been given a dataset where you couldn&rsquo;t directly access the information you needed? Maybe complete addresses were in a single field, preventing you from getting statistics about specific cities and states. Perhaps a vendor sent an inventory spreadsheet with 6000 numbered parts but their numbering system includes the warehouse code followed by the part number and you need the part numbers by themselves.</p>
+<p>你是否曾經有過沒辦法直接從資料集裡取得你所需要的資訊的經驗? 也許是因為完整的地址都塞在同一個欄位，使得你沒有辦法對於特定的城市(City)或是州(State)進行數據統計。 也有可能是一個供應商給了你一張有6000個領件的清單，但是他們的編號系統中包含了 倉儲編號(warehouse code) 和 零件編號(part number) ，但你實際需要的只有零件編號。</p>
 
 <table>
 	<tbody>
 		<tr>
-			<th>You Want</th>
-			<th>They Provide</th>
+			<th>您所想要的</th>
+			<th>他們提供的</th>
 		</tr>
 		<tr>
 			<td>C77000S</td>
@@ -39,7 +39,7 @@
 	</tbody>
 </table>
 
-<p>Consider the challenges presented in the dataset below:</p>
+<p>試著思考處理下面資料集的挑戰:</p>
 
 <table>
 	<tbody>
