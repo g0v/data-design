@@ -9,7 +9,7 @@ Sections hidden for Gitbook publishing
   <blockquote>
     At the intersection of art and algorithm, data visualization schematically abstracts information to bring about a deeper understanding of the data, wrapping it in an element of awe.
     
-    「計算與藝術的交融互涉，將資料視覺化是將資訊約略抽象帶著敬畏的態度將其包裝整飾，讓人能夠更深入的理解這些資料。」Maria Popova，。
+    「計算與藝術的交融互涉，將資料視覺化是將資訊約略抽象帶著敬畏的態度將其包裝整飾，讓人能夠更深入的理解這些資料。」Maria Popova， Stories for the Information Age, Businessweek。
 <p data-type="attribution"><a href="http://www.businessweek.com/innovate/content/aug2009/id20090811_137179.htm" target="_blank">Maria Popova, Stories for the Information Age, Businessweek</a></p>
   </blockquote>
 
