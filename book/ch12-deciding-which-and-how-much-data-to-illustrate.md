@@ -83,10 +83,12 @@ Section tag replaced with div for Gitbook publishing
 
 <p>You can begin the process by expanding your key message into a narrative or story. Our goal is to present a sequence or set of facts which gradually leads your audience to the key message. The data you choose to illustrate should set the context, establish the main points of interest, and explain how these are interconnected. Be intentional in what you present, but do not censor data to further your argument. Your visual story should be based on what the data&mdash;and not only what you want to&mdash;say.</p>
 
+
+您可以開始進行這階段的工作,(藉由)將您的關鍵訊息擴展成敘述或故事(開始)。我們的目標是呈現一系列或遺族事實以逐漸引導你的觀眾(了解您的)關鍵訊息。你所選擇的呈現資料應(具)上下文關聯，建立(讓人感興趣的)主要的(觀)點，並解釋他們是如何互相關聯的。有意圖地呈現你(所想呈現)的(論點)，但切勿過度解釋(你的論點)。你(所呈現的)視覺故事應該是基於**資料**而不僅僅是您想 **說**甚麼而已
+
+
 <p>Take, for example, the following table presenting the I.Q. scores of children who were adopted at a young age and the socioeconomic status (based on income and occupation) of both their adoptive and birth parents. These data are taken from C. Capron and M. Duyme&rsquo;s 1989 study, &ldquo;Children&rsquo;s IQs and SES of Biological and Adoptive Parents in a Balanced Cross-Fostering Study,&rdquo; published in the <em>European Bulletin of Cognitive Psychology</em>.</p>
 
-<ref link:https://zh.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E7%BB%8F%E6%B5%8E%E5%9C%B0%E4%BD%8D>
-<ref link: https://en.wikipedia.org/wiki/Socioeconomic_status>
 
 舉例來說，下表描述了兒童時期被收養的孩童智商(I.Q)與養父母、生父母[社會經濟地位(socioeconomic status)](https://zh.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E7%BB%8F%E6%B5%8E%E5%9C%B0%E4%BD%8D)(譯者案:簡稱社經地位，英文縮寫SES)(指基於收入和職業的評量)(的關係)。這些參考自 C. Capron 和 M. Duyme&rsquo;s 在1989的研究, &ldquo;Children&rsquo;s IQs and SES of Biological and Adoptive Parents in a Balanced Cross-Fostering Study,&rdquo; 發表於 *European Bulletin of Cognitive Psychology*。
 
@@ -299,6 +301,8 @@ Section tag replaced with div for Gitbook publishing
 
 <p>We can create a story supporting the first message by solely looking at the adoptive parents&rsquo; socioeconomic status: children of those adoptive families with a high SES had a mean I.Q. of nearly 112 whereas those adopted by a low SES family had a mean I.Q. of 99. But, this narrative would only include half of the relevant information: it leaves out entirely the SES of the child&rsquo;s biological parents. Understandably, this could play just as big a role as the family&rsquo;s socioeconomic status would likely impact the level and quality of prenatal care, and, in turn, the in utero development of the child.</p>
 
+<p>我們可以創立一個故事以支持第一個論點--僅藉由觀看養父母的社會經濟地位(SES):這些被收養的孩子(因)養父母擁有較高的社經地位(SES)而平均智商接近於112，而養父母(若)較低的社經地位(SES)則(孩子的)平均智商為99。但是，這樣的陳訴只包括了一半相關的訊息(量):(這)完全忽略了孩子的生父母。可以理解的是，家庭的社會經濟地位對於產前胎教的水準與質量扮演(者)很大的角色，(進一步低說,)(影響到)在母體中的胎兒。</p>
+
 
 <figure><img alt="IQ by adoptive parent SES" src="../images/sections/05/childIQ.png" /></figure>
 ![以養父母社經地位區識](../images/sections/05/childIQ.png)
@@ -318,22 +322,40 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Our first example is a clear illustration of what happens when you create a story based on what you want to say, and not what the data say. Unfortunately, applications of data such as this are neither uncommon nor farfetched. We see this done on the news and during casual conversation. The omission of key facts and related variables creates a visual that is full of misinformation. It lacks credibility and presents obvious biases. The second instance presents far less outright bias, is a plausible story based on the data available, presents context, introduces all variables, and explains how the variables are connected. Although it will usually result in a less-sensationalized title, a full presentation of all relevant data is the only way to maintain a credible and airtight argument.</p>
 
+<p>我們的第一例子非常清楚地呈現發生了甚麼事情--當你創立了一個故事(是)基於你想說的(論點),而不是數據想說的(論點)。 很遺憾的是，資料的運用(就像這樣)即不罕見也不(如此)牽強附會。我們可以在新聞和閒談中(看到這些現象)。關鍵事實與相關變化因素(variables)的遺漏創建了一個充滿錯誤訊息的視覺(資料)。它缺乏公性力(credibility)並存在明顯的偏見(biases)。第二個例子則遠遠少了明顯的偏見，是一個基於可用數據的合理故事，(所)呈現的內容介紹了所有的變化因素(variables)，並解釋這些變化因素(variables)是如何被連結的。雖然它的結果往往是一個不太煽情的標題，(將)所有相關資料(做成)一個完整的報告是唯一一種方法(可以)維持可信度(credible)和嚴謹論點(airtight argument)</p>
+
 ##Deciding How Much Data to Illustrate
 ##決定哪些資料(被)呈現
 
 <p>In previous sections we&rsquo;ve gone over how to determine a key message, the importance of identifying the audience, and a process for isolating facts to illustrate. We can work on determining how much of our data we need to visualize.</p>
 
+<p>在前面的章節中，中我們已經討論了如何確定關鍵訊息，重點在於分辨觀眾(的不同)以及(將完全)不同的事實轉換為圖示說明。我們可以(進行)決定多少資料需要轉換成視覺呈現的工作(了)。</p>
+
 <p>If illustrating data is supposed to make information more digestible, then care should be taken not to present more than the audience expects, or more than they need to be able to understand your message. As you decide how much data to illustrate, keep in mind the idea that more is not always synonymous with better unless it&rsquo;s meaningful and presented in support of your key message. In most instances, your visuals will be taken as part of a narrative, contents in a storehouse, or maybe a combination of both.</p>
+
+如果資料圖示應該讓資訊更易理解，那麼(就要)注意應採取不要過度解釋(而)超過觀眾的期望，或(你的訊息)超出他們所能理解(的範圍)。當你決定要(使用)多少的圖示(來呈現)，(請)記住這個觀念: **多** 並非總是 **好** 的同義詞，除非它是有意義的，並且支撐著你的關鍵訊息。在大多數的案例中，你(所想呈現)的視覺效果應採取一段敘述、智庫內容(所取代)，或者結合兩者。
+
 
 <p>As previously discussed, a narrative is a simply a story presenting a sequence of facts which gradually lead your audience to the key message. When you think of the narrative, think of written reports, PowerPoint presentations, and individual articles in newspapers and magazines or online. You want to illustrate just enough data for your audience to easily identify and understand your perspective without becoming exhausted. Each illustration should have a specific purpose. Avoid including visuals simply because they impress. As a test, try removing one or more illustrations or rearranging the presentation order. Does your narrative still make sense? Each illustration should stand alone, without too much verbal or written explanation, but if it doesn&rsquo;t add to the audience&rsquo;s understanding, it&rsquo;s probably not needed.</p>
 
+
+如前文(所)討論，敘事(narrative)是一種(將)序列化的事實呈現為簡單的故事並藉此逐漸引領你的聽眾(了解)你的關鍵訊息。當你考慮(想用)敘事(narrative)(呈現時),(請)想想(or參考)書面報告，PPT簡報，報章雜誌或者網路上的個別文章。你為想(達到)不需要精疲力盡(就)可以讓你的觀眾輕易辨識和了解你的觀點(而)使用充裕的圖檔(illustrate)。每一個圖檔(illustration)應該有一個特定的目的(purpose)。避免包含簡易的視覺因為(為了使得)他們留下深刻映像。作個實驗，嘗試刪除一個或者數個圖檔(illustrations)或重新編排您報告的順序。你的敘事(narrative)仍然有意義嗎? 每個圖檔(illustration)應該各自獨立，不需要太多口頭或書面的解釋，但是如果它沒有增加你的觀眾了解(你的論點)，(那麼)它可能是不需要的(圖檔)。
+
 <p>For the audience members wanting more, you can always provide links or references to additional takes on your data along with detailed commentary to contextualize and further explain the information. If you&rsquo;d like to impress a technically savvy audience, a graphical appendix could be even be shared as a <a href="https://github.com/" target="_blank">GitHub</a> repository or a gallery of code gists hosted on <a href="http://bl.ocks.org/" target="_blank">bl.ocks.org</a>.</p>
+
+針對(那些)意猶未盡的觀眾，你可以隨時提供額外的連結或參考資料在你的資料上，連同詳細解說整個脈絡與進一步解釋資訊。如果你想給一個精通技術的觀眾留下深刻印象，(可以參考)一些被分享在[GitHub](https://github.com/)的圖像附錄或參考位於[bl.ocks.org](http://bl.ocks.org/)上的代碼範例。
 
 <p>A storehouse, on the other hand, can be thought of as an information repository. Usually consisting of multiple narratives and stand-alone content, this is an example of when more can be better. Unlike those of a narrative, storehouse visitors are less susceptible to data fatigue. They respond well to large quantities of data because they expect to spend time building or enhancing their understanding of a topic. The storehouse doesn&rsquo;t need to focus on presenting a single message. Its audience seeks new treatments of data, a diversity of perspectives, and various dissections of a topic or content area. In the storehouse scenario, the main criterion for deciding how much data to illustrate should be whether something will create redundancy. If your illustration fails to add something new to the mix or to expand on a topic, it can likely be omitted.</p>
 
+智庫(storehouse)，在另一個方面，可以被當作是一個訊息的倉庫，通常由多個敘事(narratives)和獨立的內容(所組成),這是一個越多越好的例子。不像那些單一的敘事(narrative)，訪問智庫(storehouse)不太容易感受到資料疲乏(data fatigue)。他們對於大量量體(quantities)的資料有較好的反應(respond)因為他們預計花費時間去建置或增強他們理解這個議題(topic)。智庫(storehouse)不需要在單一的訊息上聚焦。它的觀眾在尋覓資料的新解法(treatments)，觀點的多樣性(diversity)，以及一個主題或區域內容的各種剖析(dissections)。在智庫(storehouse)的場景中，決定需要圖像化(illustrate)的資料多寡的主要標準是創立這些東西是否(將造成)冗餘性(redundancy)。如果你的圖檔(illustration)無法新增一些新的(效果)以混合或解釋所談的話題，(那麼)它可能需要被忽略。
+
+
 <p>To exemplify, let&rsquo;s imagine a cinephile and store manager. Both are browsing a blog filled with upcoming movie release dates, reviews, and critiques of directors. The cinephile spends hours on the site, soaking up each and every visual and reading through its content. The manager simply wants to know what popular movies he should order for the next holiday season. The manager probably wouldn&rsquo;t want to spend hours trying to find his answer. For our cinephile, more is better; for the manager, less is more.</p>
 
+舉例說明，讓我們想像一個電影愛好者([cinephile](https://en.wikipedia.org/wiki/Cinephilia))和一個店經理(store manager)。同時瀏覽一個充滿即將上映電影的上映日期，影評以及導演評論的部落格(blog)。電影愛好者(cinephile)花了數小時在這個網站上。浸淫每一個視覺內容並讀取其內容。(而)店經理只想知道那部是熱門電影好讓他在下個假期(前)訂購。店長大概不會想花數小時(來)試圖找到他想要的答案。(所以)對電影愛好者(cinephile)(而言)，(資料)越多越好，對店長(manager)(而言),少即是多。
+
 ##Editing and Revising
+##編輯與矯正
 
 <p>Here&rsquo;s a frequent and frustrating occurrence: you did your brainstorming, made a bunch of visualizations, and edited down to the best subset to include in your project. You were careful not to overwhelm your audience and you made sure that your illustrations covered the most important key points without being redundant.</p>
 
