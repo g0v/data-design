@@ -15,6 +15,7 @@ Sections hidden for Gitbook publishing
   </blockquote>
 
   <p>My favorite description of data visualization comes from the prolific blogger, Maria Popova, who said that data visualization is &ldquo;at the intersection of art and algorithm.&rdquo; To learn about the history of data visualization is to become an armchair cartographer, explorer, and statistician.
+  
   對於資料視覺化的描述，我偏好善寫的部落客Maria Popova所說的「計算與藝術的交融互涉」。要瞭解資料視覺化的歷史，需要成為扶手椅上的製圖師、發掘者和統計學家。</p> 
   
   <p>Early visual explorations of data focused mostly on small snippets of data gleaned to expand humanity&rsquo;s understanding of the geographical world, mainly through maps. Starting with the first recognized world maps of the 13th century, scientists, mathematicians, philosophers, and sailors used math to visualize the invisible. Stars and suns were plotted, coastlines and shipping routes charted. Data visualization, in its native essence, drew the lines, points, and coordinates that gave form to the physical world and our place in it. It answered questions like &ldquo;Where am I?&rdquo;, &ldquo;How do I get there?&rdquo;, and &ldquo;How far is it?&rdquo;</p>
