@@ -217,22 +217,22 @@
 
 <h2>現在呢? 讓我們來做些決策</h2>
 
-<p>Let&rsquo;s say we&rsquo;re faced with separating the names so that you can sort by last name and that our list has 500 names (too large to consider reformatting by hand).</p>
+<p>假設現在我們有個 500 名字的清單面臨需要分離名字（數量大到難以人工進行操作），之後就能夠以姓氏進行分類。</p>
 
-<p>Before starting, we need to know certain things:</p>
+<p>在開始之前，我們需要弄清一些事情：</p>
 
 <ul>
-	<li>Why is it important to parse this specific field? Is anything being hurt by having names all in one field?</li>
-	<li>What do we want the result to look like?
+	<li>為什麼解析這個姓名欄位是如此的重要？如果姓氏跟名字在同一個欄位中，有任何不好的影響嗎？</li>
+	<li>我們想要看到怎樣的結果？
 	<ul>
-		<li>Is it important to keep &lsquo;Rev.&rsquo; and create a separate field to hold other titles like Dr., Mrs., Capt., etc.?</li>
-		<li>Should &lsquo;Jr&rsquo; stay with the last name or should there be a separate field for it?</li>
-		<li>Should middle initials be kept? In their own field? With the first name? With the last name?</li>
-		<li>Do we want to keep professional designations?</li>
+		<li>保留敬稱是否重要，以及是否該特別建立一個欄位來存放博士、夫人、上尉...等這樣的敬稱？</li>
+		<li>小”（Jr）是否應該姓氏保留在同一欄內，還是建立獨立的欄位？</li>
+		<li>是否要保留中間名字的縮寫？或是建立中間姓名的單獨欄位，還是將它與名字放在一起，或與姓氏放在一起？</li>
+		<li>我們是否要保存職業資訊？</li>
 	</ul>
 	</li>
-	<li>Is it worth the cost of getting it done? In simple cases, you may be able to hire someone else to complete the work, but this might not be ideal for complicated ones. What if a professional said they could fix the list for $1000?</li>
-	<li>What do we do with incomplete or incorrect entries?</li>
+	<li>做這些事情是否值得？對於簡單案例，你可能可以僱用某人來完成這樣的工作，但是這對於複雜的案例可能不是理想的解決方法。萬一有一個專業人士說他可以用 1000 美元的價格來處理這份清單呢？</li>
+	<li>我們該如何處理不完整和不正確的項目？</li>
 </ul>
 
 <p>These questions should be answered before you start working with your data. If you just dive in, you can create a larger mess, and these decisions can actually make the process much easier. For example, if you decide that the professional designations don&rsquo;t matter, there might be an easy way to get rid of them and simplify other parts of the project.</p>
