@@ -10,9 +10,9 @@ Section tag replaced with div for Gitbook publishing
 </header>
 
 <!--<section data-type="sect1">-->
-<p>Now that you have a prepped dataset, you&rsquo;re ready to get it clean. What does that mean though? What exactly are clean data and what do we have to do get them that way?</p>
+<p>現在你手上有一個資料組(dataset)，你準備好清理它了。但這是什麼意思呢？資料清理(data cleaning)具體而言是什麼意思，我們又要如何進行呢？Now that you have a prepped dataset, you&rsquo;re ready to get it clean. What does that mean though? What exactly are clean data and what do we have to do get them that way?</p>
 
-<p>Well, when we clean data, we&rsquo;re going through and identifying incorrect information &mdash; wrong numbers, misspellings, etc. &mdash; and deciding whether to correct them (if they are correctable) or to remove them altogether. Like in data preparation, many <a class="glossterm" target="_blank" href="glossary01.html#cleaning-data">data cleaning</a> tasks are a combination of computerized tasks and manual work, since it is important for you to review the potential errors the computer identifies to see if they are, in fact, errors. Some of the items your computer flags as problems may turn out to just be extreme observations so it&rsquo;s critical that you remain involved in the process. Don&rsquo;t just automate it all or you risk the possibility of deleting valid data! </p>
+<p>當我們清理資料時，我們將檢查並辦別出不正確的資訊，像是錯誤的數字或是錯字等，然後決定是否要修正它們(如果它們可以被修正)，或是直接刪除它們。如同資料準備的過程 很多資料清理的任務包含了電腦計算和手動的步驟。Well, when we clean data, we&rsquo;re going through and identifying incorrect information &mdash; wrong numbers, misspellings, etc. &mdash; and deciding whether to correct them (if they are correctable) or to remove them altogether. Like in data preparation, many <a class="glossterm" target="_blank" href="glossary01.html#cleaning-data">data cleaning</a> tasks are a combination of computerized tasks and manual work, since it is important for you to review the potential errors the computer identifies to see if they are, in fact, errors. Some of the items your computer flags as problems may turn out to just be extreme observations so it&rsquo;s critical that you remain involved in the process. Don&rsquo;t just automate it all or you risk the possibility of deleting valid data! </p>
 
 <h2>So What Do We Do?</h2>
 
