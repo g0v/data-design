@@ -5,28 +5,28 @@ Section tag replaced with div for Gitbook publishing
 <header>
   <div class="icon"><img src="../images/sections/04/cleaning.png" /></div>
   <p>Chapter 8</p>
-  <h1>Data Cleaning</h1>
+  <h1>資料清理Data Cleaning</h1>
   <p data-type="author">By Marit Brademann and Dyanna Gregory</p>
 </header>
 
 <!--<section data-type="sect1">-->
-<p>現在你手上有一個資料組(dataset)，你準備好清理它了。但這是什麼意思呢？資料清理(data cleaning)具體而言是什麼意思，我們又要如何進行呢？Now that you have a prepped dataset, you&rsquo;re ready to get it clean. What does that mean though? What exactly are clean data and what do we have to do get them that way?</p>
+<p>現在你手上有一個資料組(dataset)，你準備好清理它了。但這是什麼意思呢？資料清理(data cleaning)具體而言是什麼，我們又要如何進行呢？Now that you have a prepped dataset, you&rsquo;re ready to get it clean. What does that mean though? What exactly are clean data and what do we have to do get them that way?</p>
 
-<p>當我們清理資料時，我們將檢查並辦別出不正確的資訊，像是錯誤的數字或是錯字等，然後決定是否要修正它們(如果它們可以被修正)，或是直接刪除它們。如同資料準備的過程 很多資料清理的任務包含了電腦計算和手動的步驟。Well, when we clean data, we&rsquo;re going through and identifying incorrect information &mdash; wrong numbers, misspellings, etc. &mdash; and deciding whether to correct them (if they are correctable) or to remove them altogether. Like in data preparation, many <a class="glossterm" target="_blank" href="glossary01.html#cleaning-data">data cleaning</a> tasks are a combination of computerized tasks and manual work, since it is important for you to review the potential errors the computer identifies to see if they are, in fact, errors. Some of the items your computer flags as problems may turn out to just be extreme observations so it&rsquo;s critical that you remain involved in the process. Don&rsquo;t just automate it all or you risk the possibility of deleting valid data! </p>
+<p>清理資料時，我們檢查並辦別出不正確的資訊，像是錯誤的數字或是錯字等，然後決定是否要修正它們(如果它們可以被修正)，或是直接刪除它們。如同資料準備的過程，許多Well, when we clean data, we&rsquo;re going through and identifying incorrect information &mdash; wrong numbers, misspellings, etc. &mdash; and deciding whether to correct them (if they are correctable) or to remove them altogether. Like in data preparation, many <a class="glossterm" target="_blank" href="glossary01.html#cleaning-data">資料清理data cleaning</a> 的任務同時包含電腦計算和人工步驟，尤其重要的是，我們需要進一步檢查電腦所指認出來的可能錯誤是否真的為誤。有些電腦判斷為有問題的資料，可能只是較極端的數據，所以你應該持續參與資料清理的過程，不要讓電腦獨自運作，否則有用的資料可能被刪除！tasks are a combination of computerized tasks and manual work, since it is important for you to review the potential errors the computer identifies to see if they are, in fact, errors. Some of the items your computer flags as problems may turn out to just be extreme observations so it&rsquo;s critical that you remain involved in the process. Don&rsquo;t just automate it all or you risk the possibility of deleting valid data! </p>
 
-<h2>So What Do We Do?</h2>
+<h2>如何清理資料So What Do We Do?</h2>
 
-<p>Let&rsquo;s start with some of the most basic data cleaning procedures. We&rsquo;re going to use Excel for many of these these examples, but you can use any spreadsheet or data manipulation software to perform these procedures. A list of programs is available in the <a href="app01.html">Appendix</a>.</p>
+<p>讓我們從一些最基本的資料清理步驟開始。接下來將用excel為例，但你也可以使用其它的制表軟體或是資料處理軟體來進行以下步驟。常用的程式列在Let&rsquo;s start with some of the most basic data cleaning procedures. We&rsquo;re going to use Excel for many of these these examples, but you can use any spreadsheet or data manipulation software to perform these procedures. A list of programs is available in the <a href="app01.html">附件</a>中.</p>
 
 <h2>Range Checks</h2>
 
-<p><a class="glossterm" target="_blank" href="glossary01.html#check-range">Range checks</a> are a very straightforward procedure that we use on numeric fields to see if any values in the dataset are above or below the most extreme acceptable values for that variable. Let&rsquo;s use an example of homework scores. Pretend that you&rsquo;re a college professor and your teaching assistants entered the first set of homework scores for the semester. You want to make sure they entered everything correctly, so you go into the dataset and sort by the column that contains the scores for the first homework, graded on a scale of 0-100. You see the first few rows:</p>
+<p><a class="glossterm" target="_blank" href="glossary01.html#check-range">檢查資料範圍(Range checks)</a> 是非常簡單明瞭的步驟，用來檢查數值資料組中的資料是否在位於最極端且可接受的數值範圍內。以下面的作業成績為例。假想你是一位大學教授，而你的助教輸入了學生們這學期的作業成績。你想要確保成績輸入無誤，因此你打開資料，並把第一個作業的成績(依1-100評分)該欄依大小排列。前幾排顯示如下： are a very straightforward procedure that we use on numeric fields to see if any values in the dataset are above or below the most extreme acceptable values for that variable. Let&rsquo;s use an example of homework scores. Pretend that you&rsquo;re a college professor and your teaching assistants entered the first set of homework scores for the semester. You want to make sure they entered everything correctly, so you go into the dataset and sort by the column that contains the scores for the first homework, graded on a scale of 0-100. You see the first few rows:</p>
 
 <table>
 	<tbody>
 		<tr>
-			<th>Student ID</th>
-			<th>HW 1 Score</th>
+			<th>學生ID</th>
+			<th>作業一成績</th>
 		</tr>
 		<tr>
 			<td>679372531</td>
@@ -47,16 +47,16 @@ Section tag replaced with div for Gitbook publishing
 	</tbody>
 </table>
 
-<p>There is a score of 980, so one of the TAs probably accidentally typed a zero after a score that should have been 98. You would want to flag the record and ask the TAs what the actual score should have been. </p>
+<p>這裡有一個成績顯示為980分，很可能是助教不小心在98後面誤打了0。你應該標記它並且向你的助教確認正確的成績。There is a score of 980, so one of the TAs probably accidentally typed a zero after a score that should have been 98. You would want to flag the record and ask the TAs what the actual score should have been. </p>
 
-<p>Visual scans of data during range checks can also reveal other potential problems even within the official bounds of the data:</p>
+<p>即使所有數值都在正常的範圍內，用檢視的方式進行資料範圍檢查，也可能透露其它可能的問題，。Visual scans of data during range checks can also reveal other potential problems even within the official bounds of the data:</p>
 
 
 <table>
 	<tbody>
 		<tr>
-			<th>Student ID</th>
-			<th>HW 1 Score</th>
+			<th>學生ID</th>
+			<th>作業一成績</th>
 		</tr>
 		<tr>
 			<td>674472019</td>
