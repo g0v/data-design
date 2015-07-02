@@ -91,7 +91,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>另一個較為進階的資料檢查是Another slightly more advanced type of data check involves <a class="glossterm" target="_blank" href="glossary01.html#matching-pattern">樣式比對(pattern matching)</a>。這種檢查法可以用來檢查諸如email地址的欄位。這種方法涉及正規表示法(regular expressions，又作regex)，這是一種表達方式，能讓電腦知道：「在這欄中我只要符合某種特定樣式的資料，所有不符合的都標示出來。」告訴電腦你要的樣式為何依不同程式而方法不一，如果你從未寫過這樣的程式，你可能會覺得它看起來有些複雜。如果你曾經在程式中寫過「＊」作為萬用字元來搜尋，那正是正規表示法，你已經認識它了。This is the sort of check that you can use, for example, to make sure all the entries in a field are an email address. This involves something called regular expressions (often shortened to regex), which give you a way of telling the computer, &ldquo;I only want things that look like {this} to be stored in that variable. Tell me if something in there doesn&rsquo;t look like {this}.&rdquo; The way that you indicate what {this} should be varies from program to program and can look a little complicated if you&rsquo;ve never worked with it before. If you have ever used an asterisk (*) as a wildcard for searching, that&rsquo;s actually part of a regex expression, so you already know a piece of it! </p>
 
-<p>There are also pattern matching options in Excel and some advanced filter options that sometimes work even better. Check the <a href="app01.html" target="_blank">resources section</a> for links to more on regex and Excel filters and pattern matching.</p>
+<p>在Excel中也有樣式比對的選項，和一些十分有用的進階篩選功能。參考There are also pattern matching options in Excel and some advanced filter options that sometimes work even better. Check the <a href="app01.html" target="_blank">資源resources section</a> 中關於正規表示法、Excel篩選，以及樣式比對的更多細節。for links to more on regex and Excel filters and pattern matching.</p>
 
 <h2>Combination of Fields</h2>
 
