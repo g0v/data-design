@@ -14,7 +14,7 @@ Section tag replaced with div for Gitbook publishing
 
 <h2>測量尺度</h2>
 
-<p>想像你正在雜貨店中購物，穿梭在貨架間，邊將需要的商品放入購物籃中。你拿了一些鮮食、乳製品、冷凍食品以及罐頭。如果你想列出每個貨品來自於哪個貨架，這些資料將處於標稱型。"nominal"這個單字來自於拉丁文中的"nomen"，意思是"關於名稱的"。我們將這類資料這樣命名因其Let&rsquo;s say you&rsquo;re on a trip to the grocery store. You move between sections of the store, placing items into your basket as you go. You grab some fresh produce, dairy, frozen foods, and canned goods. If you were to make a list that included what section of the store each item came from, this data would fall into the nominal type. The term nominal is related to the Latin word &ldquo;nomen,&rdquo; which means &ldquo;pertaining to names;&rdquo; we call this data nominal data because it consists of named categories into which the data fall. Nominal data is inherently unordered; produce as a general category isn&rsquo;t mathematically greater or less than dairy.</p>
+<p>想像你正在雜貨店中購物，穿梭在貨架間，邊將需要的商品放入購物籃中。你拿了一些鮮食、乳製品、冷凍食品以及罐頭。如果你想列出每個貨品來自於哪個貨架，這些資料將處於標稱型。"nominal"這個單字來自於拉丁文中的"nomen"，意思是"關於名稱的"。Let&rsquo;s say you&rsquo;re on a trip to the grocery store. You move between sections of the store, placing items into your basket as you go. You grab some fresh produce, dairy, frozen foods, and canned goods. If you were to make a list that included what section of the store each item came from, this data would fall into the nominal type. The term nominal is related to the Latin word &ldquo;nomen,&rdquo; which means &ldquo;pertaining to names;&rdquo; we call this data nominal data because it consists of named categories into which the data fall. Nominal data is inherently unordered; produce as a general category isn&rsquo;t mathematically greater or less than dairy.</p>
 
 <h3>Nominal</h3>
 
