@@ -4,15 +4,15 @@ Section tag replaced with div for Gitbook publishing
 <div class="blue" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/02/abacus.png" /></div>
-  <p>Chapter 1</p>
+  <p>第一章</p>
   <h1 id="basic-data-types">基礎資料型態</h1>
-  <p data-type="author">By Michael Castello</p>
+  <p data-type="author">作者: Michael Castello</p>
 </header>
 
 <!--<section data-type="sect1">-->
-<p>There are several different basic data types and it&rsquo;s important to know what you can do with each of them so you can collect your data in the most appropriate form for your needs. People describe data types in many ways, but we&rsquo;ll primarily be using the levels of measurement known as nominal, ordinal, interval, and ratio.</p>
+<p>瞭解你能如何處理許多不同型態的資料相當重要，如此你才能為你的需求找到蒐集資料的最佳方式。人們以許多不同的方式來詮釋資料，在這裡我們主要使用四種測量尺度(level of measurement)，包含標稱型(nominal)、序數型(dominal)、區間型(interval)以及比率型(ratio)。</p>
 
-<h2>Levels of Measurement</h2>
+<h2>測量尺度</h2>
 
 <p>Let&rsquo;s say you&rsquo;re on a trip to the grocery store. You move between sections of the store, placing items into your basket as you go. You grab some fresh produce, dairy, frozen foods, and canned goods. If you were to make a list that included what section of the store each item came from, this data would fall into the nominal type. The term nominal is related to the Latin word &ldquo;nomen,&rdquo; which means &ldquo;pertaining to names;&rdquo; we call this data nominal data because it consists of named categories into which the data fall. Nominal data is inherently unordered; produce as a general category isn&rsquo;t mathematically greater or less than dairy.</p>
 
