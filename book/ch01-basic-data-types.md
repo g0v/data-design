@@ -5,7 +5,7 @@ Section tag replaced with div for Gitbook publishing
 <header>
   <div class="icon"><img src="../images/sections/02/abacus.png" /></div>
   <p>Chapter 1</p>
-  <h1 id="basic-data-types">Basic Data Types</h1>
+  <h1 id="basic-data-types">基礎資料型態</h1>
   <p data-type="author">By Michael Castello</p>
 </header>
 
