@@ -10,7 +10,7 @@ Section tag replaced with div for Gitbook publishing
 </header>
 
 <!--<section data-type="sect1">-->
-<p>瞭解你能如何處理許多不同型態的資料相當重要，如此你才能為你的需求找到蒐集資料的最佳方式。人們以許多不同的方式來詮釋資料，在這裡我們主要使用四種測量尺度(level of measurement)，包含標稱型(nominal)、序數型(dominal)、區間型(interval)以及比率型(ratio)。</p>
+<p>瞭解你能如何處理許多不同型態的資料相當重要，如此你才能為你的需求找到蒐集資料的最佳方式。人們以許多不同的方式來詮釋資料，在這裡我們主要使用四種測量尺度(level of measurement)，包含標稱型(nominal)、序數型(ordinal)、區間型(interval)以及比率型(ratio)。</p>
 
 <h2>測量尺度</h2>
 
@@ -25,7 +25,7 @@ Section tag replaced with div for Gitbook publishing
 
 <figure><img alt="Percent of basket" src="../images/sections/02/ch02-01-percent-basket.png" /></figure>
 
-<h3>Ordinal</h3>
+<h3>序數型</h3>
 
 <p>At last, you get to the checkout and try to decide which line will get you out of the store the quickest. Without actually counting how many people are in each queue, you roughly break them down in your mind into short lines, medium lines, and long lines. Because data like these have a natural ordering to the categories, it&rsquo;s called ordinal data. Survey questions that have answer scales like &ldquo;strongly disagree,&rdquo; &ldquo;disagree,&rdquo; &ldquo;neutral,&rdquo; &ldquo;agree,&rdquo; &ldquo;strongly agree&rdquo; are collecting ordinal data. No category on an ordinal scale has a true mathematical value. Numbers are often assigned to the categories to make data entry or analysis easier (e.g. 1 = strongly disagree, 5 = strongly agree), but these assignments are arbitrary and you could choose any set of ordered numbers to represent the groups. For instance, you could just as easily decide to have 5 represent &ldquo;strongly disagree&rdquo; and 1 represent &ldquo;strongly agree.&rdquo;</p>
 
