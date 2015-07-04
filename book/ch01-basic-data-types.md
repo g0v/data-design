@@ -21,7 +21,7 @@ Section tag replaced with div for Gitbook publishing
 <p>標稱型資料可數且常用來計算百分比，但不能計算其平均數，就像我們能指出購物籃內的多少商品或多少比例的商品是來自乳製品區，但卻不能計算籃中商品中來自哪個區域的平均值。</p>
 
 <p>當有些資料只能被分為兩類，我們稱它為二元(dichotomous)
-。一個只能回答"是"或"否"問題的答案是二元資料，如我們在購物時，產品有無特價將是一種二元資料。When there are only two categories available, the data is referred to as dichotomous. The answers to yes/no questions are dichotomous data. If, while shopping, you collected data about whether an item was on sale or not, it would be dichotomous.</p>
+。一個只能回答"是"或"否"問題的答案是二元資料，比如我們在購物時，蒐集產品有無特價的資料將屬於一種二元資料。</p>
 
 <figure><img alt="Percent of basket" src="../images/sections/02/ch02-01-percent-basket.png" /></figure>
 
