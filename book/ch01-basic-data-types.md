@@ -19,6 +19,7 @@ Section tag replaced with div for Gitbook publishing
 <h3>標稱型</h3>
 
 <p>標稱型資料可數且常用來計算百分比，但不能被計算平均數，就像我們能指出你拿的多少商品或多少比例的商品是來自乳製品區，但卻不能計算所買商品中來自哪個區域的平均值。</p>
+
 <p>Nominal data can be counted and used to calculate percents, but you can&rsquo;t take the average of nominal data. It makes sense to talk about how many items in your basket are from the dairy section or what percent is produce, but you can&rsquo;t calculate the average grocery section of your basket.</p>
 
 <p>When there are only two categories available, the data is referred to as dichotomous. The answers to yes/no questions are dichotomous data. If, while shopping, you collected data about whether an item was on sale or not, it would be dichotomous.</p>
