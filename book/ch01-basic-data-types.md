@@ -23,7 +23,7 @@ Section tag replaced with div for Gitbook publishing
 <p>當有些資料只能被分為兩類，我們稱它為二元(dichotomous)
 。一個只能回答"是"或"否"問題的答案是二元資料，比如我們在購物時，蒐集產品有無特價的資料將屬於一種二元資料。</p>
 
-<figure><img alt="購物籃內產品擺放區域的百分比率" src="../images/sections/02/ch02-01-percent-basket.png" /></figure>
+<figure><img alt="Percent of basket" src="../images/sections/02/ch02-01-percent-basket.png" /></figure>
 
 <h3>Ordinal</h3>
 
