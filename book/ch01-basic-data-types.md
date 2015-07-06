@@ -56,7 +56,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>時間已經來到11:30，你想著，我已經排了15分鐘的隊了???當你開始這樣想時，你想到的正是比率型資料。比率型資料亦是具數值屬性，除了比率型資料中"0"有意義之外，大致上與區間型資料十分雷同，比率型資料中的"0"表示量測之物不存在，例如0分鐘、0個人排隊、購物籃裡有0件乳製品，上述例子中，"0"確切的表達沒有任何指涉之物的存在，這跟我們先前討論過的區間型資料是不同的，另外，我們常碰到的比率型資料還有身高、體重、年齡、錢等。</p>
 
-<p>Interval and ratio data can be either discrete or continuous. Discrete means that you can only have specific amounts of the thing you are measuring (typically integers) and no values in between those amounts. There have to be a whole number of people in line; there can&rsquo;t be a third of a person. You can have an <em>average</em> of, say, 4.25 people per line, but the actual count of people has to be a whole number. Continuous means that the data can be any value along the scale. You can buy 1.25 lbs of cheese or be in line for 7.75 minutes. This doesn&rsquo;t mean that the data have to be able to take all possible numerical values &ndash; only all the values within the bounds of the scale. You can&rsquo;t be in line for a negative amount of time and you can&rsquo;t buy negative lbs of cheese, but these are still continuous.</p>
+<p>區間型資料與比率型資料可以是離散或連續的，離散意思是所測量之物只能有特定數量(通常是整數)，沒有任何可能值介於這些數量間，例如排隊的人數，並不會有1/3個人這樣的數值出現，但你可以計算平均值，意思是我們可以說每行隊伍平均排了4.25個人，但實際人數仍會是一個整數。連續則是表示資料可以是區間內的任何值，你可以買1.25磅的起司或排隊7.75分鐘，注意這並不表示任何數字都是可能的值，只有特定區間內的數字才能成為可能的值，例如你無法排隊負數分鐘或買負數磅的起司，但這並不影響它的連續性。</p>
 
 <aside data-type="sidebar">
 For simplicity in presentation, we often round continuous data to a certain number of digits. These data are still continuous, not discrete.
