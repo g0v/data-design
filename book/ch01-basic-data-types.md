@@ -142,7 +142,7 @@ Section tag replaced with div for Gitbook publishing
 	</tbody>
 </table>
 
-<h2>Variable Type Vs. Data Type</h2>
+<h2>變數類型與資料類型</h2>
 
 <p>If you look around the internet or in textbooks for info about data, you&rsquo;ll often find variables described as being one of the data types listed above. Be aware that many variables aren&rsquo;t exclusively one data type or another. What often determines the data type is how the data are collected.</p>
 
