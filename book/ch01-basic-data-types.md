@@ -38,7 +38,7 @@ Section tag replaced with div for Gitbook publishing
 
 <figure><img alt="Scales" src="../images/sections/02/number-order.png" /></figure>
 
-<p>Like nominal data, you can count ordinal data and use them to calculate percents, but there is some disagreement about whether you can average ordinal data. On the one hand, you can&rsquo;t average named categories like &ldquo;strongly agree&rdquo; and even if you assign numeric values, they don&rsquo;t have a true mathematical meaning. Each numeric value represents a particular category, rather than a count of something.</p>
+<p>就像標稱型資料，序數型資料可數並可以計算其百分比，但對於序數型資料能否計算百分比仍有不同聲音。反對的一方認為，就算將類別賦值，依然沒有數學上的實質意義，每個數值只是代表一個特定的類別，而沒有計數的功能。</p>
 
 <p>On the other hand, if the difference in degree between consecutive categories on the scale is assumed to be approximately equal (e.g. the difference between strongly disagree and disagree is the same as between disagree and neutral, and so on) and consecutive numbers are used to represent the categories, then the average of the responses can also be interpreted with regard to that same scale.</p>
 
