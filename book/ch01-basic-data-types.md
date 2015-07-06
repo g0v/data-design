@@ -43,7 +43,7 @@ Section tag replaced with div for Gitbook publishing
 <p>支持的一方認為，如果相鄰類別間的差距近似相等(例如"非常不同意"與"不同意"的差距近似於"不同意"與"中立")，而且使用相鄰的數值來代表這些類別，則可以用平均數來解釋對類別的賦值。</p>
 
 <aside data-type="sidebar">
-Some fields strongly discourage the use of ordinal data to do calculations like this, while others consider it common practice. You should look at other work in your field to see what usual procedures are.
+有些領域非常不鼓勵對序數型資料進行運算，但在有些領域卻是很常見的做法，在使用前務必了解參考你領域中其他人的用法。
 </aside>
 
 <h3>Interval</h3>
