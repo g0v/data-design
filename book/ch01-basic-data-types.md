@@ -46,11 +46,11 @@ Section tag replaced with div for Gitbook publishing
 有些領域非常不鼓勵對序數型資料進行運算，但在有些領域卻是很常見的做法，在使用前務必了解參考你領域中其他人的用法。
 </aside>
 
-<h3>Interval</h3>
+<h3>區間型</h3>
 
-<p>Enough ordinal data for the moment&hellip; back to the store! You&rsquo;ve been waiting in line for what seems like a while now, and you check your watch for the time. You got in line at 11:15am and it&rsquo;s now 11:30. Time of day falls into the class of data called interval data, so named because the interval between each consecutive point of measurement is equal to every other. Because every minute is sixty seconds, the difference between 11:15 and 11:30 has the exact same value as the difference between 12:00 and 12:15.</p>
+<p>序數型資料介紹到這邊，讓我們回到商店來，你已經在排隊的隊伍中等待了一會兒，看了看你的手錶，你從11:15開始排隊，而現在已經11:30。一天中的時間屬於區間型資料(interval data)，區間型資料因其相鄰點間的區間相等而得名，以時間為例，每一分鐘為六十秒，11:15至11:30的間隔等於12:00至12:15的間隔。</p>
 
-<p>Interval data is numeric and you can do mathematical operations on it, but it doesn&rsquo;t have a &ldquo;meaningful&rdquo; zero point &ndash; that is, the value of zero doesn&rsquo;t indicate the absence of the thing you&rsquo;re measuring. 0:00 am isn&rsquo;t the absence of time, it just means it&rsquo;s the start of a new day. Other interval data that you encounter in everyday life are calendar years and temperature. A value of zero for years doesn&rsquo;t mean that time didn&rsquo;t exist before that, and a temperature of zero (when measured in C or F) doesn&rsquo;t mean there&rsquo;s no heat.</p>
+<p>區間資料是具數值屬性的，你可以對它做數學運算，但它並不具有有意義的"0"，換句話說，數值為0並不代表你所量測的事物不存在，例如0:00並不表示時間不存在，它只是代表一天的開始。其他在生活中常見的例子是紀年與溫度，西元0年並不代表時間在此刻之前不存在，溫度0度(華氏或攝氏)也不代表熱不存在。</p>
 
 <h3>Ratio</h3>
 
