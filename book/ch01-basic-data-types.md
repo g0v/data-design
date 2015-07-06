@@ -52,9 +52,9 @@ Section tag replaced with div for Gitbook publishing
 
 <p>區間資料是具數值屬性的，你可以對它做數學運算，但它並不具有有意義的"0"，換句話說，數值為0並不代表你所量測的事物不存在，例如0:00並不表示時間不存在，它只是代表一天的開始。其他在生活中常見的例子是紀年與溫度，西元0年並不代表時間在此刻之前不存在，溫度0度(華氏或攝氏)也不代表熱不存在。</p>
 
-<h3>Ratio</h3>
+<h3>比率型</h3>
 
-<p>Seeing that the time is 11:30, you think to yourself, &ldquo;I&rsquo;ve been in line for fifteen minutes already&hellip;???&rdquo; When you start thinking about the time this way, it&rsquo;s considered ratio data. Ratio data is numeric and a lot like interval data, except it <em>does</em> have a meaningful zero point. In ratio data, a value of zero indicates an absence of whatever you&rsquo;re measuring&mdash;zero minutes, zero people in line, zero dairy products in your basket. In all these cases, zero actually means you don&rsquo;t have any of that thing, which differs from the data we discussed in the interval section. Some other frequently encountered variables that are often recorded as ratio data are height, weight, age, and money.</p>
+<p>時間已經來到11:30，你想著，我已經排了15分鐘的隊了???當你開始這樣想時，你想到的正是比率型資料。比率型資料亦是具數值屬性，除了比率型資料中"0"有意義之外，大致上與區間型資料十分雷同，比率型資料中的"0"表示量測之物不存在，例如0分鐘、0個人排隊、購物籃裡有0件乳製品，上述例子中，"0"確切的表達沒有任何指涉之物的存在，這跟我們先前討論過的區間型資料是不同的，另外，我們常碰到的比率型資料還有身高、體重、年齡、錢等。</p>
 
 <p>Interval and ratio data can be either discrete or continuous. Discrete means that you can only have specific amounts of the thing you are measuring (typically integers) and no values in between those amounts. There have to be a whole number of people in line; there can&rsquo;t be a third of a person. You can have an <em>average</em> of, say, 4.25 people per line, but the actual count of people has to be a whole number. Continuous means that the data can be any value along the scale. You can buy 1.25 lbs of cheese or be in line for 7.75 minutes. This doesn&rsquo;t mean that the data have to be able to take all possible numerical values &ndash; only all the values within the bounds of the scale. You can&rsquo;t be in line for a negative amount of time and you can&rsquo;t buy negative lbs of cheese, but these are still continuous.</p>
 
