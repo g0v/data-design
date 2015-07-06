@@ -27,12 +27,12 @@ Section tag replaced with div for Gitbook publishing
 
 <h3>序數型</h3>
 
-<p>最後，你準備結帳並想找一排能夠最快速結完帳的隊伍，沒有仔細地計算每一排隊伍有多少等候的顧客，你大略地將隊伍分成短、中、長三種，這種在分類上天生有順序的資料，我們稱為序數型資料(ordinal data)。在問券中，會以選項是"非常同意"、"同意"、"中立"、"不同意"、"非常不同意"的問題來蒐集序數型資料，雖然我們常給予這些選項一個對應的值來方便分析(例如以1代表非常不同意，5表示非常同意)，但這些值並沒有數學上的意義，而且這樣的賦值方法是武斷的，我們可以使用任何有序的數字來表達這些選項，舉例來說，你也可以用5來代表非常不同意，用1來代表非常同意。</p>
+<p>最後，你準備結帳並想找一排能夠最快速結完帳的隊伍，沒有仔細地計算每一排隊伍有多少等候的顧客，你大略地將隊伍分成短、中、長三種，這種資料除了類別以外還有天生的順序性，我們稱之為序數型資料(ordinal data)。在問券中，會以選項是"非常同意"、"同意"、"中立"、"不同意"、"非常不同意"的問題來蒐集序數型資料，雖然我們常給予這些選項一個對應的數值來方便分析(例如以1代表非常不同意，5表示非常同意)，但這些數值並沒有數學上的意義，而且這樣的賦值方法是武斷的，我們可以使用任何有序的數字來表達這些選項，舉例來說，你也可以用5來代表非常不同意，用1來代表非常同意。</p>
 
 <aside data-type="sidebar">
-  <p>The numbers you select to represent ordinal categories do change the way you interpret your end analysis, but you can choose any set you wish as long as you keep the numbers in order.</p>
+  <p>選擇不同的數值來代表類別將會影響你如何解讀你的分析結果，但只要保持數值有序，你可以選用任何你想要的集合。</p>
 
-  <p>It is most common to use either 0 or 1 as the starting point.</p>
+  <p>最常見的賦值方法是以0或1為起始點。</p>
 </aside>
 
 
