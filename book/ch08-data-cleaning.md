@@ -120,9 +120,9 @@ Data cleaning is just like house cleaning&mdash;you won&rsquo;t ever catch every
 
 <p>資料準備和清理是有代價的。如果你花錢請人做，那麼代價是金錢。如果你自己做，那麼你將花費自己或是組員的時間(也許還有精神)。所以，如果你從未用過電話或是傳真，或是你寧願仰賴上帝，你也許可以決定直接刪除資料，停止收集它們，或是乾脆不去煩惱資料清理。Data preparation and cleaning have costs. If you hire someone to do this work for you, the cost is financial. If you&rsquo;re going to do it yourself, it costs you or someone on your team time (and maybe a little sanity). So if you&rsquo;ll never use a phone or fax number or need to refer to someone as Reverend, you may make the decision to delete those variables, stop collecting them, or just not worry about cleaning them in the future.</p>
 
-<h2>After Data Cleaning: Please Be Kind and Document!</h2>
+<h2>資料清理之後：請分類並歸檔！After Data Cleaning: Please Be Kind and Document!</h2>
 
-<p>Once we&rsquo;ve cleaned our data, we&rsquo;re left with a brand new problem: how can we (and others!) verify that what we&rsquo;ve done is correct and that we haven&rsquo;t corrupted the data by making these changes? After all, the processed data may look vastly different from the raw data we started out with.</p>
+<p>當我們清理好資料後，我們將會面臨全新的問題：我們(以及其它人)如何確認我們對資料的修正是正確無誤，並且沒有破壞資料呢？畢竟，經過處理的資料可能會與原始資料大為不同。Once we&rsquo;ve cleaned our data, we&rsquo;re left with a brand new problem: how can we (and others!) verify that what we&rsquo;ve done is correct and that we haven&rsquo;t corrupted the data by making these changes? After all, the processed data may look vastly different from the raw data we started out with.</p>
 
 <p>The simple answer is to document everything, particularly if you think you might want to share your data later on with a statistician or other researchers. When you&rsquo;re cleaning your data, it&rsquo;s always a good idea to save any changes as an entirely separate file: this way you&rsquo;re always able to go back and look at what changed between the raw and processed data, what rows and columns were dropped, etc. It also ensures that you can go back to the unprocessed data if you ever want to slice things up a different way that might involve different cleaning procedures.</p>
 
