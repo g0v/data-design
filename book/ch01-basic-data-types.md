@@ -40,7 +40,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>就像標稱型資料，序數型資料可數並可以計算其百分比，但對於序數型資料能否計算百分比仍有不同聲音。反對的一方認為，就算將類別賦值，依然沒有數學上的實質意義，每個數值只是代表一個特定的類別，而沒有計數的功能。</p>
 
-<p>On the other hand, if the difference in degree between consecutive categories on the scale is assumed to be approximately equal (e.g. the difference between strongly disagree and disagree is the same as between disagree and neutral, and so on) and consecutive numbers are used to represent the categories, then the average of the responses can also be interpreted with regard to that same scale.</p>
+<p>支持的一方認為，如果相鄰類別間的差距近似相等(例如"非常不同意"與"不同意"的差距近似於"不同意"與"中立")，而且使用相鄰的數值來代表這些類別，則可以用平均數來解釋對類別的賦值。</p>
 
 <aside data-type="sidebar">
 Some fields strongly discourage the use of ordinal data to do calculations like this, while others consider it common practice. You should look at other work in your field to see what usual procedures are.
