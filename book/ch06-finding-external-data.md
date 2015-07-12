@@ -4,8 +4,8 @@ Section tag replaced with div for Gitbook publishing
 <div class="yellow" data-type="chapter">
 <header>
   <div class="icon"><img src="../images/sections/03/external.png" /></div>
-  <p>Chapter 6</p>
-  <h1>Finding external data</h1>
+  <P>第六章</p>
+  <h1>找尋外部資料</h1>
   <p data-type="author">By Jane Foo</p>
 </header>
 
