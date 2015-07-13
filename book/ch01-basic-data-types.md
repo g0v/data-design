@@ -67,74 +67,74 @@ Section tag replaced with div for Gitbook publishing
 <table>
 	<tbody>
 		<tr>
-			<th colspan="5">Date: 06/01/2014 Time: 11:32am</th>
+			<th colspan="5">日期: 06/01/2014 時間: 11:32am</th>
 		</tr>
 		<tr>
-			<th>Item</th>
-			<th>Section</th>
-			<th>Aisle</th>
-			<th>Quantity</th>
-			<th>Cost (US$)</th>
+			<th>項目</th>
+			<th>區域</th>
+			<th>道</th>
+			<th>數量</th>
+			<th>成本 (US$)</th>
 		</tr>
 		<tr>
-			<td>Oranges&mdash;Lbs</td>
-			<td>Produce</td>
+			<td>橘子&mdash;磅</td>
+			<td>農產品</td>
 			<td>4</td>
 			<td>2</td>
 			<td>2.58</td>
 		</tr>
 		<tr>
-			<td>Apples&mdash;Lbs</td>
-			<td>Produce</td>
+			<td>蘋果&mdash;磅</td>
+			<td>農產品</td>
 			<td>4</td>
 			<td>1</td>
 			<td>1.29</td>
 		</tr>
 		<tr>
-			<td>Mozzarella&mdash;Lbs</td>
-			<td>Dairy</td>
+			<td>乾酪&mdash;磅</td>
+			<td>乳製品</td>
 			<td>7</td>
 			<td>1</td>
 			<td>3.49</td>
 		</tr>
 		<tr>
-			<td>Milk&mdash;Skim&mdash;Gallon</td>
-			<td>Dairy</td>
+			<td>脫脂牛奶&mdash;加侖</td>
+			<td>乳製品</td>
 			<td>8</td>
 			<td>1</td>
 			<td>4.29</td>
 		</tr>
 		<tr>
-			<td>Peas&mdash;Bag</td>
-			<td>Frozen</td>
+			<td>豌豆&mdash;袋</td>
+			<td>冷凍食品</td>
 			<td>15</td>
 			<td>1</td>
 			<td>0.99</td>
 		</tr>
 		<tr>
-			<td>Green Beans&mdash;Bag</td>
-			<td>Frozen</td>
+			<td>四季豆&mdash;袋</td>
+			<td>冷凍食品</td>
 			<td>15</td>
 			<td>3</td>
 			<td>1.77</td>
 		</tr>
 		<tr>
-			<td>Tomatoes</td>
-			<td>Canned</td>
+			<td>番茄</td>
+			<td>罐頭</td>
 			<td>2</td>
 			<td>4</td>
 			<td>3.92</td>
 		</tr>
 		<tr>
-			<td>Potatoes</td>
-			<td>Canned</td>
+			<td>馬鈴薯</td>
+			<td>罐頭</td>
 			<td>3</td>
 			<td>2</td>
 			<td>2.38</td>
 		</tr>
 		<tr>
-			<td>Mushrooms</td>
-			<td>Canned</td>
+			<td>蘑菇</td>
+			<td>罐頭</td>
 			<td>2</td>
 			<td>5</td>
 			<td>2.95</td>
