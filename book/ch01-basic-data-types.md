@@ -144,9 +144,9 @@ Section tag replaced with div for Gitbook publishing
 
 <h2>變數類型與資料類型</h2>
 
-<p>If you look around the internet or in textbooks for info about data, you&rsquo;ll often find variables described as being one of the data types listed above. Be aware that many variables aren&rsquo;t exclusively one data type or another. What often determines the data type is how the data are collected.</p>
+<p>如果在網路或書上找尋"資料"的相關資料，經常可以發現變量被描述為上述的一種資料類型，請注意，許多變量並不只只屬於一種類型，反而常因為蒐集資料方法的不同，而屬於不同類型。</p>
 
-<p>Consider the variable age. Age is frequently collected as ratio data, but can also be collected as ordinal data. This happens on surveys when they ask, &ldquo;What age group do you fall in?&rdquo; There, you wouldn&rsquo;t have data on your respondent&rsquo;s individual ages &ndash; you&rsquo;d only know how many were between 18-24, 25-34, etc. You might collect actual cholesterol measurements from participants for a health study, or you may simply ask if their cholesterol is high. Again, this is a single variable with two different data collection methods and two different data types.</p>
+<p>以年齡為例，年齡經常被以比率型資料蒐集，但也可以以序數型資料蒐集，例如在問卷中"請問您屬於以下哪個年齡層?"，如此一來，我們就不會有每個受試者的年齡資料，只會知道有多少受試者屬於18-24、25-34或其他年齡層。你可能會為了一個健康研究蒐集參與者確切的膽固醇值，或者只單純的問受試者膽固醇值是否偏高，這樣的一個變量便擁有兩種不同的資料蒐集方式及資料類型。</p>
 
 <p>The general rule is that you can go down in level of measurement but not up. If it&rsquo;s possible to collect the variable as interval or ratio data, you can also collect it as nominal or ordinal data, but if the variable is inherently only nominal in nature, like grocery store section, you can&rsquo;t capture it as ordinal, interval or ratio data. Variables that are naturally ordinal can&rsquo;t be captured as interval or ratio data, but can be captured as nominal. However, many variables that get captured as ordinal have a similar variable that can be captured as interval or ratio data, if you so choose.</p>
 
