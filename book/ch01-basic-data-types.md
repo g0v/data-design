@@ -148,7 +148,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>以年齡為例，年齡經常被以比率型資料蒐集，但也可以以序數型資料蒐集，例如在問卷中"請問您屬於以下哪個年齡層?"，如此一來，我們就不會有每個受試者的年齡資料，只會知道有多少受試者屬於18-24、25-34或其他年齡層。你可能會為了一個健康研究蒐集參與者確切的膽固醇值，或者只單純的問受試者膽固醇值是否偏高，這樣的一個變量便擁有兩種不同的資料蒐集方式及資料類型。</p>
 
-<p>The general rule is that you can go down in level of measurement but not up. If it&rsquo;s possible to collect the variable as interval or ratio data, you can also collect it as nominal or ordinal data, but if the variable is inherently only nominal in nature, like grocery store section, you can&rsquo;t capture it as ordinal, interval or ratio data. Variables that are naturally ordinal can&rsquo;t be captured as interval or ratio data, but can be captured as nominal. However, many variables that get captured as ordinal have a similar variable that can be captured as interval or ratio data, if you so choose.</p>
+<p>一個通用的法則是，你可以由含有較多細節的測量尺度轉換為較少細節的測量尺度，反之則不可。在蒐集資料時，你如果可以蒐集區間型或比率型資料，那必定可以蒐集標稱型或序數型資料，但是如果資料天生屬於標稱型資料，就如雜貨店中的區域，它不能被以序數型、區間型或比率型資料蒐集，然而很多被以序數型資料蒐集的變量，都也能以區間型或比率型資料蒐集。</p>
 
 <table>
 	<tbody>
