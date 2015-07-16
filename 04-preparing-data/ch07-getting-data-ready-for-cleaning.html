@@ -243,32 +243,33 @@
 
 <h2>那麼現在我們該如何來拆解這些資料呢？</h2>
 
-<p>There are so many techniques, we could write an entire book on this subject alone. You can break apart the data in Excel, or if you have programming skills, you can use Python, SQL, or any number of other languages. There&rsquo;s too much for us to cover in this chapter, but for some good references, check out our <a href="app02.html">Resources Appendix</a>. For right now, we&rsquo;ll cover some basic starting strategies so you&rsquo;ll be better equipped to take on those references when you&rsquo;re ready.</p>
+<p>有太多的技巧，多到我們可以寫一整本書來講這個主題。 你可以在 Excel 裡將資料剖析成各個部份，或是如果你有程式能力，你可以使用 Python、SQL 或是其它任何的程式語言。 有太多東西可以讓我們在這章節裡面探討，不過有一些不錯的參考可以看一下我們的<a href="app02.html">資源附錄</a>。 現在我們僅探討一些基本的初始策略，當你未來在準備好時，能夠可以更輕易的掌握那些參考。</p>
 
-<div data-type="warning"><p>You should <em>always</em> make a copy of your dataset before doing any data preparation or cleaning in case a change you make is incorrect and you need to refer to the original.</p></div>
+<div data-type="warning"><p><每當你要進行任何資料的準備或是清理前，你<em>一定</em>要複製一份你的資料集，假如你不小心做了錯誤的事，你會需要參考原始的資料。</p></div>
 
-<figure><img alt="Strategy tips" src="../images/sections/04/strategy-tips-flow.png" /></figure>
+<figure><img alt="策略小提示" src="../images/sections/04/strategy-tips-flow.png" /></figure>
 
-<h3>Look for Low-Hanging Fruit</h3>
+<h3>尋找出可輕易處理的目標</h3>
 
-<p>In many instances, most of the data that need to be separated are fairly simple. Out of 500 names, you may discover that 200 have just a first and last name. Set these aside. Leave them alone. Then look at the remaining 300 names.</p>
+<p>在許多資料紀錄中，大多數需要被拆分的資料其實都很單純。 在 500 個名字當中，你可能找到 200 個僅只有名跟姓。 先把他們放一邊。 別管他們了。 然後僅關心剩下的 300 個姓名。</p>
 
-<h3>Identify the Oddities</h3>
+<h3>辨識怪異目標</h3>
 
-<p>Look through your dataset for the no-names, complicated names, incomplete names, non-person names and any entries you don&rsquo;t know what to do with. Set these aside. We&rsquo;ll say these comprise 40 more names.</p>
+<p>清查你的資料集，查看是否沒名字、複雜的名字、不完整的名字、非人的名字或是任何項目是你不知道該如何處理的。先把他們放一邊。 我們假設這樣的項目大約有 40 個或是更多。</p>
 
-<h3>Look for Similarities</h3>
+<h3>尋找相似目標</h3>
 
-<p>Of the 260 remaining names, maybe 60 are complicated by professional alphabet soup after their names. Whether you&rsquo;re deleting these professional designations or putting the designations in their own field separate from the name, work with them all at once. Now the designations are separate (or deleted) and you have a field with just names. For those that have only a first and last name, add those to the 300 that were set aside at the beginning.</p>
+<p>剩下的 260 個名字中，或許 60 個是因為在名字後面有多加上職業稱呼所以變得複雜。你可以選擇刪除這些職業稱呼或是將它們放到跟姓名區隔的個別欄位中。 現在這些職業稱呼已經被你分離(或是刪除)，你會擁有一個只有姓名的欄位 我們可以將這些分離完姓和名的紀錄加到我們一開始不理的 200 個姓名當中。</p>
 
-<p>We put the 2-part last names and other remaining types into their own groups.</p>
+<p>現在我們把分離的姓名資料和其它剩下的資料類型放到它們各自的群組裡。</p>
 
-<h3>Manual Effort</h3>
+<h3>人工處理</h3>
 
-<p>The 40 oddities you identified at the start may come down to just re-typing manually, depending what is odd about them.</p>
+<p>你一開始辨識出的 40 個怪異紀錄，依據它的怪異程度，你可能需要手動的重新輸入。</p>
 
 <div data-type="note">
-<p>Sometimes, when we&rsquo;re handling data in real life, records take care of themselves. For example, maybe a non-name record turns out to be a duplicate of a record that&rsquo;s complete. In that case, we can just delete the incorrect record and move on.</p>
+<p>有時當我們處理現實世界的資料，紀錄它本身是有被管理的。例如一個非名字的紀錄其實是一個完整重複的紀錄，我們僅需要刪除不正確的紀錄並繼續
+</p>
 </div>
 
 <figure><img alt="Separating data workflow" src="../images/sections/04/separating-data-flow.png" /></figure>
