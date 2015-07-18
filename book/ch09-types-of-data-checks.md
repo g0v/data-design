@@ -10,7 +10,7 @@ Section tag replaced with div for Gitbook publishing
 </header>
 
 <!--<section data-type="sect1">-->
-<p>In the last chapter, we looked at data cleaning and the checking processes that are necessary to make that happen. Here,  we&rsquo;ll take a more in-depth look at data checking and talk about other validation processes, both before and after cleaning occurs.</p>
+<p>在上一章，我們討論了資料清理和它所需要的步驟。在這一章，我們將會更深入的討論In the last chapter, we looked at data cleaning and the checking processes that are necessary to make that happen. Here,  we&rsquo;ll take a more in-depth look at data checking and talk about other validation processes, both before and after cleaning occurs.</p>
 
 <p>Data checking is crucial if you and your audience are going to have confidence in its insights. The basic approach is quite straightforward: you have fields of data and each of those fields will have expected values. For instance, an age should be between 0 and 120 years (and in many cases will be less than 80 years). Transaction dates should be in the recent past, often within the last year or two, especially if you&rsquo;re dealing with an internet-only data source, such as a Twitter stream.</p>
 
