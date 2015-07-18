@@ -5,7 +5,7 @@ Section tag replaced with div for Gitbook publishing
 <header>
   <div class="icon"><img src="../images/sections/04/inspect.png" /></div>
   <p>Chapter 9</p>
-  <h1>Types of Data Checks</h1>
+  <h1>資料檢查的類型Types of Data Checks</h1>
   <p data-type="author">By Ian Tebbutt</p>
 </header>
 
