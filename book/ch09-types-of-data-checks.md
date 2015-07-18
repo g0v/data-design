@@ -10,15 +10,15 @@ Section tag replaced with div for Gitbook publishing
 </header>
 
 <!--<section data-type="sect1">-->
-<p>在上一章，我們討論了資料清理和它所需要的步驟。在這一章，我們將會更深入的討論資料In the last chapter, we looked at data cleaning and the checking processes that are necessary to make that happen. Here,  we&rsquo;ll take a more in-depth look at data checking and talk about other validation processes, both before and after cleaning occurs.</p>
+<p>在上一章，我們討論了資料清理和它所需要的步驟。在這一章，我們將會更深入討論資料檢查，與其它進行資料清理前後驗證的過程。In the last chapter, we looked at data cleaning and the checking processes that are necessary to make that happen. Here,  we&rsquo;ll take a more in-depth look at data checking and talk about other validation processes, both before and after cleaning occurs.</p>
 
-<p>Data checking is crucial if you and your audience are going to have confidence in its insights. The basic approach is quite straightforward: you have fields of data and each of those fields will have expected values. For instance, an age should be between 0 and 120 years (and in many cases will be less than 80 years). Transaction dates should be in the recent past, often within the last year or two, especially if you&rsquo;re dealing with an internet-only data source, such as a Twitter stream.</p>
+<p>要對資料傳達的訊息產生信心，資料檢查是非常重要的過程。基本的資料清理步驟非常直接：假設你手上有很多筆資料，而且每個欄位都有相應的數值。舉例來說，年齡應該在0到120歲之間(而且多數人在80歲以內)；交易日期應該要在近期，通常在過去一兩年內，特別是當你處理的是網路(比方Twitter)所產生的資料。Data checking is crucial if you and your audience are going to have confidence in its insights. The basic approach is quite straightforward: you have fields of data and each of those fields will have expected values. For instance, an age should be between 0 and 120 years (and in many cases will be less than 80 years). Transaction dates should be in the recent past, often within the last year or two, especially if you&rsquo;re dealing with an internet-only data source, such as a Twitter stream.</p>
 
-<p>However, data checking, although easy to understand and important to do, is a complex problem to solve because there are many ways data can be wrong or in a different format than we expect.</p>
+<p>但是，資料檢查雖然容易理解且十分重要，卻是個複雜的問題，因為資料產生錯誤的方式非常多種，資料也可能以預期外的格式呈現。However, data checking, although easy to understand and important to do, is a complex problem to solve because there are many ways data can be wrong or in a different format than we expect.</p>
 
-<h2>When to Check</h2>
+<h2>什麼時候做資料檢查When to Check</h2>
 
-<p>Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
+<p>假設有一組關於某電信公司的顧客變更電話號碼的資料集。該公司從上百家小型的手機服務業者匯集這些資料，卻沒有對它做檢查。Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
 
 <ul>
   <li>PhoneNumberType mixes codes and text</li>
