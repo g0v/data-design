@@ -20,7 +20,7 @@ Section tag replaced with div for Gitbook publishing
 
 <h2>範圍檢查Range Checks</h2>
 
-<p><a class="glossterm" target="_blank" href="glossary01.html#check-range">檢查資料範圍(Range checks)</a> 是非常簡單明瞭的步驟，用來檢查數值資料集中的資料是否不超出邊界值，並且在可接受的數值範圍內。以下面的作業成績為例。假想你是一位大學教授，而你的助教輸入了學生們這學期的作業成績。你想要確保成績輸入無誤，因此你打開資料，並把第一個作業的成績(依1-100評分)該欄依大小排列。前幾排顯示如下：</p>
+<p><a class="glossterm" target="_blank" href="glossary01.html#check-range">範圍檢查(Range checks)</a> 是非常簡單明瞭的步驟，用來檢查數值資料集中的資料是否不超出邊界值，並且在可接受的數值範圍內。以下面的作業成績為例。假想你是一位大學教授，而你的助教輸入了學生們這學期的作業成績。你想要確保成績輸入無誤，因此你打開資料，並把第一個作業的成績(依1-100評分)該欄依大小排列。前幾排顯示如下：</p>
 
 <table>
 	<tbody>
