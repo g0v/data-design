@@ -18,7 +18,7 @@ Section tag replaced with div for Gitbook publishing
 
 <h2>什麼時候做資料檢查When to Check</h2>
 
-<p>假設有一組關於某電信公司的顧客變更電話號碼的資料集。該公司從上百家小型的手機服務業者匯集這些資料，卻沒有對它做檢查。Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
+<p>假設有一組關於某電信公司顧客變更電話號碼的資料集。該公司從上百家小型的手機服務業者匯集這些資料，卻沒有對它做檢查。Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
 
 <ul>
   <li>PhoneNumberType mixes codes and text</li>
