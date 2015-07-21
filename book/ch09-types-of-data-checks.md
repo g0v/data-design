@@ -16,13 +16,13 @@ Section tag replaced with div for Gitbook publishing
 
 <p>但是，資料檢查雖然容易理解且十分重要，卻是個複雜的問題，因為資料產生錯誤的方式非常多種，資料也可能以預期外的格式呈現。However, data checking, although easy to understand and important to do, is a complex problem to solve because there are many ways data can be wrong or in a different format than we expect.</p>
 
-<h2>什麼時候做資料檢查When to Check</h2>
+<h2>資料檢查的時機When to Check</h2>
 
-<p>假設有一組關於某電信公司顧客變更電話號碼的資料集。該公司從上百家小型的手機服務業者匯集這些資料，卻沒有對它做檢查。Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
+<p>舉例來說，有一個關於某電信公司顧客變更電話號碼的資料集。該公司從上百家小型的手機服務業者匯集這些資料，卻沒有對它做進一步的檢查，但是這個資料集仍然每日被使用著。這是個資料檢查的典型案例。假設你要追蹤不同年齡使用者的電話費，下面的例子呈現了資料的一些問題：Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
 
 <ul>
-  <li>PhoneNumberType mixes codes and text</li>
-  <li>Age field has 0 meaning unknown&mdash;not good for averages, and is 112 a genuine age?</li>
+  <li>電話類別一欄混合了代碼和文字PhoneNumberType mixes codes and text</li>
+  <li>年齡欄中，0代表年齡未知，但會造成計算平均年齡的誤差；此外，112是正確的年齡嗎？Age field has 0 meaning unknown&mdash;not good for averages, and is 112 a genuine age?</li>
 </ul>
 
 <table>
