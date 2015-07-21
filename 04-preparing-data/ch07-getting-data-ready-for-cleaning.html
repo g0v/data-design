@@ -274,26 +274,26 @@
 
 <figure><img alt="Separating data workflow" src="../images/sections/04/separating-data-flow.png" /></figure>
 
-<h2>Commonly Problematic Fields</h2>
+<h2>常見的問題欄位</h2>
 
-<p>Depending on how data are collected, there are other fields you may be interested in splitting up besides names. Some of the most common are:</p>
+<p>依據資料如何被蒐集，也許除了姓名以外的欄位你會有興趣如何進行拆分‧一些常見的有：</p>
 
 <ul>
 	<li>
 	<p>Address information</p>
 	</li>
 	<li>
-	<p><span style="line-height: 1.5em;">Phone numbers, particularly if you need the area code to be separate</span></p>
+	<p><span style="line-height: 1.5em;">電話號碼，尤其當你需要拆分出地區碼</span></p>
 	</li>
 	<li>
-	<p><span style="line-height: 1.5em;">Emails, if you&rsquo;re curious about domain information</span></p>
+	<p><span style="line-height: 1.5em;">信箱，當你好奇他們的網域資訊</span></p>
 	</li>
 	<li>
-	<p><span style="line-height: 1.5em;">Date, if you only want year or month</span></p>
+	<p><span style="line-height: 1.5em;">日期，如果你只想要年或是月</span></p>
 	</li>
 </ul>
 
-<h3>Units and Unit Conversion</h3>
+<h3>單位和單位轉換</h3>
 
 <p>Another important data preparation task is making sure that all the data in a single field are given in the same units. Ideally, you would have specified the unit type on the input form, but you may be working with someone else&rsquo;s dataset or the data may have been collected directly from other sources where the information was compiled by machines that measure in particular units. For example, you might have details from medical records from multiple countries and the patients&rsquo; weights could be in pounds for some records but in kilograms for others. It is important to convert all the numbers to either pounds or kilograms so that they are all on the same scale, otherwise the records cannot be directly compared to each other and any visualization you do of the original data would look quite strange indeed!</p>
 
