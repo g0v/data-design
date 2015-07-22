@@ -5,7 +5,7 @@ Section tag replaced with div for Gitbook publishing
 <header>
   <div class="icon"><img src="../images/sections/04/camera.png" /></div>
   <p>Chapter 11</p>
-  <h1>Data Transformations 資料轉型</h1>
+  <h1>Data Transformations 資料轉換</h1>
   <p data-type="author">By Kiran PV</p>
 </header>
 
@@ -13,7 +13,7 @@ Section tag replaced with div for Gitbook publishing
 <div data-type="warning">
    <p>This chapter covers more advanced statistical concepts than some of the others but we wanted to include a brief introduction to data transformations in case you encounter them. If you need to do your own transformation, check out the resources in our <a href="app01.html">Appendix</a> for additional tips.</p>
 
-    <p>相較於其他章節而言，本章節涵蓋較多進階統計概念，但我們想將資料轉換的簡介納入待用。若您需實做資料轉型，可參閱 <a href="app01.html">附錄</a>，有更多的資源及指點。</p>
+    <p>相較於其他章節而言，本章節涵蓋較多進階統計概念，但我們想將資料轉換的簡介納入待用。若您需實做資料轉換，可參閱 <a href="app01.html">附錄</a>，有更多的資源及指點。</p>
 </div>
 
 <p>When you take a digital photo, sometimes the picture comes out in a way that makes certain features hard to see. Maybe the colors are too dark or too light, the photo is blurry, or the objects in the image are too small and you want to zoom in on them. You can pop the photo into something like Instagram or Photoshop, tweak it, apply a filter or two, and transform the picture so it&rsquo;s much clearer and easier to understand.</p>
@@ -22,49 +22,45 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Sometimes we need to transform data, too. You might get a set of data where, if you visualize it as is, there will be parts that are difficult to see. Also, if you&rsquo;re going to do statistical testing of your data, many common tests make specific assumptions about the distribution of the data (e.g. that the data are normally distributed). In the real world, we often come across data that don&rsquo;t meet these assumptions. Data transformations are one way to handle both of these problems. Here, we&rsquo;ll talk about some of the more common transformations so that when you encounter these terms in the future you&rsquo;ll have an idea what was done to the data.</p>
 
-<p>資料的轉型也其實偶有需求。你可能從某處取得某些資料集，在視覺化處理之後，依然會有有難以呈現的部份。若要對資料集進行統計測試，更有許多測試方法只能適用於其假定的分佈（像是常態分佈）。在真實世界中，我們取得的資料集，經常無法對上這些假定條件。資料轉型，則可以用來對付前述兩類問題。在本篇章中，為了讓你在未來與到這些問題時稍有概念，我們會盡量談及常被使用的轉型方法。</p>
+<p>資料的轉換也其實偶有需求。你可能從某處取得某些資料集，在視覺化處理之後，依然會有有難以呈現的部份。若要對資料集進行統計測試，更有許多測試方法只能適用於其假定的分佈（像是常態分佈）。在真實世界中，我們取得的資料集，經常無法對上這些假定條件。資料轉換，則可以用來對付前述兩類問題。在本篇章中，為了讓你在未來與到這些問題時稍有概念，我們會盡量談及常被使用的轉換方法。</p>
 
 <p><a class="glossterm" href="glossary01.html#transformation-data" target="_blank">Data transformations</a> are one of the common manipulation procedures which can reveal features hidden in the data that are not observable in their original form. We can transform the distribution of data to make it easier to see and so that any required assumptions of statistical tests are met. We usually do this by replacing one variable with a mathematical function operating on that variable. For example, you could replace a variable <em>x</em> by the logarithm of <em>x</em> or by square root of <em>x</em>.</p>
 
-<p>在資料集中，無法直接觀察得知的重點，透過 <a class="glossterm" href="glossary01.html#transformation-data" target="_blank">資料轉型</a> 這種操弄手段， 便能將資料集中所隱藏的重點彰顯出來。我們亦可以調整資料分佈，使其較容易被觀察，或使其能滿足統計測試所需的前提。一般的作法，是將其中某項變數代換為該變數的一元函數。比方說，將變數 <em>x</em> 換為其對數，或是取其平方。</p>
+<p>在資料集中，無法直接觀察得知的重點，透過 <a class="glossterm" href="glossary01.html#transformation-data" target="_blank">資料轉換</a> 這種手段， 操弄之後，便能將資料集中所隱藏的重點彰顯出來。我們亦可以調整資料分佈，使其較容易被觀察，或使其能滿足統計測試所需的前提。一般的作法，是將其中某項變數代換為該變數的一元函數。比方說，將變數 <em>x</em> 換為其對數，或是取其平方。</p>
 
 <div data-type="warning">
 <p>Never perform the transform directly on your original data! Either create an additional column to hold the new values for each variable you&rsquo;re transforming or make a copy of your entire dataset.</p>
 </div>
 
 <div data-type="warning">
-    </p>注意！進行轉型時，切勿直接修改原始資料。務必將原資料集另行備份，或是增加新欄位來存放變數轉換之後的結果，不要直接更改原始變數。</p>
+    </p>注意！進行轉換時，切勿直接修改原始資料。務必將原資料集另行備份，或是增加新欄位來存放變數轉換之後的結果，不要直接更改原始變數。</p>
 </div>
 
-<h2>Normal Distribution and Skewness in Data</h2>
-
-<h2>常態分佈與資料的傾斜度</h2>
+<h2>常態分佈與資料的傾斜度 Normal Distribution and Skewness in Data</h2>
 
 <p>One of the most frequently-encountered assumptions of statistical tests is that data should be <a class="glossterm" href="glossary01.html#distribution-normal" target="_blank">normally distributed</a>. You may have heard of the normal distribution referred to as a &ldquo;bell curve&rdquo; before; this is because a normal distribution takes the shape of a bell, with the data spread around a central value. Some of the data examples that commonly follow a normal distribution are related to human measurements such as height, weight, life span, and scores on IQ tests.</p>
 
+<p>
+在統計測試中最為常見的前提，便是資料應為 <a class="glossterm" href="glossary01.html#distribution-normal" target="_blank">常態分佈</a>。您可能看過「鐘形曲線」這名詞被用來代稱常態分佈，那是因為常態分佈確實畫出來像個鐘，資料的值集中在中間。人的身高、體重、壽命、智力測驗分數等等，這類測量資料，一般都認為是常態分佈。
+</p>
+
 <p>Unlike a normal distribution, which is symmetric around the mean value, <a class="glossterm" href="glossary01.html#data-skewed" target="_blank">skewed data</a> tend to have more observations either to left side or to right side. Right skewed data have a long tail that extends to right whereas left skewed data will have a long tail extending to the left of the mean value. When data are <i>very</i> skewed, it can be hard to see the extreme values in a visualization. If you notice that your data distribution is skewed, you might consider transforming it if you&rsquo;re doing statistical testing or if the data are difficult to visualize in their original state.</p>
 
-<h3>Normal Distribution</h3>
+<h3>常態分佈 Normal Distribution</h3>
 
-<h3>常態分佈</h3>
+
 
 <figure><img alt="Normal distribution" src="../images/sections/04/normal-distribution.png" /></figure>
 
-<h3>Left Skew</h3>
-
-<h3>左斜</h3>
+<h3>左偏斜 Left Skew</h3>
 
 <figure><img alt="Left skew" src="../images/sections/04/left-skew.png" /></figure>
 
-<h3>Right Skew</h3>
-
-<h3>右斜</h3>
+<h3>右偏斜 Right Skew</h3>
 
 <figure><img alt="Normal distribution" src="../images/sections/04/right-skew.png" /></figure>
 
-<h2>Understanding Transformations Using Sample Data</h2>
-
-<h2>以樣本資料來了解轉型效果</h2>
+<h2>以抽樣來了解轉換效果 Understanding Transformations Using Sample Data</h2>
 
 <p>Let&rsquo;s use the population and land area of the 50 US states from 2012 to see how transformations work on actual data. The first step in transformation is to evaluate the distribution of the data. Then you can decide what transformation is appropriate (if one is needed). We can start by constructing a histogram of the population data and a scatterplot of the population-area data to get a better sense of how they&rsquo;re distributed.</p>
 
@@ -78,9 +74,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>There are many transformation methods that can be applied in either of these situations, but let&rsquo;s look at a couple of the common ones to see how they can affect both a visualization and the shape of a distribution.</p>
 
-<h3>Log Transform</h3>
-
-<h3>對數轉型</h3>
+<h3>對數轉換 Log Transform</h3>
 
 <p>To do a <a class="glossterm" href="glossary01.html#transformation-log" target="_blank">logarithmic transformation</a>, you calculate the log of each value in the dataset and use those transformed values rather than your raw data. Log transforms tend to have a major effect on distribution shape, and in visualizations can bring extreme outliers closer to the rest of the data so graphs aren&rsquo;t stretched out as much. You can either use natural logs (<em>ln</em>) or logs with base 10. The graphs below show the histogram of population data after a natural log transformation is applied and what the scatterplot looks like if you use a natural log transformation on both the population and land area variables.</p>
 
@@ -88,9 +82,7 @@ Section tag replaced with div for Gitbook publishing
 
 <figure><img alt="Log transformed scatter plot" src="../images/sections/04/log-scatter.png" /></figure>
 
-<h3>Square Root Transform</h3>
-
-<h3>平方轉型</h3>
+<h3>平方轉換 Square Root Transform</h3>
 
 <p>The <a class="glossterm" href="glossary01.html#transformation-square" target="_blank">square root transformation</a> uses the square root of each value instead of the log, and has a more moderate effect on the distribution shape. The two graphs below show the histogram of population data and the scatterplot of population by land area, both after square root transformation is applied .</p>
 
@@ -98,9 +90,7 @@ Section tag replaced with div for Gitbook publishing
 
 <figure><img alt="Square root transformed population values" src="../images/sections/04/sqrt-scatter.png" /></figure>
 
-<h2>Choosing the Right Transform</h2>
-
-<h2>選擇正確的轉型</h3>
+<h2>選擇正確的轉換 Choosing the Right Transform</h2>
 
 <p>As you develop a better understanding of different transformation methods, you might wonder how to pick between them. The answer to this question is not straightforward and although there are formal statistical methods for selecting a transformation, we often need to use trial-and-error combined with knowledge of different transformations. A general strategy is to apply some of the most frequently used transforms such as log, square root, square, reciprocal, and cube root, and then choose the best one after observing the results.</p>
 
@@ -108,9 +98,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>On the other hand, if your primary purpose in the example above is to visualize the relationship between state population and land area, the square root transformation does a better job of spreading out the data and making it easier to view than the log transformation.</p>
 
-<h2>Common Transformations</h2>
-
-<h2>通用轉型方法</h2>
+<h2>通用轉換方法 Common Transformations</h2>
 
 <table>
 	<tbody>
@@ -158,9 +146,7 @@ Section tag replaced with div for Gitbook publishing
 	</tbody>
 </table>
 
-<h2>Caveats about Transformation</h2>
-
-<h2>關於轉型的注意事項</h2>
+<h2>關於轉換的注意事項 <h2>Caveats about Transformation</h2>
 
 <p>Since data transformation methods involve the application of a mathematical function to your data, you need to be careful when reporting or interpreting any insights derived from the transformed data because a transformation changes the unit of the data. For example, when we apply a logarithmic function to a population variable, the unit of measurement becomes the log of the population. When you&rsquo;re sharing results, your audience may assume that the calculated numbers or visualizations they&rsquo;re seeing are based on raw data, so if the values have been transformed, you should clearly communicate what transformation was used, as well as what units the data are being displayed in.</p>
 
@@ -170,7 +156,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>You may not see transforms every day, but when you do, it&rsquo;s helpful to know why they were used and how they affect your data. It&rsquo;s important to be able to see different parts of the picture when working with data, and transformations give you another tool to help you do just that!</p>
 
-<p>轉型的資料多半不會每天都出現。但當你見到時，通曉轉型方法更能有助於理解其轉型後資料受何影響。在處理資料之時，能於摸索不同部份而後通曉全局，是十分重要的。資料的轉型，則是能讓你通達的重要工具。</p>
+<p>轉換的資料多半不會每天都出現。但當你見到時，通曉轉換方法更能有助於理解其轉換後資料受何影響。在處理資料之時，能於摸索不同部份而後通曉全局，是十分重要的。資料的轉換，則是能讓你通達的重要工具。</p>
 
 </div>
 <!--</section>
