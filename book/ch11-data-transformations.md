@@ -46,9 +46,11 @@ Section tag replaced with div for Gitbook publishing
 
 <p>Unlike a normal distribution, which is symmetric around the mean value, <a class="glossterm" href="glossary01.html#data-skewed" target="_blank">skewed data</a> tend to have more observations either to left side or to right side. Right skewed data have a long tail that extends to right whereas left skewed data will have a long tail extending to the left of the mean value. When data are <i>very</i> skewed, it can be hard to see the extreme values in a visualization. If you notice that your data distribution is skewed, you might consider transforming it if you&rsquo;re doing statistical testing or if the data are difficult to visualize in their original state.</p>
 
+<p>
+常態分佈，是以其平均值為中心，呈現對稱的形狀，相對而言，<a class="glossterm" href="glossary01.html#data-skewed" target="_blank">偏斜的資料</a> 則會在一側得到較多的觀測資料。向右偏斜的資料集，會有長尾向右方有延伸，而向左斜的資料集的長尾則是向左方延伸。當資料非常偏斜之時，就算透過視覺化呈現，也很難看出其極端的值為何。若你需要進統計測試、或視覺化的工作，在注意到手邊的資料分佈有點偏斜之後，可考慮進行轉換。
+</p>
+
 <h3>常態分佈 Normal Distribution</h3>
-
-
 
 <figure><img alt="Normal distribution" src="../images/sections/04/normal-distribution.png" /></figure>
 
