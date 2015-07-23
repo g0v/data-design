@@ -5,26 +5,33 @@ Section tag replaced with div for Gitbook publishing
 <header>
   <div class="icon"><img src="../images/sections/05/ampersand.png" /></div>
   <p>Chapter 15</p>
-  <h1>Importance of Color, Font, and Icons</h1>
+  <h1>顏色、字型與圖示的重要性</h1>
   <p data-type="author">By Howard Coale</p>
 </header>
 
 <!--<section data-type="sect1">-->
 <h2>Form (Frequently) Tyrannizes Function</h2>
+<h2>形式(常)凌駕功能</h2>
 
 <p>Listening to someone with a good voice sing a few bars of &ldquo;I Want to Hold Your Hand&rdquo; pretty much beats out the experience of hearing someone mutter &ldquo;E=MC<sup>2</sup>&rdquo; any day, but that preference isn&rsquo;t a reflection on the value of the information in those two phrases. Rather, it describes how the experience of information can change the perception of its value. In other words, as information designers, we aspire to be singers, not mumblers. No, that doesn&rsquo;t mean &ldquo;change everything to make it pretty&rdquo;: it means you must first and foremost acknowledge that you are not presenting information, you are designing an experience of information.</p>
 
+<p>在這章裡面，我們將涵蓋一些基本的設計原理，也會包含可以用來影響、聚焦、闡明、強化讀者體驗與資料理解的工具（特別是針對字型、層次(?)、色彩與圖示）。
 <p>In this chapter, we&rsquo;ll cover a few basic design principles and tools that can be used to sway, focus, clarify, enhance, and sharpen your audience&rsquo;s experience and understanding of data (and specifically fonts, hierarchy, color and icons).</p>
 
 <h3>The Myth of Objectivity</h3>
+<h3>客觀性的迷思</h3>
 
 <p>Before we dive into design fundamentals, we need to understand just how much design can impact the perception of information. At its heart, data visualization is a form of storytelling, and no story is ever told from an objective point of view. The graphic representation of data has been used just as effectively by dictators and terrorists to justify acts of violence as it has by scientists to report groundbreaking research.</p>
+<p>在我們更深入探討設計基礎前，我們必須要了解設計能如何影響人類對資訊的接收。資料視覺化根本上來說也就是一種敘事類型，而「敘事」本身從來就不可能是客觀的。圖像式的資料表現能有效為科學家傳達突破性的科學研究，但也能為獨裁者與恐怖份子將暴力行為解釋成正義。</p>
 
 <p>To that point, a critical rule in data visualization is to realize you&rsquo;re creating, at some level, a biased point of view. If you don&rsquo;t, you&rsquo;ll have little chance of successfully judging the honesty, accuracy, elegance or utility of your solution. Even the most typical chart should seek to captivate and inspire that part of the human mind that yearns for meaning and narrative while in the act of seeking information.</p>
+<p>從這角度來看，便有了資料視覺化中相當關鍵的其中一個規則：你必須要了解你的產出其實有一定程度的偏差觀點。若你不了解這點，就很難評斷你的作法是否誠實、精確、優雅、或其實用性。即便是最典型的圖表也應該要試著吸引這部份的人類心靈 － 渴求意義與故事仍同時追求資訊。</p>
 
 <p>You might be a researcher reading this who wants to ask: &ldquo;I&rsquo;m making a graph to show how many times a rat turned left or right in a maze. Why does a graph that displays that information necessarily reflect a bias or a narrative perspective?&rdquo; The answer is that though the data show the rat turned left 35 times and right 22 times, the way the presentation of that data is designed will &mdash; usually within one or two seconds &mdash; teach the viewer what is important and what is not. Being aware of that fact during the design process can make your graphic representations of data much more effective and puts you in a better position to think through what you want to express before, and while, you design.</p>
+<p> 正在讀這段文字的你可能是個研究者，想要問這樣的問題：「我在做的圖表顯示了老鼠在迷宮裡左轉或右轉的次數。這樣的圖表也會反映出敘事或是偏差的觀點嗎？」答案在於，透過資料顯示老鼠轉向次數的同時，資料的表現方式通常也在幾秒內就告訴了讀者哪些部份重要。注意這個事實：設計的過程能讓你的資料更有效的傳達給讀者，也能讓你更清楚地思考你先前想表達的概念，然而，同時你也做了設計。</p>
 
 <h2>Fonts &amp; Text</h2>
+<h2>字型與文字</h2>
 
 <h3>Legibility and Readability</h3>
 
