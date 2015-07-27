@@ -10,15 +10,15 @@ Section tag replaced with div for Gitbook publishing
 </header>
 
 <!--<section data-type="sect1">-->
-<p>在上一章，我們討論了資料清理和它所需要的步驟。在這一章，我們將會更深入討論資料檢查，與其它進行資料清理前後驗證的過程。In the last chapter, we looked at data cleaning and the checking processes that are necessary to make that happen. Here,  we&rsquo;ll take a more in-depth look at data checking and talk about other validation processes, both before and after cleaning occurs.</p>
+<p>在上一章，我們討論了資料清理和它所需要的步驟。在這一章，我們將會更深入討論資料檢查，與其它進行資料清理前後的驗證過程。In the last chapter, we looked at data cleaning and the checking processes that are necessary to make that happen. Here,  we&rsquo;ll take a more in-depth look at data checking and talk about other validation processes, both before and after cleaning occurs.</p>
 
-<p>要對資料傳達的訊息產生信心，資料檢查是非常重要的過程。基本的資料清理步驟非常直接：假設你手上有很多筆資料，而且每個欄位都有相應的數值。舉例來說，年齡應該在0到120歲之間(而且多數人在80歲以內)；交易日期應該要在近期，通常在過去一兩年內，特別是當你處理的是網路(比方Twitter)所產生的資料。Data checking is crucial if you and your audience are going to have confidence in its insights. The basic approach is quite straightforward: you have fields of data and each of those fields will have expected values. For instance, an age should be between 0 and 120 years (and in many cases will be less than 80 years). Transaction dates should be in the recent past, often within the last year or two, especially if you&rsquo;re dealing with an internet-only data source, such as a Twitter stream.</p>
+<p>要對資料傳達的訊息產生信心，資料檢查是非常重要的過程。基本的資料清理步驟非常直接：假設你手上有很多筆資料，那麼每個欄位都應該有相對應合理的數值。舉例來說，年齡應該在0到120歲之間(而且多數人在80歲以內)；交易日期應該要在近期，通常在過去一兩年內，特別是當你處理的是網路(比方Twitter)所產生的資料。Data checking is crucial if you and your audience are going to have confidence in its insights. The basic approach is quite straightforward: you have fields of data and each of those fields will have expected values. For instance, an age should be between 0 and 120 years (and in many cases will be less than 80 years). Transaction dates should be in the recent past, often within the last year or two, especially if you&rsquo;re dealing with an internet-only data source, such as a Twitter stream.</p>
 
-<p>但是，資料檢查雖然容易理解且十分重要，卻是個複雜的問題，因為資料產生錯誤的方式非常多種，資料也可能以預期外的格式呈現。However, data checking, although easy to understand and important to do, is a complex problem to solve because there are many ways data can be wrong or in a different format than we expect.</p>
+<p>無論如何，資料檢查雖然容易理解且十分重要，卻是個複雜的工作，因為資料產生錯誤的方式非常多種，資料也可能以預期外的格式呈現。However, data checking, although easy to understand and important to do, is a complex problem to solve because there are many ways data can be wrong or in a different format than we expect.</p>
 
 <h2>資料檢查的時機When to Check</h2>
 
-<p>舉例來說，有一個關於某電信公司顧客變更電話號碼的資料集。該公司從上百家小型的手機服務業者匯集這些資料，卻沒有對它做進一步的檢查，但是這個資料集仍然每日被使用著。這是個資料檢查的典型案例。假設你要追蹤不同年齡使用者的電話費，下面的例子呈現了資料的一些問題：Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
+<p>舉例來說，有一個關於某電信公司顧客變更電話號碼的資料集。該公司從上百家小型的手機服務業者匯集這些資料，卻沒有對它做進一步的檢查，但是這個資料集仍然每日被使用著。這是個資料檢查的典型案例，假設你要追蹤不同年齡使用者的電話費，下面的例子呈現了這個資料的一些問題：Consider this dataset from a telecom company with information about customers who are changing phone numbers. Here, they provided the database but didn&rsquo;t check the data which were aggregated from hundreds of smaller phone service providers. The database is still in daily use and is a great example of why checking is important. Imagine you&rsquo;re tracking the types of phone charges by age. The example below shows a few of the issues.</p>
 
 <ul>
   <li>電話類別一欄混合了代碼和文字PhoneNumberType mixes codes and text</li>
@@ -28,11 +28,11 @@ Section tag replaced with div for Gitbook publishing
 <table>
 	<tbody>
 		<tr>
-			<th>RecordId</th>
-			<th>PhoneNumberType</th>
-			<th>Age</th>
-			<th>New Customer</th>
-			<th>Price</th>
+			<th>記錄編號RecordId</th>
+			<th>電話類別PhoneNumberType</th>
+			<th>年齡Age</th>
+			<th>新客戶New Customer</th>
+			<th>價格Price</th>
 		</tr>
 		<tr>
 			<td>1</td>
@@ -72,48 +72,47 @@ Section tag replaced with div for Gitbook publishing
 	</tbody>
 </table>
 
-<p>The basic rule for data checking is check early, check often. By checking early, when data are first entered, there is a chance to immediately correct those data. For example, if your &quot;New Customer&quot; field expects the values YES or NO, but the user enters something different, such as an A or a space, then the user can be prompted to correct the data. If the validation isn&rsquo;t done until later then incorrect values will reach the database; you&rsquo;ll know they&rsquo;re wrong but will be unable to fix the issue without returning to the user to ask for the information. Occasionally, it&rsquo;s possible to compare incorrect fields with other linked datasets and then use that information to fix the original data. That can be complex and lead to further issues, since you have to decide which data source is correct.</p>
+<p>資料檢查最基本的原則是即早檢查、經常檢查。即早檢查指當資料最初被輸入時，就立即修正它們。例如，如果新客戶一欄應輸入Yes或No，但卻被鍵入其它資料，像是A或是空白鍵，那麼應即時提醒使用戶修正資料。如果沒有及早驗證，錯誤的資料可能會進到資料庫，即使你發現錯誤，在沒有向使用者確認正確資訊前也難以修正。有時候，你可以透過比對其它資料庫裡的相同欄位尋找對的資料來修正原始資料。但這是個 複雜的過程，也容易導致其它問題，因為你必須判斷另一個資料庫裡的資料是正確的。The basic rule for data checking is check early, check often. By checking early, when data are first entered, there is a chance to immediately correct those data. For example, if your &quot;New Customer&quot; field expects the values YES or NO, but the user enters something different, such as an A or a space, then the user can be prompted to correct the data. If the validation isn&rsquo;t done until later then incorrect values will reach the database; you&rsquo;ll know they&rsquo;re wrong but will be unable to fix the issue without returning to the user to ask for the information. Occasionally, it&rsquo;s possible to compare incorrect fields with other linked datasets and then use that information to fix the original data. That can be complex and lead to further issues, since you have to decide which data source is correct.</p>
 
-<p>If you&rsquo;re in the happy position of controlling how the data are gathered, you have a great advantage, as one of the easiest forms of checking is done as soon as the data are entered. This type of data check is called a <a class="glossterm" target="_blank" href="glossary01.html#check-front-end">front-end check</a> or a client-side check because it happens at the moment that the user enters the data, before the data are submitted to the database. This is most commonly done by making sure that your data collection application or web page is designed to only accept valid types of input. You have probably encountered this type of data validation yourself when filling out forms on the web before.</p>
+<p>如果你能夠順利地控制資料收集的過程，那將會帶給你極大的好處，因為資料檢查最容易的方法便是在資料輸入時立即檢查。這種類型的資料檢查又稱作「前端檢查」或是「客戶端檢查」，因為它發生在使用者正在輸入資料，而資料還未進入到資料庫時。最常見的方式，是將收集資料的程式或網頁設計成只接受有效的資料格式。你以往在網路上填寫表格時，應該已經遇過這類型的資料檢查。If you&rsquo;re in the happy position of controlling how the data are gathered, you have a great advantage, as one of the easiest forms of checking is done as soon as the data are entered. This type of data check is called a <a class="glossterm" target="_blank" href="glossary01.html#check-front-end">front-end check</a> or a client-side check because it happens at the moment that the user enters the data, before the data are submitted to the database. This is most commonly done by making sure that your data collection application or web page is designed to only accept valid types of input. You have probably encountered this type of data validation yourself when filling out forms on the web before.</p>
 
 <figure><img alt="Form validation on the web" src="../images/sections/04/drop-phone.png" /></figure>
 
-<p>For example, states and countries should be selected from a list and if you&rsquo;re dealing with international data, the choice of country should limit which state choices are available.</p>
+<p>例如，國家和州應該從建立的列表中選取。如果你處理的是國際性的資料，那麼州的選項應該跟著所選國家而改變。For example, states and countries should be selected from a list and if you&rsquo;re dealing with international data, the choice of country should limit which state choices are available.</p>
 
 <figure><img alt="Country and state drop down lists" src="../images/sections/04/drop-states.png" /></figure>
 
-<p>In this way your system will be constrained to only allow good data as they are entered. The approach isn&rsquo;t perfect though. A classic internet speed bump  is data entry that waits until submission before letting on there was an issue in a field at the beginning of the form. A better approach is to check every field as it is entered, but that has other disadvantages as it can be harder to code and can result in a continual stream of checking requests being sent to the server and potential error messages being returned to the user. As a compromise, some simple checking and validation can be carried out entirely in the browser while leaving the more complicated work for server-side processing. This will be necessary as some checking will require data or processes that are only available on the server itself. This often occurs when secure values&mdash;credit card verification, for instance&mdash;are being checked.</p>
+<p>這樣一來，你的系統只允許對的資料格式被輸入。不過，這個方法並非完美。網路速度受阻的典型狀況，即是因為填入的資料直到最後提交時，才檢查出最初的輸入有誤。比較好的方法是在每筆輸入時都做檢查，但這個方法的缺點是程式比較難寫，並且會導致檢查指令連續不斷地送到伺服器端，同時資料有誤的警訊則不斷回送到使用者端。折衝的方法是，在流覽器一端先進行簡單的資料檢查和驗證，把比較複雜的部分留給伺服器端檢查。某些資料的檢查只能在伺服器端進行，最常見的像是安全性檢查，例如信用卡驗證。In this way your system will be constrained to only allow good data as they are entered. The approach isn&rsquo;t perfect though. A classic internet speed bump  is data entry that waits until submission before letting on there was an issue in a field at the beginning of the form. A better approach is to check every field as it is entered, but that has other disadvantages as it can be harder to code and can result in a continual stream of checking requests being sent to the server and potential error messages being returned to the user. As a compromise, some simple checking and validation can be carried out entirely in the browser while leaving the more complicated work for server-side processing. This will be necessary as some checking will require data or processes that are only available on the server itself. This often occurs when secure values&mdash;credit card verification, for instance&mdash;are being checked.</p>
 
-<p>Other good survey design policies to consider to minimize data preparation time include:</p>
+<p>為了縮短資料準備的時間，其它好的調查表格設計有：Other good survey design policies to consider to minimize data preparation time include:</p>
 
 <ul>
-	<li>
-	Decide how you want names to be input in advance. Is it okay for people to add things like Jr, DVM, PhD, CPA after their names or do you want these to be stored separately from the name itself? If so, do you want professional designations to be in a different field than suffixes like Jr, II, III? Do you want first and last names to be separate fields?
+	<li>	先決定好你希望姓名如何被輸入。例如，使用者是否可以在姓名後加上小(Jr)、獸醫師(DVM)、博士(PhD)、會計師(CPA)等稱謂，或你希望稱謂與姓名分開輸入。如果是後者，你是否希望職業別的稱位與姓名後綴，像是小、二世、三世分開輸入？還有，你是否希望姓與名輸入在不同欄位？Decide how you want names to be input in advance. Is it okay for people to add things like Jr, DVM, PhD, CPA after their names or do you want these to be stored separately from the name itself? If so, do you want professional designations to be in a different field than suffixes like Jr, II, III? Do you want first and last names to be separate fields?
 	</li>
 	<li>
-	Set up forms so that phone numbers and dates can only be input the way you want them to be stored (more about dates below). Determine if you want to collect office extensions for office phone numbers. If so, set up a separate extension field.
+將電話與日期的欄位設定成只能以你指定的方式儲存(本章稍後會對日期的部分詳述)。決定你是否要收集辦公室電話的分機號碼，如果要，幫分機另外設一個欄位。Set up forms so that phone numbers and dates can only be input the way you want them to be stored (more about dates below). Determine if you want to collect office extensions for office phone numbers. If so, set up a separate extension field.
 	</li>
 </ul>
 
-<h2>Trust Nobody</h2>
+<h2>不要相信任何人Trust Nobody</h2>
 
-<p>No matter how well you have designed your form and how much validation you have put into your front-end checks, an important rule of thumb is never trust user data. If it has been entered by a person, then somewhere along the line there will be mistakes. Even if there are client side checks, there should always be server side or <a class="glossterm" target="_blank" href="glossary01.html#check-back-end">back-end checks</a>, too&mdash;these are the checks that happen after the data are submitted. There are many good reasons for this. You might not have designed the data gathering tools and if not, you could have different front end applications providing data. While some may have excellent client side checks, others might not. Unclean or unchecked data may arrive in your system through integration with other data services or applications. The example telecom database had too many owners with little oversight between them, resulting in a messy dataset. A small amount of extra effort up front saves us time and frustration down the road by giving us a cleaner dataset.</p>
+<p>不管你的表格設計得多完美，也不論你在前端用了多少驗證的程序，經驗告訴我們絕對不要相信使用者輸入的資料。如果資料是由人所輸入的，那麼就有可能發生錯誤。即使已經有做使用者端檢查，也一定要在資料送出後進行伺服器端或No matter how well you have designed your form and how much validation you have put into your front-end checks, an important rule of thumb is never trust user data. If it has been entered by a person, then somewhere along the line there will be mistakes. Even if there are client side checks, there should always be server side or <a class="glossterm" target="_blank" href="glossary01.html#check-back-end">後端檢查back-end checks</a>。這樣做有很多好的理由。比方說，如果你並沒有設計資料收集的工具，而你的資料來自不同的前端程式，有些有進行完善的用戶端檢查，有些則無，因此一些不乾淨或沒檢查的資料，就在整合這些資料集時進入你的系統。本章之初所舉的電信公司的例子，就是因為擁有太多的資料提供者，彼此因疏忽而產生紊亂的資料集。只要在前端多付一些心力，將能節省我們的時間，減輕我們清理資料時的挫折，並且提供我們較乾淨的資料集。, too&mdash;these are the checks that happen after the data are submitted. There are many good reasons for this. You might not have designed the data gathering tools and if not, you could have different front end applications providing data. While some may have excellent client side checks, others might not. Unclean or unchecked data may arrive in your system through integration with other data services or applications. The example telecom database had too many owners with little oversight between them, resulting in a messy dataset. A small amount of extra effort up front saves us time and frustration down the road by giving us a cleaner dataset.</p>
 
-<p>A second golden rule is to only use text fields where necessary. For instance, in some countries it&rsquo;s normal to gather address data as multiple fields, such as Line1, Line2, City, State, Country, postcode, but in the UK it&rsquo;s very common to just ask for the postcode and the street number as those two pieces of information can be then be used to find the exact address. In this way the postcode is validated automatically and the address data are clean since they aren&rsquo;t not entered by the user. In other countries, we have to use text fields, and in that case lots of checking should occur.</p>
+<p>第二個黃金定律是，非到必要時，不設計文字輸入的欄位。舉例來說，某些國家習慣將地址資料分成數個欄位，例如第一行、第二行、城市、州、國家、郵遞區號。但在英國收集地址時，通常只需輸入郵遞區號以及門牌號碼，透過這兩個資料便可以查到正確的地址。用這個方法，不但郵遞區號可以被自動驗證，而且地址資料因為不是使用者以文字輸入，也能確保它的正確性。但在其它國家，我們仍需使用文字欄位，連帶地也產生許多檢查的手續。A second golden rule is to only use text fields where necessary. For instance, in some countries it&rsquo;s normal to gather address data as multiple fields, such as Line1, Line2, City, State, Country, postcode, but in the UK it&rsquo;s very common to just ask for the postcode and the street number as those two pieces of information can be then be used to find the exact address. In this way the postcode is validated automatically and the address data are clean since they aren&rsquo;t not entered by the user. In other countries, we have to use text fields, and in that case lots of checking should occur.</p>
 
-<p>Commas in data can cause all kinds of problems as many data files are in comma separated (CSV) format. An extra comma creates an extra unexpected field and any subsequent fields will be moved to the right. For this reason alone it&rsquo;s good to not cut/paste data from an application; instead save to a file and then read into your next application.</p>
+<p>資料中的逗號會產生許多問題，因為許多資料格式是用逗號來區別不同的欄位(即CSV逗號分隔值)，一個額外的逗號會產生多出來的欄位，導致原有欄位的資料被向右移。為此，最好不要直接從程式中剪貼資料，而是另存檔案，然後用另一個程式來讀取這個檔案。Commas in data can cause all kinds of problems as many data files are in comma separated (CSV) format. An extra comma creates an extra unexpected field and any subsequent fields will be moved to the right. For this reason alone it&rsquo;s good to not cut/paste data from an application; instead save to a file and then read into your next application.</p>
 
 <table>
 	<tbody>
 		<tr>
-			<th>Title</th>
-			<th>Name</th>
-			<th>FamilyName</th>
-			<th>Address1</th>
-			<th>Address2</th>
-			<th>Town</th>
-			<th>State</th>
-			<th>Country</th>
+			<th>稱號Title</th>
+			<th>名字Name</th>
+			<th>姓氏FamilyName</th>
+			<th>地址第一行Address1</th>
+			<th>地址第二行Address2</th>
+			<th>城市Town</th>
+			<th>州State</th>
+			<th>國家Country</th>
 			<th>&nbsp;</th>
 		</tr>
 		<tr>
@@ -141,13 +140,13 @@ Section tag replaced with div for Gitbook publishing
 	</tbody>
 </table>
 
-<p>An additional comma in the second record has pushed the data to the right. This is an easy problem for a human to spot, but will upset most automated systems. A good check is to look for extra data beyond where the last field (&ldquo;country&rdquo;) would be. This example emphasizes the importance of combining computerized and manual approaches to data checking. Sometimes a quick visual scan of your data can make all the difference!</p>
+<p>上列第二筆資料，因為多了一個逗號，使得資料往右邊移了一欄。這個錯誤雖然容易用人眼辨視出來，但是對於自動化的系統卻十分困難。一個好的檢查方法是人工查看是否有資料超出了最後一個欄位。這個例子也強調結合電腦和人工檢查資料的重要性。有時，快速地用眼睛掃描過資料，能夠讓結果大為不同。An additional comma in the second record has pushed the data to the right. This is an easy problem for a human to spot, but will upset most automated systems. A good check is to look for extra data beyond where the last field (&ldquo;country&rdquo;) would be. This example emphasizes the importance of combining computerized and manual approaches to data checking. Sometimes a quick visual scan of your data can make all the difference!</p>
 
-<h2>Data Formats and Checking</h2>
+<h2>資料格式和檢查Data Formats and Checking</h2>
 
-<p>When dealing with numbers there are many issues you should check for. Do the numbers make sense? If you&rsquo;re handling monetary figures, is the price really $1,000,000 or has someone entered an incorrect value? Similarly, if the price is zero or negative, does that mean the product was given away or was someone paid to remove it? For accounting reasons many data sources are required to record negative prices in order to properly balance the books.</p>
+<p>處理數字資料時，你應該注意幾個問題。這些數字是否合理？如果你處理的是金錢，一筆$1,000,000是正確的價格嗎？或是有人輸入了錯誤的數字？同樣的，如果價錢是0或是負數，是否代表這個產品是被贈送出去的，或是有人付錢來移除它？此外，為了在會計上平衡收支，許多價格資料會用負數表示。When dealing with numbers there are many issues you should check for. Do the numbers make sense? If you&rsquo;re handling monetary figures, is the price really $1,000,000 or has someone entered an incorrect value? Similarly, if the price is zero or negative, does that mean the product was given away or was someone paid to remove it? For accounting reasons many data sources are required to record negative prices in order to properly balance the books.</p>
 
-<p>In addition, checking numeric values for spaces and letters is useful, but currency and negative values can make that hard as your data may look as follows. All of these are different and valid ways of showing a currency, and contain non-numeric character values.</p>
+<p>除此之外，檢查出數字資料中的空白和字母也很有幫助。不過，貨幣以及負數可能會讓操作變得困難。如下例所示，這些是各種表示貨幣的有效方式，裡面包含了非數字的符號。In addition, checking numeric values for spaces and letters is useful, but currency and negative values can make that hard as your data may look as follows. All of these are different and valid ways of showing a currency, and contain non-numeric character values.</p>
 
 <div data-type="example">
 <p>$-1,123.45<br />
@@ -156,29 +155,30 @@ Section tag replaced with div for Gitbook publishing
 -112345E-02</p>
 </div>
 
-<p>Letters in numbers aren&rsquo;t necessarily wrong, and negative values can be formatted in a variety of ways.</p>
+<p>數字中帶有字母並不一定有誤，同時，負數也有不同格式。Letters in numbers aren&rsquo;t necessarily wrong, and negative values can be formatted in a variety of ways.</p>
 
-<p>Dates also exhibit many issues that we have to check for. The first is the problem of differences in international formatting. If you see the date 1/12/2013, that&rsquo;s January 12, 2013 in America, but in the UK it&rsquo;s December 1. If you&rsquo;re lucky, you&rsquo;ll receive dates in an international format such as 2014-01-12. As a bonus, dates in this standardized format (<a href="http://whatis.techtarget.com/definition/ISO-date-format">http://whatis.techtarget.com/definition/ISO-date-format</a>) can be sorted even if they&rsquo;re stored as text. However, you might not be lucky, so it&rsquo;s important to check and make sure you know what dates your dates are really supposed to be, particularly if you&rsquo;re receiving data from respondents in multiple countries with different date formats. A good way to handle this if you are designing the data entry form is to make the date field a calendar button field, where the user selects the date off a calendar instead of entering it manually. Alternatively, you can specify the format next to the entry box as a sort of instruction for the user.</p>
+<p>日期的呈現也有許多值得檢查的問題。第一個問題是國際間存在著不同的日期格式。如果日期顯示為1/12/2013，在美國代表2013年1月12日，但在英國則是12月1日。幸運的話，你可能會取得國際通用的格式，顯示為2014-01-12，這種標準化格式的額外好處是，即使它儲存為文字，依然能夠被排序。
+Dates also exhibit many issues that we have to check for. The first is the problem of differences in international formatting. If you see the date 1/12/2013, that&rsquo;s January 12, 2013 in America, but in the UK it&rsquo;s December 1. If you&rsquo;re lucky, you&rsquo;ll receive dates in an international format such as 2014-01-12. As a bonus, dates in this standardized format (<a href="http://whatis.techtarget.com/definition/ISO-date-format">http://whatis.techtarget.com/definition/ISO-date-format</a>)無論如何，你可能沒那麼幸運，因此檢查並確保你知道日期是用什麼格式是非常重要的，尤其是當你的資料輸入者來自於不同國家且使用不同格式時。如果你在設計資料輸入的表單，一個解決日期格式的好方法，是設置月曆讓使用者從中選取日期，而非手動輸入。或者，你也可以在表格旁，指明你要的日期格式給使用者參考。can be sorted even if they&rsquo;re stored as text. However, you might not be lucky, so it&rsquo;s important to check and make sure you know what dates your dates are really supposed to be, particularly if you&rsquo;re receiving data from respondents in multiple countries with different date formats. A good way to handle this if you are designing the data entry form is to make the date field a calendar button field, where the user selects the date off a calendar instead of entering it manually. Alternatively, you can specify the format next to the entry box as a sort of instruction for the user.</p>
 
 <figure><img alt="Examples of input fields" src="../images/sections/04/birthdate.png" /></figure>
 
-<p>Another checking task that you may encounter is the analysis and validation of others&rsquo; work to make sure the visualizations and numbers actually make sense. This can happen in a work situation where you need to proof other people&rsquo;s work of others or online where public visualizations will sometimes provide the underlying data so you can try your own analysis. In both instances the first check is to just recalculate any totals. After that, look at the visualization with a critical eye: do the figures make sense, do they support the story or contradict it? Checking doesn&rsquo;t have to be just for errors. It can be for understanding, too. This will give you good experience when moving on to your own data checking and is the first thing to try when someone passes you a report.</p>
+<p>另一個可能遇到資料檢查的情況，是在分析並驗證他人的資料，以確認該視覺圖表和數據的正確性時。這有可能發生在工作上，當你需要證明其它人的分析結果，或是在線上看到公開的圖表，且附有原始資料讓你可以試著進行自己的分析。在這兩種狀況下，第一步可以先快速檢查每個數據的總和。接著，再以批判的眼光檢查視覺圖表，比如，這個圖表是否能支持原本的論證，或是與之相抵觸。除了需要將錯誤檢查出來，還必須判斷視覺圖表是否能有效地幫助理解。檢查他人的資料不但能夠增加你資料檢查的經驗，同時也是查看他人分析報告時必須先進行的工作。Another checking task that you may encounter is the analysis and validation of others&rsquo; work to make sure the visualizations and numbers actually make sense. This can happen in a work situation where you need to proof other people&rsquo;s work of others or online where public visualizations will sometimes provide the underlying data so you can try your own analysis. In both instances the first check is to just recalculate any totals. After that, look at the visualization with a critical eye: do the figures make sense, do they support the story or contradict it? Checking doesn&rsquo;t have to be just for errors. It can be for understanding, too. This will give you good experience when moving on to your own data checking and is the first thing to try when someone passes you a report.</p>
 
-<h2>Data Versions</h2>
+<h2>資料版本Data Versions</h2>
 
-<p>Another big source of data checking problems is the version of the data you&rsquo;re dealing with.</p>
+<p>另一個資料檢查過程中會遭遇的問題來自資料版本。Another big source of data checking problems is the version of the data you&rsquo;re dealing with.</p>
 
-<p>As applications and systems change over the years, fields will be added, removed, and&mdash;most problematic&mdash;their purpose will be changed. For instance the Australian postcode is 4 digit and is stored in a 4 character field. Other systems have been changed to use a more accurate 5 digit identifier called the SLA. When data from those systems are combined, we often see the 5 digit values chopped down to fit into a postcode field. Checking fields for these kinds of changes can be hard: for postcodes and SLAs, the lookup tables are in the public domain, but it takes additional investigation to realize why a location field with 4 digits matches values from neither table.</p>
+<p>當程式和系統隨時間變化，資料欄位會增加、移除、甚至連資料收集的目的都會產生改變。舉例來說，澳洲的郵遞區號是四碼，以四個字元來儲存，但是其它系統已經改用更準確的五位元SLA地區代碼。當這些來自不同系統的資料整合在一起時，五位元的SLA經常被刪減以符合四位元的郵遞區號。要檢查出這種資料變化並不容易，雖然郵遞區號和SLA地區代碼都有公開對照表，但是，要判斷為什麼有些四位元的地區資料無法符合兩種代碼，需要費一番精力。As applications and systems change over the years, fields will be added, removed, and&mdash;most problematic&mdash;their purpose will be changed. For instance the Australian postcode is 4 digit and is stored in a 4 character field. Other systems have been changed to use a more accurate 5 digit identifier called the SLA. When data from those systems are combined, we often see the 5 digit values chopped down to fit into a postcode field. Checking fields for these kinds of changes can be hard: for postcodes and SLAs, the lookup tables are in the public domain, but it takes additional investigation to realize why a location field with 4 digits matches values from neither table.</p>
 
-<p>You should consider collecting additional fields which won&rsquo;t be part of the actual visualization or final report but will give you important info about your records, like when they were created. If new fields are added after the dataset is created, any existing records won&rsquo;t have that field filled and if someone is improperly handling the dataset, the older records may have new numeric fields filled with zeroes. This will throw off averages and the effect on your visualizations would be huge. If you have the record creation date, you can go through and change the incorrectly added zeroes to a missing value to save your data. For those fields that have been removed, a similar issue might be seen. It&rsquo;s relatively rare for unused fields to be removed from data but they can sometimes be repurposed, so figuring out the meaning of a specific piece of data can be challenging if the functional use of a field has changed over time.</p>
+<p>某些資料欄位與你的視覺圖表或最終報告雖無直接關係，卻能提供你關於資料收集的重要訊息，你也應該考慮收集這些資料，比方說這些資料是何時被建立的。如果在資料集被建立後，才增加新的欄位，原有的資料在這個新欄位應是空白的。這時，如果有人沒有妥善地處理資料，並把空白欄位以0取代，這將會拉低該欄的平均值，並嚴重影響你的圖表。此時如果你有資料建立的日期，你將可以查出誤輸為0的欄位，改正為「缺失資料」(missing data)，以此來修正資料集。同樣的問題也可能發生在當部分資料被刪除時。刪除的情形相對少見，不過有時資料會因時間推移而改變其收集目的，如果目的改變了，理解該資料將會極具挑戰性。 You should consider collecting additional fields which won&rsquo;t be part of the actual visualization or final report but will give you important info about your records, like when they were created. If new fields are added after the dataset is created, any existing records won&rsquo;t have that field filled and if someone is improperly handling the dataset, the older records may have new numeric fields filled with zeroes. This will throw off averages and the effect on your visualizations would be huge. If you have the record creation date, you can go through and change the incorrectly added zeroes to a missing value to save your data. For those fields that have been removed, a similar issue might be seen. It&rsquo;s relatively rare for unused fields to be removed from data but they can sometimes be repurposed, so figuring out the meaning of a specific piece of data can be challenging if the functional use of a field has changed over time.</p>
 
 <table>
 	<tbody>
 		<tr>
-			<th>Amount</th>
-			<th>PaymentType</th>
-			<th>ServerId</th>
-			<th>CreatedOn</th>
+			<th>金額Amount</th>
+			<th>付款方式PaymentType</th>
+			<th>伺服器IDServerId</th>
+			<th>建立日期CreatedOn</th>
 		</tr>
 		<tr>
 			<td>$100</td>
@@ -207,11 +207,12 @@ Section tag replaced with div for Gitbook publishing
 	</tbody>
 </table>
 
-<p>Here you can see the effect of adding two new fields, ServerId and CreatedOn, to an existing data source. It&rsquo;s likely that change was put into place 03/01/2013 (March 1, 2013), so if your analysis is only looking at data since that date then you can track sales/server. However, there&rsquo;s no data before that in this source, so if you want to look at what was happening on January 1, 2013, you need to find additional data elsewhere.</p>
+<p>以上表格呈現了原有資料加入兩個新的欄位&mdash;伺服器ID和建立日期&mdash;後的樣子。新欄位很有可能是在2013年3月1日建立的，因此，如果你的分析僅限於該日以後的資料，那麼你可以從這個資料集追蹤銷售點或伺服器。但是，這個資料集沒有該日以前的伺服器ID，所以如果你想要看2013年1月1日的資料，你就必須從其它地方找尋資料。
+Here you can see the effect of adding two new fields, ServerId and CreatedOn, to an existing data source. It&rsquo;s likely that change was put into place 03/01/2013 (March 1, 2013), so if your analysis is only looking at data since that date then you can track sales/server. However, there&rsquo;s no data before that in this source, so if you want to look at what was happening on January 1, 2013, you need to find additional data elsewhere.</p>
 
-<p>One of the most important checking issues is that the meaning of fields and the values in them may change over time. In a perfect world, every change would be well-documented so you would know exactly what the data means. The reality is that these changes are rarely fully documented. The next best way of knowing what the data in a field really represents is to talk the administrators and users of the system.</p>
+<p>資料檢查另一個重要的問題，是資料欄位與其數值的意義可能因為時間而改變。在最完美的狀況下，資料所有的改變都被詳實地記錄下來，因此你會正確地知道每一筆資料的意義。但現實的情形是資料的改變很少被完整記錄。因此，另一個理解資料真正意義的好方法，是向處理資料的行政人員以及操作系統的使用者請教。One of the most important checking issues is that the meaning of fields and the values in them may change over time. In a perfect world, every change would be well-documented so you would know exactly what the data means. The reality is that these changes are rarely fully documented. The next best way of knowing what the data in a field really represents is to talk the administrators and users of the system.</p>
 
-<p>These are just some of the steps that you can take to make sure you understand your data and that you&rsquo;re aware of potential errors. In the next chapter, we&rsquo;ll talk about some of the other sneaky errors that may be lurking in your data, and how to make sense of those potential errors.</p> 
+<p>以上僅是一些讓你能夠清楚了解你的資料，並且意識到可能的錯誤的步驟。在下一章，我們將討論其它混淆資料的隱藏性錯誤，和判斷這些潛在問題的方法。These are just some of the steps that you can take to make sure you understand your data and that you&rsquo;re aware of potential errors. In the next chapter, we&rsquo;ll talk about some of the other sneaky errors that may be lurking in your data, and how to make sense of those potential errors.</p> 
 </div>
 <!--</section>
 </section>-->
