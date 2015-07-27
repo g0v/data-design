@@ -102,7 +102,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>The <a class="glossterm" href="glossary01.html#transformation-square" target="_blank">square root transformation</a> uses the square root of each value instead of the log, and has a more moderate effect on the distribution shape. The two graphs below show the histogram of population data and the scatterplot of population by land area, both after square root transformation is applied .</p>
 
-<p>所謂<a class="glossterm" href="glossary01.html#transformation-square" target="_blank">平方根轉換></a>，就是資料集中數字逐一取平方根，相較於取對數，它對於改變分佈形狀的效果較為溫和一些。以下兩張圖顯示了經過平方根轉換之後的人口資料直方圖，以及人口土地資料的散布圖。</p>
+<p>所謂<a class="glossterm" href="glossary01.html#transformation-square" target="_blank">平方根轉換</a>，就是資料集中數字逐一取平方根，相較於取對數，它對於改變分佈形狀的效果較為溫和一些。以下兩張圖顯示了經過平方根轉換之後的人口資料直方圖，以及人口土地資料的散布圖。</p>
 
 <figure><img alt="Square root transformed population values" src="../images/sections/04/square-root.png" /></figure>
 
@@ -112,7 +112,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>As you develop a better understanding of different transformation methods, you might wonder how to pick between them. The answer to this question is not straightforward and although there are formal statistical methods for selecting a transformation, we often need to use trial-and-error combined with knowledge of different transformations. A general strategy is to apply some of the most frequently used transforms such as log, square root, square, reciprocal, and cube root, and then choose the best one after observing the results.</p>
 
-<p>在學習不同資料轉換方法之時，你可能會疑惑於如何選擇正確的方法。但這問題不好回答，雖然有許多制式的統計法則，通常還是需要在熟習轉換法的知識之後，再以嘗試錯誤方法來進行挑擇。要說簡單而通用的選擇策略，就是套用幾種常用的，例如對數、平方根、平方、倒數、立方，觀察轉換結果之後，再挑選結果較好的。</p>
+<p>在學習不同資料轉換方法之時，你可能會疑惑於如何選擇正確的方法。但這問題不好回答，雖然有許多制式的統計法則，通常還是需要在熟習轉換法的知識之後，再以嘗試錯誤方法挑選。要說簡單而通用的選擇策略，就是套幾種常用的，例如對數、平方根、平方、倒數、立方，觀察轉換結果之後，再選用結果較好的。</p>
 
 <p>Looking at the transformed histograms above, the log transformed data seems to be a better fit to the normal distribution while the square root transformed data still carries the right skew. In this example, if you&rsquo;re doing a statistical test that has assumes the data are normally distributed, the log transformation would be a better method to use than the square root transformation.</p>
 
