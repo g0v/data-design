@@ -5,120 +5,120 @@ Section tag replaced with div for Gitbook publishing
 <header>
 <div class="icon"><img src="../images/sections/03/scale.png" /></div>
 
-<p>Chapter 5</p>
+<p>第五章</p>
 
-<h1>Additional Data Collection Methods</h1>
+<h1>更多的資料蒐集方法</h1>
   <p data-type="author">By Dyanna Gregory</p>
 </header>
 
 <!--<section data-type="sect1">-->
-<p>Not all types of information are easily gathered using surveys. Surveys are self-report tools that take place at a single point in time, so exact measurements, external impressions of reactions, and data about things that happen over time can be difficult to capture. Nevertheless, these are important pieces of information that you may need, so let&rsquo;s discuss a few of the other data collection tools you can use to better collect these types of data.</p>
+<p>並不是所有的資訊都能用問卷調查輕易取得，問卷調查是在某一時間點自行回報的一個工具，沒有精確測量，也很難補捉外界對其反應的印象以及一段時間內的資料。然而，這些部份可能是你需要的重要資訊，讓我們來討論一下能更好的蒐集這些類型資料的其他工具。</p>
 
 <table>
 	<tbody>
 		<tr>
-			<th>Method</th>
-			<th>Good if:</th>
+			<th>方法</th>
+			<th>適用於：</th>
 		</tr>
 		<tr>
-			<td>Direct measurement</td>
-			<td>Values need to be exact;<br /> Information likely to be biased if self-reported</td>
+			<td>直接測量</td>
+			<td>需要精確數值；<br />自行回報的資訊容易有偏差</td>
 		</tr>
 		<tr>
-			<td>Focus Groups</td>
-			<td>Don&rsquo;t know exactly what you want to ask yet;<br /> 
-			  Interested in full spectrum of reactions or multiple topics;<br /> 
-			  Interested in group dynamic;<br />
-				Interested in decision process
+			<td>焦點團體訪談</td>
+			<td>還不知道到底想問些什麼；<br /> 
+			  想知道各層面的反應或有多個主題；<br /> 
+			 想知道團體動態；<br />
+				想知道決策過程
 			</td>
 		</tr>
 		<tr>
-			<td>Observation</td>
-			<td>What you&rsquo;re measuring is easily and publicly observable;<br />
-			  You want to make notes about participant behavior
+			<td>觀察</td>
+			<td>你所要測量的能夠容易且公開的觀察到；<br />
+			  你想記錄參與者的行為
 			</td>
 		</tr>
 		<tr>
-			<td>Examination of existing documents</td>
-			<td>The data you are interested in are already recorded elsewhere (e.g. on receipts, logs of web traffic, etc.)
+			<td>檢視現有文獻</td>
+			<td>你有興趣的資料已經在別處有記錄(例如收據，網路報表等等)
 			</td>
 		</tr>
 		<tr>
-			<td>Diaries</td>
-			<td>Need to track variables over time;<br />
-			Information likely to be biased if recalled later
+			<td>日誌</td>
+			<td>需要長期追蹤的變數；<br />
+			事後回憶容易有偏差的資訊
 			</td>
 		</tr>
 
 	</tbody>
 </table>
 
-<h2>Direct Measurement</h2>
+<h2>直接測量</h2>
 
-<p>There are some variables that should be measured rather than surveyed if you&rsquo;re trying to obtain an exact, correct statistic. Many medical variables, for example, are difficult if not impossible to gather accurately using a survey. Let&rsquo;s say you need to collect data on participants&rsquo; weight at the beginning of a study. There are a few common reasons someone might report an inaccurate number.</p>
+<p>如果你想取得精確無誤的統計，有些變數應該採用測量而不是調查。例如，問卷調查很難甚至幾乎不可能取得許多正確的醫學變數。好比你在研究開始時需要蒐集參與者體重的資料，有一些可能回報不正確數字的常見原因。</p>
 
 <ul>
-	<li>Lack of information: they didn&rsquo;t actually know how much they weighed when asked</li>
-	<li>Social expectation: they felt there was a &quot;correct&quot; answer they were supposed to give</li>
-	<li>Ease of response: they knew about how much they weighed but didn&rsquo;t think the exact answer was needed; &ldquo;I&rsquo;m about 170 lbs, so I&rsquo;ll say that.&rdquo;</li>
+	<li>缺乏資訊：當被問到時他們並不真的知道自己的體重</li>
+	<li>社會期望：他們覺得有一個 &quot;正確&quot; 答案是他們應該給的</li>
+	<li>隨意回答：他們知道自己的體重但不覺得需要回答那麼精確； &ldquo;我大概170磅，就說這個數字吧。&rdquo;</li>
 	
 </ul>
 
-<p>Whether your data need to be exact depends on how you&rsquo;re using the the information. If you&rsquo;re not concerned about having a precise measurement and an estimate will work, then a survey might be fine as long as it asks something people will be able to reasonably estimate. If you have a variable is likely to be incorrectly self-reported and it is important that these data are current and accurate, direct measurement should be used instead of a survey.</p>
+<p>是否需要精確資料取決於你要如何使用這些資訊。如果你不是很在乎精密的測量，估計值就行，那只要問的問題是一般人能夠合理估計的，問卷調查可能也可行。如果你有一個變數，自行回報的資料可能不正確，而這些資料的即時性和正確性很重要，那就應該使用直接測量而不是問卷調查。</p>
 
-<p>In <a class="glossterm" target="_blank" href="glossary01.html#measurement-direct">direct measurement</a>, you use an appropriate device to measure the variable and then record the value in the dataset. This is often done for health-related variables that a person wouldn&rsquo;t be able to &ldquo;just know.&rdquo; The measurements are usually captured on forms and the data is transferred from the forms into the dataset.</p>
+<p><a class="glossterm" target="_blank" href="glossary01.html#measurement-direct">直接測量(direct measurement)</a>，就是使用合適的裝置來測量變數然後把數值記錄到資料集裏。這常用在健康相關的變數上，因為一般人不會 &ldquo;剛好知道&rdquo; 。這些測量值通常可在表格上抓到，再將資料從表格轉到資料集中。</p>
 
-<p>It is important for your forms to be clear about how you want the measurement to be recorded. You should indicate the preferred units and the precision you want the measurement captured with. One of the easiest ways to communicate this is by allotting a specific number of boxes so the person taking the measurement knows how many digits you want recorded.</p>
+<p>重要的是，你的表格必須清楚說明你希望測量值如何被記錄。你應該標明優先採用的單位以及你希望抓到多精密的測量值。一個簡單的溝通方法就是畫好特定數目的格子，這樣測量的人就知道你希望記錄到幾位數。</p>
 
-<p>The image below shows an example for how we might set up a form for capturing adult weight. Here, we want the measurement in pounds, and we want the number recorded to two digits after the decimal place.</p>
+<p>下圖是一個我們可能用來抓成人體重的表格範例。這裏我們希望用磅來測量並且記錄到兩位小數。</p>
 
 <figure><img alt="Food diary" src="../images/sections/03/weight.png" /></figure>
 
-<p>When relevant, include a place to record what device was used to take the measurement.</p>
+<p>如果有關係，可以加一個地方來記錄是用什麼裝置測量。</p>
 
-<h2>Focus Groups</h2>
+<h2>焦點團體訪談</h2>
 
-<p>Sometimes it&rsquo;s helpful to watch people while they&rsquo;re responding to your questions, see their thought processes, and observe them interacting with others. You may also have a wider variety of topics you would like to cover than would make sense for a survey or you might not be sure exactly what questions need to be asked yet. <a class="glossterm" target="_blank" href="glossary01.html#group-focus">Focus groups</a> can help in all these situations.</p>
+<p>有時候看著別人回應你的問題，瞭解他們的思考過程，及觀察他們和別人的互動是很有用的。你也可能有廣泛多樣的主題想談而不是挶限於調查，或是你還不確定到底要問些什麼問題。在這些情況下 <a class="glossterm" target="_blank" href="glossary01.html#group-focus">焦點團體訪談(Focus groups)</a> 很有幫助。</p>
 
-<p>A basic focus group works a lot like a facilitated book club meeting. A small group of people (usually 6 to 12 individuals) is gathered to discuss their thoughts on a specific topic, and this discussion is led by a trained moderator. The moderator asks a variety of questions in order to get more in-depth opinions than a survey would answer alone. Focus groups often have more flexibility than surveys in that the questions are not entirely pre-determined. The moderator has more freedom to explore the answers the respondents provide and formulate new questions based on those responses. Additionally, since participants are in a group, the answers one person gives may cause another to think of answers they might not have otherwise.</p> 
+<p>基本的焦點團體訪談就像是開讀書會。一小群人﹝通常6到12人﹞聚在一起討論特定的主題，討論則由受過訓練的主持人帶領。主持人問出各式各樣的問題來得到更深層的意見而不是問卷調查那樣的單一答案。焦點團體訪談通常比問卷調查有彈性因為問的問題並不全是事先決定的。主持人有更多空間去發掘答案因為他可以根據回答的答案去設計新的問題。此外，因為參與者是在一個群體裏，其中一人的回答可能會讓其它人想出之前沒想到的答案。</p> 
 
-<p>However, both the group setting and the presence of the moderator can create bias in participant responses. It is important to keep this in mind when reviewing and analyzing focus group data.</p>
+<p>然而，團體的設定和主持人在場都會造成偏差的參與者反應。在覆查及分析焦點團體訪談資料的時候把這些考慮進去是很重要的。</p>
 
 
-<h2>Observation</h2>
+<h2>觀察</h2>
 
-<p>Sometimes the data you need to collect are a matter of observation. Let&rsquo;s go back to Fictionals Ice Cream Parlour for a moment. You recently purchased new furniture for the store, and you&rsquo;re considering a couple of different layouts for it. You want to see which layout seems to work best for customer flow, so you set up the furniture one way for a few days and record your personal observations about customer movement within the shop. Then you switch the furniture to the other layout and again record what you notice. These data can help you figure out what other questions you might want to ask or what other data you need before making your decision.</p>
+<p>有時候你需要蒐集的資料就是觀察結果。讓我們再回到Fictionals冰淇淋店。你最近為店裏買了新傢俱，在考慮幾種佈置方式。你想看看那一種佈置最能配合客戶動線，於是你將傢俱擺成其中一種方式幾天，然後記錄下你對客戶在店內移動情況的個人觀察。之後再將傢俱改成另一種佈置也記錄下你注意到的事情。這些資料能幫你找出其他你可能想問的問題，或是做決定前還需要那些資料。</p>
 
-<p>You can use observation in this way to gain insight into naturalistic behavior. This can be especially useful if your subjects of interest are not human and can&rsquo;t answer survey questions: scientists rely on observation as a data collection technique all the time!</p>
+<p>你可以用這種觀察方式洞悉自然行為。如果你的研究對象不是人而不能接受問卷調查，這就會特別有用：科學家一直都是靠觀察蒐集資料的！</p>
 
-<p>One of the major shortcomings of this method is that the presence of an observer changes an observation. Every person sees an event from their own perspective, and their report of that event is influenced by that perspective. You can decrease this bias by having several observers so that the data gathered represents multiple viewpoints.</p>
+<p>這種方法一個主要的缺點就是在場觀察者改變了被觀察事件。每個人看事件都有自己的觀點，而他們報導一個事件也會被自己的觀點影響。要降低這種偏差，你可以多找幾個觀察者讓蒐集的資料能表現不同觀點。</p>
 
-<h2>Examination of Existing Documents</h2>
-<p>In some cases, the data that you need already exist as parts of other documents and your data collection is really a matter of getting all of that information into one place.</p>
+<h2>檢視現有文獻</h2>
+<p>在某些情況下，你需要的資料已經存在其他文件中，而資料蒐集只需把資訊彙集一處。</p>
 
-<p>As the manager of Fictionals Ice Cream Parlour, you want to take a look back at your sales for the last six months to see if your recently-added menu items have been profitable. This information is already available to you through your receipts or POS software data. You just have to get it set up in a way that allows you to easily work with and analyze it.</p>
+<p>做為Fictionals冰淇淋店的經理，你想看看最近六個月的銷售情形來瞭解近期新增的菜單是否有獲利。這個資訊已經可以從收據或POS軟體資料中取得。你只需要設定成方便你使用及分析的形式。</p>
 
-<p>Other existing documents that are frequently used to compile information include books, newspapers, web traffic logs, and webpages. There are also entire datasets that are available for use. These are covered in more detail in the chapter on Finding External Data.</p>
+<p>其他常用來匯編資訊的現有文獻包括書籍、報紙、網路日誌、以及網頁。也有一些完整資料庫可提供使用，這部份會在尋找外部資料那一章詳細說明。</p>
 
-<p>When you&rsquo;re using other documents as the main source of your data, you should first set up a data collection plan, much the way that you design a survey. The plan should detail what pieces of data you&rsquo;re looking for, the level of measurement you want to capture them at, the time frame you need (e.g. do you only want data from the last 6 months? the last 12?), and how much data you need (e.g. do you want to look at all the receipts or just a sample of them?).</p>
+<p>當你使用其他文獻為資料的主要來源，你應該先建立一個資料蒐集計畫，就像你設計調查問卷時一樣。這個計畫應該詳細說明你要找那些資料，你想抓到那個測量層級，你需要的時間段﹝例如，你只要最近6個月的資料？還是12個月？﹞，以及你需要多少資料﹝例如，你想看全部的收據還是取樣？﹞。</p>
 
-<p>If any of the sources are ones that you don&rsquo;t own, make sure to properly cite them. It&rsquo;s important to credit others&rsquo; work, and it&rsquo;s also important to be able to support your research if anyone challenges your information later on.</p>
+<p>如果有任何資料來源不是你自己的，一定要正確引用出處。感謝別人的工作成果很重要，日後若有人質疑你的資訊，也對支持你的研究很重要。</p>
 
-<h2>Diaries</h2>
+<h2>日誌</h2>
 
-<p>Diary forms can be useful if you&rsquo;re collecting data from people about things that are happening over extended periods of time. They are particularly helpful if you them to record a lot of details that could easily be misremembered or forgotten.</p>
+<p>如果你要蒐集的資料是一段時間內發生在這個人身上的事，日誌表格很有用。要是你讓他們記錄下很多容易記錯或忘記的細節會特別有幫助。</p>
 
-<p>You might have seen something similar to this before:</p>
+<p>你之前可能看過類似這樣的東西：</p>
 
 <figure><img alt="Food diary" src="../images/sections/03/food-log.png" /></figure>
 
-<p><a class="glossterm" target="_blank" href="glossary01.html#diary">Diary</a> forms are often used for tracking things like meals, medications, or exercise but can be used for anything you want to record over time. They can be paper forms or computerized, but should follow the same design principles as surveys. Fields should be well-labelled and the instructions should be very clear about how (and how often) the diary should be completed.</p>
+<p><a class="glossterm" target="_blank" href="glossary01.html#diary">日誌(Diary)</a> 表格通常用來追蹤飲食、藥物、或運動，但也可以用在任何你想追蹤一段時間的事情。他們可以是紙本表格或電腦化的，但一定要遵守和設計調查問卷同樣的原則。欄位應該妥善標示並清楚說明該如何﹝以及多頻繁﹞完成。</p>
 
-<h2>Using Multiple Collection Methods</h2>
+<h2>使用多種蒐集方法</h2>
 
-<p>When you&rsquo;re considering a project as a whole, it is possible that not all the research questions you&rsquo;re trying to address can be answered using data collected from just one of the methods discussed so far. You may find that your survey will need to be supplemented with some direct measurements, or you may need to have your focus group participants complete diary forms.</p>
+<p>當你考慮整個計畫，有可能並不是所有想研究的問題都能只用其中一種前面討論過的資料蒐集方法回答。你也許會發現你的問卷調查需要補充一些直接測量，或你可能需要焦點團體訪談的成員填寫日誌表格。</p>
 
-<p>Just as you can benefit from a combination of survey types, you can also benefit from incorporating multiple types of data collection if the data you need would most appropriately be gathered in different ways. Consider what approaches make the most sense for the data you need, and then select the best choices that are practical within your budgetary and time constraints.</p>
+<p>就像你能受益於組合的問卷調查型態，當資料能合適的由不同方法取得，你也能受益於合併多種資料蒐集方法。考慮那些途徑最接近你需要的資料，然後選一個預算和時間限制內最實際的選擇。</p>
 </div>
 <!--</section>
 </section>-->
