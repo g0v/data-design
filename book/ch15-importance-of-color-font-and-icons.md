@@ -34,8 +34,10 @@ Section tag replaced with div for Gitbook publishing
 <h2>字型與文字</h2>
 
 <h3>Legibility and Readability</h3>
+<h3>可識性與易讀性</h3>
 
 <p>When designing the viewer experience for a given set of information, the most important rule of all is to strive for ruthless simplicity in every choice you make. In the &ldquo;narrative&rdquo; of the information you are presenting, the style of presentation should never demand attention (that is, the design should complement the data, not the other way around!). That applies to everything from the design of an illustrative representation like a chart to something as seemingly simple as font selection. In the world of typography, the balance between <a class="glossterm" href="glossary01.html#legibility" target="_blank">legibility</a> and <a class="glossterm" href="glossary01.html#readability" target="_blank">readability</a> is a decision that a typographer makes when designing a typeface (more commonly known as a font). Not all fonts that are legible (i.e., one character can be easily distinguished from another) are necessarily readable (i.e., designed in such a way that supports and enhances reading so that the reader easily absorbs the text&rsquo;s meaning without being distracted by the font).</p>
+<p>在為資訊集的讀者體驗做設計，最重要的規則即是 － 都盡量選擇最簡潔的做法。你所傳達的資訊的「敘事」部份中的「樣式」永遠都不該成為讀者注意力的點 ( 也就是說，設計與資料應該是互補的 )。這從如圖表的插畫設計到單純如選擇字型都一樣。在排版的世界裡，<a class="glossterm" href="glossary01.html#legibility" target="_blank">可識性</a> 與 <a class="glossterm" href="glossary01.html#readability" target="_blank">易讀性</a> 間的平衡 </p>
 
 <p>For instance, there are many fonts that are designed specifically to stand out. For example:</p>
 
