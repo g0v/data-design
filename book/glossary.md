@@ -5,67 +5,69 @@ Sections hidden for Gitbook publishing
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="bias-aggregation"><dfn>聚集偏差 Aggregation bias</dfn></dt>
-	<dd data-type="glossdef">Aggregation bias occurs when incorrect inferences are made from data that have been aggregated, or summarized. This includes making inferences about the characteristics of the parts of a whole based on the characteristics of the whole itself.</dd>
+	<dd data-type="glossdef">聚集偏差發生於不正確的推論從已聚集或匯總的資料導出時。包括基於整體本身的特性對整體的各部分特性作出推論。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="aggregation"><dfn>聚集 Aggregation</dfn></dt>
-	<dd data-type="glossdef">Aggregation refers to the process by which data have been collected and summarized in some way or sorted into categories.</dd>
+	<dd data-type="glossdef">聚集是指資料被蒐集並以某種方式匯總或按類別分類的過程。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="statistics-applied"><dfn>應用統計 Applied statistics</dfn></dt>
-	<dd data-type="glossdef">Applied statistics is a type of statistics that involves the application of statistical methods to disciplines and areas of study.</dd>
+	<dd data-type="glossdef">應用統計是一種將統計方法應用於各學科和研究領域的統計類型。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="mean"><dfn>算術平均值 Arithmetic mean</dfn></dt>
-	<dd data-type="glossdef">An arithmetic mean, often simply called a mean, is a type of average, or measure of central tendency, in which the middle of a dataset is determined by adding its numeric values and dividing by the number of values.</dd>
+	<dd data-type="glossdef">算術平均值，通常簡稱為平均值，是一種平均或集中趨勢的測量，其資料集中間決定於加總所有數值後，再除以資料的個數。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="statement-attitudinal"><dfn>態度陳述 Attitudinal statement</dfn></dt>
-	<dd data-type="glossdef">An attitudinal statement is a type of response given to a scaled question on a survey that asks an individual to rate his or her feelings toward a particular topic.</dd>
+	<dd data-type="glossdef">態度陳述是在一個調查的量表問題上，要求一個人來評價他或她對一個特定主題的感受。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="label-axis"><dfn>軸標籤 Axis label</dfn></dt>
-	<dd data-type="glossdef">An axis label is used on a graph to denote the kind of unit or rate of measurement used as the dependent or independent variable (or variables), and can be found along an axis of a graph.</dd>
+	<dd data-type="glossdef">An axis label is used on a graph to denote the kind of unit or rate of measurement used as the dependent or independent variable (or variables), and can be found along an axis of a graph.
+	軸標籤用於圖表上來表示一種單位或作為應變數或自變數（或變數群）的測量率，可以沿著圖形的軸線找到。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="transformation-back"><dfn>反向轉換 Back transformation</dfn></dt>
-	<dd data-type="glossdef">Back transformation is the process by which mathematical operations are applied to data in a dataset that have already been transformed, in order to back transform, or revert, the data to their original form.</dd>
+	<dd data-type="glossdef">反向轉換是以數學運算應用於資料中那些已經被轉換的資料集，為了反向轉換或回復該資料到其原始形式的過程。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="check-back-end"><dfn>後端檢查 Back-end check</dfn></dt>
-	<dd data-type="glossdef">A back-end check, also called a server-side check is a type of data validation for datasets gathered electronically, and is performed at the back end, or after data are stored in an electronic database.</dd>
+	<dd data-type="glossdef">後端檢查也稱為伺服器端檢查，是一種通過電子手段蒐集之資料集的資料驗證，在後端執行，或在資料存儲在電子資料庫之後。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="graph-bar"><dfn>長條圖 Bar graph</dfn></dt>
-	<dd data-type="glossdef">A bar graph or chart uses horizontal or vertical bars whose lengths proportionally represent values in a dataset. A chart with vertical bars is also called a column graph or chart.</dd>
+	<dd data-type="glossdef"></dd>
+</dl>長條圖或圖表使用水平或垂直條形，以其長度比例性地表示資料集中的值。具有垂直條形的圖表也稱為柱狀圖或圖表。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="cartogram"><dfn>統計地圖 Cartogram</dfn></dt>
-	<dd data-type="glossdef">A cartogram is a map that overlays categorical data onto a projection and uses a different color to represent each category. Unlike a heat map, a cartogram does not necessarily use color saturation to depict the frequency of values in a category.</dd>
+	<dd data-type="glossdef">統計地圖是以類別資料覆蓋投影，並使用不同的顏色來表示各個類別的地圖。不同於熱圖，統計地圖不一定使用色彩飽和度來描繪一個類別中值的頻率。</dd>
 </dl>
 
 <dl data-type="glossary">
-	<dt data-type="glossterm" id="data-categorical"><dfn>分類資料 Categorical data</dfn></dt>
-	<dd data-type="glossdef">Categorical data are data, quantitative or qualitative, that can be sorted into distinct categories.</dd>
+	<dt data-type="glossterm" id="data-categorical"><dfn>類別資料 Categorical data</dfn></dt>
+	<dd data-type="glossdef">類別資料是可被分類到相異類別的計量或屬性資料。</dd>
 </dl>
 
 <dl data-type="glossary">
-	<dt data-type="glossterm" id="label-category"><dfn>分類標籤 Category label</dfn></dt>
-	<dd data-type="glossdef">A category label is used on a graph to denote the name of a category, or a group, of data and may be descriptive or a range of numeric values.</dd>
+	<dt data-type="glossterm" id="label-category"><dfn>類別標籤 Category label</dfn></dt>
+	<dd data-type="glossdef">類別標籤用於圖表來表示資料類別或群組的名稱，可以是描述性的或一個數值範圍。</dd>
 </dl>
 
 <dl data-type="glossary">
 	<dt data-type="glossterm" id="title-chart"><dfn>圖表標題 Chart title</dfn></dt>
-	<dd data-type="glossdef">A chart title is the description assigned to the graph and includes a summary of the message aimed at the target audience and may include information about the dataset.</dd>
+	<dd data-type="glossdef">圖表標題是賦予圖表的描述，包括針對目標對象的訊息摘要，也可以包括資料集相關資訊。A chart title is the description assigned to the graph and includes a summary of the message aimed at the target audience and may include information about the dataset.</dd>
 </dl>
 
 <dl data-type="glossary">
