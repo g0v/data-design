@@ -189,7 +189,7 @@ Section tag replaced with div for Gitbook publishing
 
 <h3>定性與定量資料</h3>
 
-<p>定性資料簡單來說就是非數值資料，而定量資料通常是數值資料，也因此可被量化，在此兩種專有名詞上，*學者有共識的認為定性資料需要被預先處理，而定量資料須以不同的方法來分析*，如直接的觀察紀錄與訪談的腳本
+<p>定性資料簡單來說就是非數值資料，而定量資料通常是數值資料，也因此可被量化，在此兩種專有名詞上，學者有共識的認為定性資料需要被預先處理，而定量資料須以不同的方法來分析，如直接的觀察紀錄與訪談的腳本
 Qualitative data, roughly speaking, refers to non-numeric data, while quantitative data is typically data that is numeric and hence quantifiable. There is some consensus with regard to these terms. Certain data are always considered qualitative, as they require pre-processing or different methods than quantitative data to analyze. Examples are recordings of direct observation or transcripts of interviews. In a similar way, interval and ratio data are always considered to be quantitative, as they are only ever numeric. The disagreement comes in with the nominal and ordinal data types. Some consider them to be qualitative, since their categories are descriptive and not truly numeric. However, since these data can be counted and used to calculate percentages, some consider them to be quantitative, since they are in that way quantifiable.</p>
 
 <p>To avoid confusion, we&rsquo;ll be sticking with the level of measurement terms above throughout the rest of this book, except in our discussion of long-form qualitative data in the survey design chapter. If you come across terms &ldquo;categorical,&rdquo; &ldquo;qualitative data,&rdquo; or &ldquo;quantitative data&rdquo; in other resources or in your work, make sure you know which definition is being used and don&rsquo;t just assume!</p>
