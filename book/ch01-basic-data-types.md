@@ -191,7 +191,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>定性資料簡單來說就是非數值資料，而定量資料通常是數值資料，也因此可被量化，在此兩種專有名詞上，學者有共識的認為定性資料需要被預先處理，而定量資料須以不同的方法來分析，如直接的觀察紀錄與訪談的腳本。區間型與比率型資料通常是數值資料，因此被普遍地認為是定量資料，而有些歧見發生在標稱型及序數型資料上，有人因為它們的類別是被定義的且其並不是真正的數值，而認為它們屬於定性資料，反之，有些人則因為它們仍可數且可計算其百分比而認為它們是定量資料。</p>
 
-<p>To avoid confusion, we&rsquo;ll be sticking with the level of measurement terms above throughout the rest of this book, except in our discussion of long-form qualitative data in the survey design chapter. If you come across terms &ldquo;categorical,&rdquo; &ldquo;qualitative data,&rdquo; or &ldquo;quantitative data&rdquo; in other resources or in your work, make sure you know which definition is being used and don&rsquo;t just assume!</p>
+<p>為了避免混淆，本書將使用前述的四種量測尺度，除了我們將在討論To avoid confusion, we&rsquo;ll be sticking with the level of measurement terms above throughout the rest of this book, except in our discussion of long-form qualitative data in the survey design chapter. If you come across terms &ldquo;categorical,&rdquo; &ldquo;qualitative data,&rdquo; or &ldquo;quantitative data&rdquo; in other resources or in your work, make sure you know which definition is being used and don&rsquo;t just assume!</p>
 </div>
 <!--</section>
 </section>-->
