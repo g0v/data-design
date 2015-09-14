@@ -177,7 +177,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>這樣的法則也適用於你在分析或視覺化所擁有的資料時使用，被以比率型資料蒐集的變量，必可以依照專案需求將資料分群，但如果資料是以低階的尺度被蒐集，則在不另外蒐集資料的前提下，將不能提供更高階尺度的資訊，舉例來說，如果以序數型資料來蒐集年齡，未來將無法計算平均年齡，且在視覺化上將只能以年齡級距來表現，不可能將資料以連續資料來表現。</p>
 
-<p>在不對資料蒐集造成過度負擔的情況下，請務必以將來有可能使用的最高階測量尺度來蒐集資料，在處理資料時才發現蒐集的資料並不能滿足視覺化的需求，將是相當令人失望的事!</p>
+<p>在不對資料蒐集造成過度負擔的情況下，請務必以將來有可能使用的最高階測量尺度來蒐集資料，在處理資料時才發現蒐集的資料並不能滿足視覺化的需求，將是相當令人失望的事！</p>
 
 <h2>遺珠之憾</h2>
 
@@ -191,7 +191,7 @@ Section tag replaced with div for Gitbook publishing
 
 <p>定性資料簡單來說就是非數值資料，而定量資料通常是數值資料，也因此可被量化，在此兩種專有名詞上，學者有共識的認為定性資料需要被預先處理，而定量資料須以不同的方法來分析，如直接的觀察紀錄與訪談的腳本。區間型與比率型資料通常是數值資料，因此被普遍地認為是定量資料，而有些歧見發生在標稱型及序數型資料上，有人因為它們的類別是被定義的且其並不是真正的數值，而認為它們屬於定性資料，反之，有些人則因為它們仍可數且可計算其百分比而認為它們是定量資料。</p>
 
-<p>為了避免混淆，本書將使用前述的四種量測尺度，除了我們將在討論To avoid confusion, we&rsquo;ll be sticking with the level of measurement terms above throughout the rest of this book, except in our discussion of long-form qualitative data in the survey design chapter. If you come across terms &ldquo;categorical,&rdquo; &ldquo;qualitative data,&rdquo; or &ldquo;quantitative data&rdquo; in other resources or in your work, make sure you know which definition is being used and don&rsquo;t just assume!</p>
+<p>為了避免混淆，除了我們將在問卷設計的章節討論到長期形成的定性數據外，本書將通篇使用前述的四種量測尺度，最後，當你未來遇到剛提到的幾個專有名詞時，請務必清楚確認其定義！</p>
 </div>
 <!--</section>
 </section>-->
