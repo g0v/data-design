@@ -175,9 +175,9 @@ Section tag replaced with div for Gitbook publishing
 	</tbody>
 </table>
 
-<p>這樣的法則也適用於你在分析或視覺化所擁有的資料時使用，It&rsquo;s important to remember that the general rule of &ldquo;you can go down, but not up&rdquo; also applies during analysis and visualization of your data. If you collect a variable as ratio data, you can always decide later to group the data for display if that makes sense for your work. If you collect it as a lower level of measurement, you can&rsquo;t go back up later on without collecting more data. For example, if you do decide to collect age as ordinal data, you can&rsquo;t calculate the average age later on and your visualization will be limited to displaying age by groups; you won&rsquo;t have the option to display it as continuous data.</p>
+<p>這樣的法則也適用於你在分析或視覺化所擁有的資料時使用，被以比率型資料蒐集的變量，必可以依照專案需求將資料分群，但如果資料是以低階的尺度被蒐集，則在不另外蒐集資料的前提下，將不能提供更高階尺度的資訊，舉例來說，如果以序數型資料來蒐集年齡，未來將無法計算平均年齡，且在視覺化上將只能以年齡級距來表現，不可能將資料以連續資料來表現。</p>
 
-<p>When it doesn&rsquo;t increase the burden of data collection, you should collect the data at the highest level of measurement that you think you might want available later on. There&rsquo;s little as disappointing in data work as going to do a graph or calculation only to realize you didn&rsquo;t collect the data in a way that allows you to generate what you need!</p>
+<p>在不對資料蒐集造成過度負擔的情況下，請務必以將來有可能使用的最高階測量尺度來蒐集資料，在處理資料時才發現蒐集的資料並不能滿足視覺化的需求，將是相當令人失望的事!</p>
 
 <h2>Other Important Terms</h2>
 
