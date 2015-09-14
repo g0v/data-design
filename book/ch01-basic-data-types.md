@@ -179,15 +179,15 @@ Section tag replaced with div for Gitbook publishing
 
 <p>在不對資料蒐集造成過度負擔的情況下，請務必以將來有可能使用的最高階測量尺度來蒐集資料，在處理資料時才發現蒐集的資料並不能滿足視覺化的需求，將是相當令人失望的事!</p>
 
-<h2>Other Important Terms</h2>
+<h2>遺珠之憾</h2>
 
-<p>There are some other terms that are frequently used to talk about types of data. We are choosing not to use them here because there is some disagreement about their meanings, but you should be aware of them and what their possible definitions are in case you encounter them in other resources.</p>
+<p>還有許多常被提到的資料型態，因為其意義還存在許多爭議，我們將不在此書中討論，但仍請稍微留意其定義，在其他學習資源中仍有可能看見這些詞彙。</p>
 
-<h3>Categorical Data</h3>
+<h3>類別資料</h3>
 
-<p>We talked about both nominal and ordinal data above as splitting data into categories. Some texts consider both to be types of categorical data, with nominal being unordered categorical data and ordinal being ordered categorical data. Others only call nominal data categorical, and use the terms &ldquo;nominal data&rdquo; and &ldquo;categorical data&rdquo; interchangeably. These texts just call ordinal data &ldquo;ordinal data&rdquo; and consider it to be a separate group altogether.</p>
+<p>前述的標稱型及序數型資料都是將資料分為許多類別，有些文獻中將此兩型資料歸為類別資料，其中，標稱型資料又稱無序類別資料，序數型資料又稱有序類別資料，又有些文獻認為只有標稱型資料為類別資料，且兩者為同義詞，可交互使用，在本書中，我們不另外使用類別資料，且將標稱型資料及序數型資料視為兩個不相干的資料型態。</p>
 
-<h3>Qualitative and Quantitative Data</h3>
+<h3>質化與量化資料</h3>
 
 <p>Qualitative data, roughly speaking, refers to non-numeric data, while quantitative data is typically data that is numeric and hence quantifiable. There is some consensus with regard to these terms. Certain data are always considered qualitative, as they require pre-processing or different methods than quantitative data to analyze. Examples are recordings of direct observation or transcripts of interviews. In a similar way, interval and ratio data are always considered to be quantitative, as they are only ever numeric. The disagreement comes in with the nominal and ordinal data types. Some consider them to be qualitative, since their categories are descriptive and not truly numeric. However, since these data can be counted and used to calculate percentages, some consider them to be quantitative, since they are in that way quantifiable.</p>
 
