@@ -152,24 +152,24 @@ Section tag replaced with div for Gitbook publishing
 <table>
 	<tbody>
 		<tr>
-			<th>Ordinal Level Type</th>
-			<th>Corresponding Interval/Ratio Level Measure</th>
-			<th>Example</th>
+			<th>順序型資料型態</th>
+			<th>對應的區間型/比率型資料蒐集方法</th>
+			<th>範例</th>
 		</tr>
 		<tr>
-			<td>Ranking</td>
-			<td>Measurement that ranking is based on</td>
-			<td>Record runners&rsquo; marathon times instead of what place they finish</td>
+			<td>名次</td>
+			<td>紀錄用來決定名次的資料</td>
+			<td>記錄馬拉松跑者的時間，而非記錄其名次</td>
 		</tr>
 		<tr>
-			<td>Grouped scale</td>
-			<td>Measurement itself</td>
-			<td>Record exact age instead of age category</td>
+			<td>分群尺度</td>
+			<td>直接紀錄資料本身</td>
+			<td>記錄年齡，而不是其分組</td>
 		</tr>
 		<tr>
-			<td>Substitute scale</td>
-			<td>Original measurement the scale was created from</td>
-			<td>Record exact test score instead of letter grade</td>
+			<td>替代尺度</td>
+			<td>紀錄替代前的資料</td>
+			<td>紀錄分數，而不是級分</td>
 		</tr>
 	</tbody>
 </table>
